@@ -1,0 +1,12 @@
+# The local .txt is a factual transcription of the indexed preview, not the full standard.
+# Its hash identifies that transcription. Aluminum1350O calculation density;
+# tensile requirements are separately sourced to b609-12r16-preview.
+
+title = "Standard Specification for Aluminum 1350 Round Wire, Annealed and Intermediate Tempers, for Electrical Purposes: Density Excerpt"
+publisher = "ASTM International"
+designation = "ASTM B609/B609M-12 (Reapproved 2021)"
+year = 2021
+url = "https://standards.iteh.ai/catalog/standards/astm/8f5dc90b-4cf4-4828-9ca9-fc6452f8f2d5/astm-b609-b609m-12-2021"
+sha256 = "919264b8e98ead6e1bb92c6f09b8f295393e4bd74b9b97872a24f7171774c1c6"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

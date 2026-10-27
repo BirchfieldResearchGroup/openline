@@ -1,0 +1,15 @@
+# The catalog's text of the preview, as its API serves it; the sample PDF is no longer served.
+# Table 2: grade 30 copper-clad steel's density at 20 C, 8.15 g/cm3, for
+# openline.types.materials. Table 1, footnote B: rated strength from "the minimum diameter of
+# the individual wire and the minimum tensile strength from Specification B227", 7- and 19-wire
+# conductors at 90%, 3-wire at 95%: the rating of openline.types.conductors.astm.A460. The
+# preview stops before section 6, the lay. This public preview is not the complete standard.
+
+title = "Standard Specification for Concentric-Lay-Stranded Copper-Clad Steel Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B228-11a (Reapproved 2021)"
+year = 2021
+url = "https://www.iteh.fr/catalog/standards/astm/95a427dd-a0e6-416f-b7cf-e11c05d71a02/astm-b228-11a-2021"
+sha256 = "5135b59cbe2de18d286da9e88bd353925deb8027b1f3f5d985d98c1f05f216eb"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials", "openline.types.conductors.astm"]

@@ -1,0 +1,13 @@
+# SPEC 80103, revision 1.000.006: ACSR/TW/AW, trapezoidal aluminum 1350-H19 to ASTM B779 around
+# a stranded core to ASTM B500 of aluminum-clad steel wire to ASTM B502, AW2 or AW3. Each code
+# word's aluminum wires, their area, which gives their equivalent diameter (IEC 62219, 3.5),
+# their layers and outside diameter; its core wires and their diameter; its total area and
+# weight; its strengths with AW2 and AW3 cores; its DC resistance at 20 C. Code words wrap
+# across lines: "Partridge/TW/" over "AW", "St." over "Croix/TW/AW".
+# Not entered: p. 4's columns of the ACSR of equal diameter.
+
+title = "ACSR/TW/AW: Aluminum Conductor, Aluminum-Clad Steel Reinforced, Trapezoidal Wire Construction"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/cablespec/download_spec/?spec=80103&country=US"
+sha256 = "1308aba4f7358fe367a4264c83876d730ab105c49e444f1681db40c0816cc575"
+retrieved = 2026-10-26

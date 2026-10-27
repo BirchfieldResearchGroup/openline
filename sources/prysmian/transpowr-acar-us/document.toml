@@ -1,0 +1,58 @@
+# p. 1: "aluminum 1350 H19 wires concentrically stranded around a 6201-T81 aluminum alloy core";
+# "manufactured in accordance with the requirements of the latest issue of ASTM B524".
+# AC resistances at 60 Hz, as note 3 gives the frequency.
+
+title = "TransPowr ACAR Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20ACAR%20Bare%20Overhead%20Conductor%20%28US%29.pdf"
+sha256 = "21e4ccb44829e4ed977cb2dadce1beee731ab7f99b8d15d3b28a4e752a7b5306"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 3's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 4's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+# These ampacities follow a resistance below the AC column, nearer DC: 2493 kcmil, 54/37, prints
+# 1740 A, where AAC Lupine, as thick and less resistive, prints 1710 A. They exceed what the AC
+# column gives by more than 1%, by 4% at 2493 kcmil.
+apart = [
+    "p. 2-3, row 1080.6, 18x0.1709 / 19x0.1709",
+    "p. 2-3, row 1109.0, 24x0.1731 / 13x0.1731",
+    "p. 2-3, row 1172.0, 18x0.1780 / 19x0.1780",
+    "p. 2-3, row 1198.0, 24x0.1799 / 13x0.1799",
+    "p. 2-3, row 1534.4, 42x0.1586 / 19x0.1586",
+    "p. 2-3, row 1703.0, 48x0.1671 / 13x0.1671",
+    "p. 2-3, row 1798.0, 42x0.1717 / 19x0.1717",
+    "p. 2-3, row 1933.0, 42x0.1780 / 19x0.1780",
+    "p. 2-3, row 2338.0, 42x0.1958 / 19x0.1958",
+    "p. 2-3, row 2338.0, 48x0.1958 / 13x0.1958",
+    "p. 2-3, row 2493.0, 54x0.1655 / 37x0.1655",
+    "p. 2-3, row 2493.0, 72x0.1655 / 19x0.1655",
+]
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+# The E3X ampacity of 1277.0 kcmil, 42/19, also follows a resistance below the AC column: 1345 A,
+# where the AC column gives 1331.0 A; its standard ampacity exceeds what it gives by 0.9%.
+apart = ["p. 2-3, row 1277.0, 42x0.1447 / 19x0.1447"]
+
+[conditions.reactance]
+"spacing[ft]" = 1

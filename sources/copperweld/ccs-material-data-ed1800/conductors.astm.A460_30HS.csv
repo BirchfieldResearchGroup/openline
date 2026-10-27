@@ -1,0 +1,21 @@
+locator,design,code_word,designation,wires.count,wires.diameter[AWG],reported.diameter[in],reported.mass[lb/kft],reported.strength[lbf],reported.dc_resistance[Ω/kft]
+"p. 4, row 19 No. 5, High Strength 30%",NO_5_19,,No. 5,19,5,0.910,1768.7,53899,0.0558
+"p. 4, row 19 No. 6, High Strength 30%",NO_6_19,,No. 6,19,6,0.810,1402.9,44460,0.0703
+"p. 4, row 19 No. 7, High Strength 30%",NO_7_19,,No. 7,19,7,0.721,1113.1,36628,0.0886
+"p. 4, row 19 No. 8, High Strength 30%",NO_8_19,,No. 8,19,8,0.642,882.7,30130,0.1117
+"p. 4, row 19 No. 9, High Strength 30%",NO_9_19,,No. 9,19,9,0.572,699.6,24727,0.1410
+"p. 4, row 7 No. 4, High Strength 30%",NO_4_7,,No. 4,7,4,0.613,818.8,24047,0.1195
+"p. 4, row 7 No. 5, High Strength 30%",NO_5_7,,No. 5,7,5,0.546,649.1,19858,0.1507
+"p. 4, row 7 No. 6, High Strength 30%",NO_6_7,,No. 6,7,6,0.486,514.8,16380,0.1901
+"p. 4, row 7 No. 7, High Strength 30%",NO_7_7,,No. 7,7,7,0.433,408.5,13495,0.2395
+"p. 4, row 7 No. 8, High Strength 30%",NO_8_7,,No. 8,7,8,0.385,323.9,11101,0.3021
+"p. 4, row 7 No. 9, High Strength 30%",NO_9_7,,No. 9,7,9,0.343,256.7,9110,0.3811
+"p. 4, row 7 No. 10, High Strength 30%",NO_10_7,,No. 10,7,10,0.306,203.7,7529,0.4804
+"p. 4, row 7 No. 12, High Strength 30%",NO_12_7,,No. 12,7,12,0.242,128.1,3799,0.7640
+"p. 4, row 3 No. 5, High Strength 30%",NO_5_3,,No. 5,3,5,0.392,277.6,8983,0.3511
+"p. 4, row 3 No. 6, High Strength 30%",NO_6_3,,No. 6,3,6,0.349,220.2,7410,0.4426
+"p. 4, row 3 No. 7, High Strength 30%",NO_7_3,,No. 7,3,7,0.311,174.7,6105,0.5578
+"p. 4, row 3 No. 8, High Strength 30%",NO_8_3,,No. 8,3,8,0.277,138.5,5022,0.7034
+"p. 4, row 3 No. 9, High Strength 30%",NO_9_3,,No. 9,3,9,0.247,109.8,4121,0.8875
+"p. 4, row 3 No. 10, High Strength 30%",NO_10_3,,No. 10,3,10,0.220,87.1,3406,1.1186
+"p. 4, row 3 No. 12, High Strength 30%",NO_12_3,,No. 12,3,12,0.174,54.8,1719,1.7792

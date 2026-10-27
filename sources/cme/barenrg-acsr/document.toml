@@ -1,0 +1,10 @@
+# p. 1: "manufactured in accordance with the ASTM specification B232"; "round aluminum 1350-H19
+# (extra hard) wires". Note 2: GA2 strengths are "applicable for ACSR/GA2 and ACSR/MA2 cores", so
+# each is given for MA2 too.
+# Left out as misprinted: p. 3, the GA3 and GA5 strengths of Ortolan through Thrasher.
+
+title = "BareNRG ACSR Aluminum Conductor Steel Reinforced"
+publisher = "CME Wire and Cable"
+url = "http://www.cmewire.com/catalog/sec03-bac/bac-07-acsr.pdf"
+sha256 = "1e7b118e3ada161c19a30ea567c6626fe3c335b18e8e099eccd0499517f0ce16"
+retrieved = 2026-10-22

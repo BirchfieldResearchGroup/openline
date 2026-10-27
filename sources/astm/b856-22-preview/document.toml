@@ -1,0 +1,26 @@
+# Table 1's AW2 and AW3 strengths are entered as ASTM B856, AW, on its wires, without its code
+# words, which name the coated-steel conductors.
+# Table 1: 73 constructions, diameters, masses, and reported strengths for
+# GA2/MA2 through GA5/MA5. These observations remain independent of wire
+# properties and the B856-03 construction rules used by the model.
+# Bunting GA2/GA3 and Squab GA3 differ from B856-03; both editions are retained.
+#
+# Printed sizes 1351.0 (Dipper/Martin), 1510.0 (Nuthatch/Parrot), and 2057.0
+# (Roadrunner) identify the existing 1351.5, 1510.5, and 2057.5 kcmil designs:
+# the names, strandings and wire diameters agree. CSV row references and the
+# local extraction retain the printed sizes; reported values are unchanged.
+# Wood Duck wraps its /ACSS suffix onto the next line in the sample.
+#
+# The literal table 1 values, including AW2/AW3 strengths, and table 2 lay
+# limits are preserved in documents/astm/b856-22-extraction.json. Table 2
+# does not give core lays or fill the unsupported aluminum constructions.
+# This public preview is not the complete standard; it truncates clause 9.1.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum Conductors, Coated Steel Supported (ACSS), Preview"
+publisher = "ASTM International"
+designation = "ASTM B856-22"
+year = 2022
+url = "https://standards.iteh.ai/catalog/standards/astm/e2077d91-065f-4b97-beeb-622df2271576/astm-b856-22"
+sha256 = "7f474d418e711b5c2e74a6888c38ac7274202eb1cb895240e92699e32f4ad4d5"
+retrieved = 2026-10-26
+pending = ["B856-22 core lays and rating-factor tables are outside this preview; model construction rules remain sourced to B856-03."]

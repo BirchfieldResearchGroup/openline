@@ -1,0 +1,12 @@
+# Identical to IEC 60888:1987: tables III to V, the least stress at 1% extension and ultimate
+# tensile stress of steels S1A, S1B, S2A, S2B and S3A by diameter, in openline.types.materials.
+# Its density and expansion, 2, are coated steel's there.
+
+title = "Zinc-Coated Steel Wires for Stranded Conductors"
+publisher = "COMESA"
+designation = "COMESA/DHS 222:2005"
+year = 2005
+url = "https://archive.org/download/comesa.222.ef.fd.2006/comesa.222.ef.fd.2006.pdf"
+sha256 = "e84c9990b1751e8e4b400dcac9256e6687b9a26d277e532c67cc994a7e830ed1"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

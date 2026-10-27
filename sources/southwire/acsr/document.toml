@@ -1,0 +1,13 @@
+# p. 1: "Hard-drawn aluminum (1350-H19)" around a "standard strength steel core with Class A hot
+# dipped zinc galvanization coating"; ASTM B232. "Std", "HS" and "UHS" strengths are of class A
+# galvanized cores: GA2, GA3 and GA5.
+# Left out: p. 6, Roadrunner, printed 2057.0 kcmil where Prysmian prints 2057.5 for the same
+# wires; the two cannot both name it.
+# Left out as misprinted: p. 4, Edison Bird, its diameter printed 0.762 in where its 18 wires of
+# 0.1906 in, in two layers around its 0.1905 in core, make 0.953 in.
+
+title = "ACSR: Aluminum Conductor, Steel Reinforced"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/en/cablespec/download_spec/?spec=80100&country=US"
+sha256 = "ef5e7739200971493297c1f435eb3862968d7b8c70d671deb27819cc106d86e1"
+retrieved = 2026-10-23

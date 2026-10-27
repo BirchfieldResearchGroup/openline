@@ -1,0 +1,13 @@
+# Only printed p. 42, not the full standard. Table 1 gives 30% CCS alpha20 = 0.00378/K
+# and TCAP = 3.85 J/(cm3 K). Specific heat is derived as TCAP / density, an engineering
+# approximation for the constant-capacity model. The table resistivity is not substituted
+# for the separately sourced nominal 30% IACS value.
+
+title = "IEEE Guide for Safety in AC Substation Grounding: Table 1 Excerpt"
+publisher = "IEEE"
+designation = "IEEE Std 80-2000, Table 1 excerpt"
+year = 2000
+url = "https://satcon.in/tech_info/1583400418.pdf"
+sha256 = "946a69fbf8bb3c2cb1c863f6f837d489cc926a01b955ec87073908a6a24a82ff"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

@@ -1,0 +1,15 @@
+# Equations (7) and (8), p. 365: the potential coefficient between wires above an earth that
+# conducts and polarizes, its correction Wise's integral, quasi-TEM, the line's wave taken as the
+# air's; openline.electrical.shunt's earth, and through its m, series' earth. p. 365's example, a
+# wire 3 cm above an earth of 0.01 S/m and epsilon 15 at 2 MHz, 4(M + iN) = 0.152 + i0.319 by
+# his approximation (10), is the check in tests/test_lines.py. The copy is the Internet Archive's
+# scan, bstj27-2-365.pdf.
+
+title = "Potential Coefficients for Ground Return Circuits"
+publisher = "American Telephone and Telegraph Company"
+designation = "Bell System Technical Journal 27(2)"
+year = 1948
+url = "https://doi.org/10.1002/j.1538-7305.1948.tb00913.x"
+sha256 = "13d3b43177c3c32331dee7ca0c8163b901147849c77f8b83e103c1f59d07e2b5"
+retrieved = 2026-10-24
+cited_by = ["openline.electrical.series", "openline.electrical.shunt"]

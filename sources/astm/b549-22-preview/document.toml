@@ -1,0 +1,12 @@
+# 8.3, its hand; 10.1, its rating rule: in openline.types.conductors.astm. The preview ends
+# before table 2, the aluminum lay ratios, and table 3, the rating factors. Table 1 runs across
+# the sample's two columns and its redline. This public preview is not the complete standard.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum Conductors, Aluminum-Clad Steel Reinforced for Use in Overhead Electrical Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B549-22"
+year = 2022
+url = "https://standards.iteh.ai/catalog/standards/astm/8bf67236-5447-47e7-bb62-54df3fc8e393/astm-b549-22"
+sha256 = "35d9e5bc5ed9e0dcd41e852be1041dd9c6035183d307b337e939e46f74bbe4a3"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

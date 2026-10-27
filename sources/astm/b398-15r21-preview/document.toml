@@ -1,0 +1,14 @@
+# Local HTML archives the public catalog sample, not the full standard. Table 2
+# provides 6201-T81 lot-average strength in independent inch-pound and SI tables;
+# 9.1 provides maximum resistivity and 10.1 calculation density. No manufacturer
+# observations are used to set these properties.
+
+title = "Standard Specification for Aluminum-Alloy 6201-T81 and 6201-T83 Wire for Electrical Purposes, Preview"
+publisher = "ASTM International"
+designation = "ASTM B398/B398M-15 (2021)"
+year = 2021
+url = "https://standards.iteh.ai/catalog/standards/astm/aab99308-7d73-423d-b4b3-edfc84a1da1d/astm-b398-b398m-15-2021"
+sha256 = "84997d02f6e1e2752b6b7e82f3410873f62a4deb31b7d3d25b722509ace11504"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]
+pending = ["6201-T83 material properties in table 3 and 9.1 are not yet modeled."]

@@ -1,0 +1,34 @@
+# Bulletin 1728F-811, published 1999-04-09. p. 7: "The drawings provided in this
+# specification include wood pole structures". Heights are below the pole tops: the line sets
+# the poles. Points are in the drawing's plane: along is 0. Shield wires are held in clamps.
+# Families by the index, p. 175-176: "Tangent H-Frame".
+# TH-230, p. 84: X-arm #81 is "3-5/8" x 9-3/8" solid sawn" (note 3), a double 40'-0" arm. Its
+# braces print no material, its steel OHGW arm no section (drawing TM-7D), and its X-brace's
+# "A" is left blank (note 4; p. 164), so they are not entered. TH-230X is TH-230 "with one
+# additional X-Brace" (note 5).
+# TH-1A, p. 67: item 1 is a 5-5/8" x 7-3/8" x 26'-0" crossarm (#55, TCD-26).
+# Pole centers are 12'-6" apart. Pole lengths, sections and foundations are selected by the
+# line (note 3): a pole is given by its top.
+
+title = "Electric Transmission Specifications and Drawings, 115 kV through 230 kV"
+publisher = "USDA Rural Utilities Service"
+designation = "RUS Bulletin 1728F-811"
+year = 1999
+url = "https://www.rd.usda.gov/sites/default/files/UEP_Bulletin_1728F-811.pdf"
+sha256 = "db1fa98618b1ffa27bfa58c418bfbc22169dc533648d6ca80a7b27a9c46d1778"
+retrieved = 2026-10-22
+cited_by = ["openline.structures.frame"]
+pending = [
+  "p. 49, drawing TP-115,TP-138",
+  "p. 52, drawing TS-115",
+  "p. 53, drawing TS-115A",
+  "p. 55, drawing TS-138",
+  "p. 56, drawing TS-138A",
+  "p. 58, drawing TSZ-115",
+  "p. 59, drawing TSZ-115A",
+  "p. 61, drawing TSZ-138",
+  "p. 62, drawing TSZ-138A",
+  "p. 64, drawing TU-1,1A,1AA",
+  "p. 68, drawing TH-1AA,1AAX",
+  "p. 75, drawing TH-10 Series; p. 163, drawing TPF-40: the poles and crossarms of TH-10 Series",
+]

@@ -1,0 +1,14 @@
+# The catalog's text of the preview, as its API serves it (document 2, the redline from the 2013
+# reapproval, reads cleanly); the sample PDF is no longer served. 6.2: a 7-, 19- or 37-wire
+# conductor's layers at 10 to 16 times their diameter, 13 1/2 preferred; 6.3, the outer layer
+# left-hand; 6.4, reversed in consecutive layers. The 2023 reapproval's preview stops in 6.2.
+# This public preview is not the complete standard.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum-Clad Steel Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B416-98 (2018)"
+year = 2018
+url = "https://standards.iteh.ai/catalog/standards/astm/73b2f234-501a-495e-aef2-58a2b5c35310/astm-b416-98-2018"
+sha256 = "47136769f2bf70f25a62c0a3dd14f429b10e4d19923ce4ff2348a0e971e07dfc"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

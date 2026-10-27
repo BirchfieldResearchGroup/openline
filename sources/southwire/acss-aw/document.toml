@@ -1,0 +1,17 @@
+# SPEC 80113, revision 1.000.001: ACSS/AW, aluminum 1350-O to ASTM B609 around a core of
+# aluminum-clad steel wire to ASTM B502, "in accordance with ASTM B 856" (note 1). Table 1: each
+# code word's wires, core and overall diameters and weights; table 2: its rated strength, on
+# B502 core wire (note 4), and its DC resistance at 20 C, at 63% IACS for the aluminum and 20.3%
+# for the core (note 2).
+# It prints Dipper and Martin 1351, Nuthatch and Parrot 1510 and Roadrunner 2057 kcmil, the
+# 1351.5, 1510.5 and 2057.5 kcmil designs of the same names and wires: entered as those.
+# Left out as misprinted: Condor/ACSS/AW's strength, 15 800 lb, where Cuckoo/ACSS/AW, of the same
+# 795 kcmil on the same 7 x 0.1213 in core, prints 20 900 (B856-03 rates both alike).
+# Not entered: the AC resistances at 75 C, at no frequency stated; the ampacities at 200 C, at
+# no latitude, date or time stated (note 3).
+
+title = "ACSS/AW: Aluminum Conductor, Aluminum-Clad Steel Supported"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/cablespec/download_spec/?spec=80113&country=US"
+sha256 = "06716572d746f004a3bdd6d55437dd86dad1a1cbc0ecee7fa37164e1519e1253"
+retrieved = 2026-10-26

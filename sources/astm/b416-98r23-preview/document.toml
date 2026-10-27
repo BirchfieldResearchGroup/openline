@@ -1,0 +1,15 @@
+# Table 1: each conductor's wires, diameter and rated breaking strength. 6.1, a 3-wire
+# strand's lay; 7, its rating factors, 90% for 7, 19 and 37 wires and 95% for 3, of the B415
+# 20% column, which table 1 bears out; 4.1.3, its hand, left: in
+# openline.types.conductors.astm. The preview cuts 6.2 before the maximum lay of 7-, 19- and
+# 37-wire conductors, which the 2018 reapproval's gives (sources/astm/b416-98r18-preview). This
+# public preview is not the complete standard.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum-Clad Steel Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B416-98 (2023)"
+year = 2023
+url = "https://standards.iteh.ai/catalog/standards/astm/00a64405-f55d-4554-adde-80a9e2a71d8d/astm-b416-98-2023"
+sha256 = "c3543a2be10ee87311db01e7a4a206fe2250e6268c5477fdf8559785740ae043"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

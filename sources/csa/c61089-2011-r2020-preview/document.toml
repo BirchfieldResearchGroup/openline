@@ -1,0 +1,18 @@
+# The Canadian deviations to IEC 61089:1991, pp. CSA/9 to CSA/12B, in clause order: 5.4.4.1, a
+# steel core's lay ratios, and table 2, the increments due to stranding, each metal's alike in
+# every row that has its wires and layers: the strandings of openline.types.conductors.csa.C61089.
+# No deviation replaces 5.4.2, the hand, or 5.4.5, the aluminum's lay ratios. 5.7.2 rates
+# aluminum at its tensile strength and steel at 1% extension, of wires to CAN/CSA-C60889 and
+# C60888, not at hand. Do not relabel C61089 observations as C49.
+
+title = "Round Wire Concentric Lay Overhead Electrical Stranded Conductors: Preview"
+publisher = "CSA Group"
+designation = "CAN/CSA-C61089-11 (R2020), preview"
+year = 2020
+url = "https://www.elecenghub.com/NewSamples/CSA/111741423/CAN-CSA-C61089-11-%28R2020%29-1.pdf"
+sha256 = "fbeac84ff888f0f1690f7ac9a8eff23b1c1603384d4a6c7a02358e63205c5a8b"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.csa"]
+pending = [
+  "whether Midal's CSA C49 listings are conductors to C61089",
+]

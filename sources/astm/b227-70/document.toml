@@ -1,0 +1,17 @@
+# Posted by Public.Resource.Org as incorporated by reference in 24 CFR 200, subpart S. Table 1
+# (p. 5, printed 927): least tensile strength by diameter of each grade, Grade 30 HS 120 000 psi
+# at 0.2043 in to 151 000 psi at 0.1019 in, none printed below; Grade 30 EHS and 40 HS to 0.0800
+# in; Grade 40 EHS at 0.1040 in alone. Note 2 names the grades, 30 HS "High Strength, 30 percent
+# Conductivity": for openline.types.materials. 6.2: each diameter's
+# permissible variation, the least a wire may be, for openline.types.conductors.astm.A460's
+# rating. 7.1: its density, 8.15 g/cm3. Table 4, breaking strength of each wire, is for
+# information. No strand or lay clauses: a wire specification.
+
+title = "Standard Specification for Hard-Drawn Copper-Clad Steel Wire"
+publisher = "ASTM International"
+designation = "ASTM B227-70"
+year = 1970
+url = "https://archive.org/download/gov.law.astm.b227.1970/astm.b227.1970.pdf"
+sha256 = "7a5c67595c4b9275db73365281def8c47776417f193c5eb1609450e238366536"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials", "openline.types.conductors.astm"]

@@ -1,0 +1,15 @@
+# Amendment only; not a complete copy of IEC 61089. Its 5.4.4 a) and b), the steel cores' lay
+# ratios, 16 to 26 and 14 to 22, are the base standard's, as openline.types.conductors.iec has
+# them; its 5.4.6, no layer's lay ratio greater than the one beneath, holds for the mean ratios
+# openline lays at, 12 outside and 13 within. 5.4.4 c), 10 to 16, is for steel conductors alone.
+
+title = "Round Wire Concentric Lay Overhead Electrical Stranded Conductors: Amendment 1"
+publisher = "IEC"
+designation = "IEC 61089:1991/AMD1:1997"
+year = 1997
+url = "https://cdn.standards.iteh.ai/samples/7111/25a3f9c855bc4c54aa3522516bb23834/IEC-61089-1991-AMD1-1997.pdf"
+sha256 = "6be672cdcefd820c5ffd94567481fa63dc082e3f4ebd4a7e4c7b13cf0c9eb4de"
+retrieved = 2026-10-26
+pending = [
+  "tables D.17 and D.18, conductors of steel alone, S1A and S1B, which need an IEC 61089 class",
+]

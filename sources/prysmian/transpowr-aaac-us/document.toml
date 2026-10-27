@@ -1,0 +1,40 @@
+# p. 1: "manufactured in accordance with the requirements of the latest issue of ASTM B399";
+# "manufactured from a heat-treated, magnesium-silicide high-strength 6201 T81 aluminum alloy."
+# AC resistances at 60 Hz, as note 5 gives the frequency.
+
+title = "TransPowr AAAC Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20AAAC%20Bare%20Overhead%20Conductor%20%28US%29.pdf"
+sha256 = "e47ccb0b19075b6a6d71a4e62094df529c331881c1aa013d7767d946839f8a38"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 5's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 6's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+# Darien's E3X ampacity is not of its resistances: 750 A, where they give 758.7 A; its standard
+# ampacity, 665 A, is 6.0 A under what they give.
+apart = ["p. 2-3, row Darien"]
+
+[conditions.reactance]
+"spacing[ft]" = 1

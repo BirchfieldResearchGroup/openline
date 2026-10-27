@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use OpenLine, cite the release you used.
+type: software
+title: OpenLine
+abstract: Electrical and mechanical modeling of overhead transmission lines.
+authors:
+  - family-names: Lowery
+    given-names: Luke
+    affiliation: Texas A&M University
+    orcid: https://orcid.org/0009-0000-0029-3403
+repository-code: https://github.com/BirchfieldResearchGroup/openline
+license: MIT
+keywords:
+  - transmission lines
+  - conductors
+  - line parameters
+  - electromagnetic transients

@@ -1,0 +1,19 @@
+# Table 2: the aluminum layers' lay ratios by stranding; the core's to ASTM B500/B500M (8.1).
+# Table 3: the rating factors; table 4: the increments for mass and resistance. 8.2: right hand
+# outside, reversed layer to layer. 12.2: aluminum-clad steel at 0.08480 ohm mm2/m.
+# Table 1: 85 conductors by code name, aluminum and core wires, rated strength and mass. 10.1
+# rates the core at B502's stress at 1% extension, of its one grade then, which B502/B502M-23
+# names AW2, normal strength: the strengths agree with AW2's, median 0.0%. Its
+# AWAC rows, of mixed aluminum and aluminum-clad layers, are not entered: openline does not lay
+# them. Swallow/AW is class A alone, whose 6/1 lay table 2 bounds 8 to 16; openline lays class
+# AA's, 12 to 16.
+# Left out as misprinted: the code names Catbrid/AW, Mallary/AW, Sooter/AW and Ospray/AW.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum Conductors, Aluminum-Clad Steel Reinforced for Use in Overhead Electrical Conductors"
+publisher = "ASTM International"
+designation = "ASTM B549-13"
+year = 2013
+url = "https://store.astm.org/b0549-13.html"
+sha256 = "df96671223b08fd86b368856fa14d1b59cbf63302c07fb00deff099ef2fe0d25"
+retrieved = 2026-10-27
+cited_by = ["openline.types.conductors.astm"]

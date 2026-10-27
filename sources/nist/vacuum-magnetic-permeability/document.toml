@@ -1,0 +1,9 @@
+# The 2022 CODATA recommended value, in openline.types.units: MU_0, 1.25663706127e-6 N A^-2,
+# its standard uncertainty 0.00000000020e-6 N A^-2.
+
+title = "CODATA Value: vacuum magnetic permeability"
+publisher = "NIST"
+url = "https://physics.nist.gov/cgi-bin/cuu/Value?mu0"
+sha256 = "c55e05191f929d0c3101d6f94957a0fa99b660517422167a2361838d5c6a4a12"
+retrieved = 2026-10-24
+cited_by = ["openline.types.units"]

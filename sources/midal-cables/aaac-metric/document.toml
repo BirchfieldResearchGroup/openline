@@ -1,0 +1,15 @@
+# AAAC by national table. Entered: "American Sizes" (p. 1) and "ASTM Spec" (p. 2), aluminum alloy
+# 6201-T81, as ASTM B399's tables 1 and 2; "IEC Spec" types A3 (p. 9) and A2 (p. 10), as IEC
+# 61089's. Rows are read by their positions. p. 2 sizes its rows by AWG, "0" for 1/0, where
+# B399's table 2 designates them by circular mils: entered as those, 6 AWG as 26.24 kcmil.
+# Not entered: the Australian, British (BS 3242), Canadian, DIN, French and Swedish tables,
+# standards openline does not list.
+# Left out as misprinted: p. 10, type A2's 25, its wires printed 7/2.9 where its 6.87 mm diameter
+# takes 2.29. p. 1 prints Elgin 652.6 kcmil, the 652.4 kcmil design of the same name and wires:
+# entered as that.
+
+title = "Conductor Data Sheet: All Aluminum Alloy Conductors (AAAC)"
+publisher = "Midal Cables"
+url = "https://midalcable.s3.eu-central-2.wasabisys.com/storage/products/aaac/aaac-metric.PDF"
+sha256 = "c9ab43edb6f39af9d08dfd35af129ba51f56e6c619181886ea51b459c41f9a3a"
+retrieved = 2026-10-27

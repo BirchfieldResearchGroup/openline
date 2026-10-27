@@ -1,0 +1,44 @@
+# p. 1: "manufactured in accordance with the requirements of the latest issue of ASTM B779";
+# trapezoidal "aluminum 1350-H19 wires", their diameters those of round wires of equal area.
+# Strengths are printed for GA2, "GA3 (HS)" and "GA5 (UHS)" cores.
+# Left out as misprinted: p. 4, the code word "Calument".
+# AC resistances at 60 Hz, as note 5 gives the frequency; note 4: "AC resistance for single-layer
+# and three-layer designs approximates the effects of core magnetization".
+# p. 1 draws each stranding's layers: 18/7, 20/7, 21/7 and 22/7 in two; 36/7, 36/19, 38/19 and
+# 39/19 in three; 64/19 in four. They are entered for the rows of those strandings, the others
+# left blank. The conductor's diameter is its aluminum's outside diameter.
+# Left out: the rows of Oriole, Hen, Rook, Tern, Condor, Cardinal, Ortolan, Curlew, Bunting,
+# Bittern, Dipper, Plover, Lapwing, Chukar, Mystic, Columbia, Hudson, Yukon, Nelson, Mackenzie,
+# Miramichi, Platte, Schuylkill, James, Pee Dee, Athabaska, Santee, code words the catalog holds
+# with other wires, the construction openline's calculations agree with best.
+
+title = "TransPowr ACSR/TW Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20ACSR-TW%20Bare%20Overhead%20Conductor%20%28Canada%29.pdf"
+sha256 = "452c62dba4eecb2ef253df0c5e0d986060f8cf24ea8e22f2b853578776c191fd"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 5's conditions, for its one surface, whose
+# emissivity and absorptivity the other TransPowr catalogs print as "standard"; and the
+# reactances at note 6's spacing, "a 1 ft radius". "Noon on July 1" prints no year: any but a
+# leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.reactance]
+"spacing[ft]" = 1

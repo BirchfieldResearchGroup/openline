@@ -1,0 +1,12 @@
+# SIST adoption preview of EN 50183:2000, not the full standard. Printed p. 5, clause 5
+# and table 1: AL3 calculation constants and individual minimum wire strength.
+# The sole tensile interval is over 1.50 through 5.00 mm; no imperial table is invented.
+
+title = "Conductors for Overhead Lines: Aluminium-Magnesium-Silicon Alloy Wires, Preview"
+publisher = "CENELEC / SIST"
+designation = "SIST EN 50183:2000, preview"
+year = 2000
+url = "https://cdn.standards.iteh.ai/samples/62/07247b88db1b4b488607ceb31103a0e4/SIST-EN-50183-2000.pdf"
+sha256 = "a5a4e052478f8ccd534304194f0bc63df0c2b3e9136f67d566387b40e6f3bbbd"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

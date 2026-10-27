@@ -1,0 +1,16 @@
+# SPEC 80101, revision 1.000.016: ACSR/TW to ASTM B779, on cores to ASTM B498 or B802. Each code
+# word's aluminum wires, their area, which gives their equivalent diameter (IEC 62219, 3.5),
+# their layers and outside diameter; its steel wires and their diameter; its total area and
+# weight, and its DC resistance at 20 C.
+# Not entered: the "Std", "HS" and "UHS" strengths, which name no grade of core; p. 4's
+# columns of the ACSR of equal diameter.
+# Left out: the rows of Rook, Puffin, Rail, Bluejay, Finch, Grackle, Martin, Bobolink, Plover,
+# Lapwing, Chukar, Mystic, Fraser, Kettle, Genesee, Hudson, Thames, Miramichi, St. Croix, Rio
+# Grande, Platte, Schuylkill, James, Pee Dee, Santee, code words the catalog holds with other wires,
+# the construction openline's calculations agree with best.
+
+title = "ACSR/TW: Aluminum Conductor, Steel Reinforced, Trapezoidal Wire"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/cablespec/download_spec/?spec=80101&country=US"
+sha256 = "517fcb8e22ad3d900eb90c5abadc59d0576b2b775794d5951b88b41441258e8f"
+retrieved = 2026-10-26

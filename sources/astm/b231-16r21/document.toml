@@ -1,0 +1,20 @@
+# Tables 1 and 2: class AA and class A conductors, each with its class, wires, mass and rated
+# strength; table 1 by size in cmils or AWG and code word, in inch-pound units, its metric ones
+# soft conversions (note 1); table 2 by metric size, in SI units. Table 6's rating factors and
+# 7.1's class AA lay ratios, 13.5 preferred, are the strandings of
+# openline.types.conductors.astm.B231; a class A conductor's lay, 7.2, prefers no ratio.
+# Table 7's increments, by size, approximate what 11.1 says the lay gives more exactly
+# (note 5), as openline.mechanical calculates it.
+# Not entered: tables 3 and 4, classes B, C and D, conductors to be insulated (3.1.3).
+# Left out: p. 3, Columbine, printed 1 351 000 cmil where Prysmian prints 1351.5 kcmil for the
+# same wires; the two cannot both name it.
+# Left out as misprinted: p. 3, Arbutus, printed 795 00 cmil where its 402.8 mm2 is 795 000.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum 1350 Conductors"
+publisher = "ASTM International"
+designation = "ASTM B231/B231M-16 (2021)"
+year = 2021
+url = "https://doi.org/10.1520/B0231_B0231M-16R21"
+sha256 = "56bdfa42f2ac2e1b055cdae03ff2ba53d5dd72cb30af6ffab796dffcab457117"
+retrieved = 2026-10-24
+cited_by = ["openline.types.conductors.astm", "openline.mechanical"]

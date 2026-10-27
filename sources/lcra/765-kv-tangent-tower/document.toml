@@ -1,0 +1,13 @@
+# p. 1: "NOT TO SCALE". Wire positions and the 70 ft 10 in arm half-width are printed.
+# Legs, body, head, crossarms and peaks are measured from the outline, rounded to inches:
+# x is scaled by the arm half-width; y by the 13 ft shield-to-crossarm interval.
+# The wire plane uses the printed 19 ft 6 in drop independently.
+# Each string has 34 counted disc profiles; diameter (8 in) and occupied length
+# (15 ft 4 in) are measured from those profiles.
+title = "Typical 765 kV tangent tower"
+publisher = "LCRA Transmission Services Corporation / Oncor"
+url = "https://www.lcra.org/download/765-kv-tangent-tower-drawing/?wpdmdl=38522"
+sha256 = "6ab88bb9f35c9b059cb7e218ec7751b0b11537e0f5a661c9ca65bd24aedd1179"
+retrieved = 2026-10-24
+cited_by = ["openline.structures.tower"]
+pending = ["p. 1: 200 ft right of way"]

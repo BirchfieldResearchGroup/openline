@@ -1,0 +1,46 @@
+# p. 1: "manufactured in accordance with the requirements of the latest issue of ASTM B232";
+# "aluminum 1350-H19 wires". Strengths are printed for GA2, GA3 and GA5 cores. The 1351.5 kcmil,
+# 48/7 row prints the code word "-None-", which names nothing.
+# AC resistances at 60 Hz, as note 4 gives the frequency; note 3: "AC resistance for single-layer
+# and three-layer designs approximates the effects of core magnetization".
+
+title = "TransPowr ACSR Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20ACSR%20Bare%20Overhead%20Conductor%20%28US%29.pdf"
+sha256 = "689963f44e8edbb8be50c8867d1a9a656d78638fe813bffe482b525e867ce8b5"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 4's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 5's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+# Sparate's ampacity is not of its resistances: 170 A, where Sparrow, thinner and about as
+# resistive, prints 185 A.
+apart = ["p. 2-3, row Sparate"]
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+# Petrel's and Brahma's E3X ampacities are not of their resistances: 265 A and 400 A, where
+# their resistances give 262.3 A and 404.2 A, and their standard ampacities agree within 1.2 A.
+apart = ["p. 4-5, row Petrel", "p. 4-5, row Brahma"]
+
+[conditions.reactance]
+"spacing[ft]" = 1

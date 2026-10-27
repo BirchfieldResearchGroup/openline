@@ -1,0 +1,18 @@
+# Identical to IEC 61089:1991, first edition, without its amendment 1 (sources/iec): 5.4.4
+# and 5.4.5, each layer's lay ratios, and 5.6.2, their mean, on which its masses rest; 5.4.2, its
+# hand; 5.7, its rating rules: the strandings of openline.types.conductors.iec. Annex D, tables
+# D.1 to D.16: its conductors, each with its wires, area, diameter, mass, rated strength by grade
+# of steel, and DC resistance, of the aluminium alone where steel cores it (D.2.7). Table 2's
+# increments are not entered: the lay at the mean ratios gives them. Each grade's table of a
+# steel-cored type lists the same constructions; D.4 prints its two 1250 rows in the reverse
+# order of D.5 to D.8. D.16 heads its alloy columns A2, of A3 wires; its 63, 4/3 rates its
+# 3.50 mm wires as their unrounded 3.501 mm (D.2.2), over IEC 60104's 3.5 mm: 315 MPa, not 325.
+
+title = "Round Wire Concentric Lay Overhead Electrical Stranded Conductors"
+publisher = "COMESA"
+designation = "COMESA/FDHS 307:2007"
+year = 2007
+url = "https://archive.org/download/comesa.307.ef.fd.2007/comesa.307.ef.fd.2007.pdf"
+sha256 = "a6deb26149c8c2aa63b750e08c3ebf816f9c7d3994f7248290ec418a331c3bfa"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.iec", "openline.types.conductors.csa"]

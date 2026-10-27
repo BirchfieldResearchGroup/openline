@@ -1,0 +1,46 @@
+locator,design,code_word,designation,outer.count,outer.area[kcmil],outer.layers,outer.outside_diameter[in],core.count,core.diameter[in],reported.mass[lb/kft],reported.strength.SteelGA2[klbf]
+"table 1, row Merlin/TW",MERLIN,Merlin,336.4 kcmil,14,336.4,2,0.63,1,0.1367,365,8.6
+"table 1, row Flicker/TW",FLICKER,Flicker,477.0 kcmil,18,477.0,2,0.78,7,0.0940,613,17.2
+"table 1, row Hawk/TW",HAWK,Hawk,477.0 kcmil,18,477.0,2,0.79,7,0.1053,655,19.4
+"table 1, row Parakeet/TW",PARAKEET,Parakeet,556.5 kcmil,18,556.5,2,0.84,7,0.1015,715,20.0
+"table 1, row Dove/TW",DOVE,Dove,556.5 kcmil,20,556.5,2,0.85,7,0.1138,765,22.6
+"table 1, row Kingbird/TW",KINGBIRD,Kingbird,636.0 kcmil,27,636.0,3,0.85,1,0.1329,646,13.5
+"table 1, row Grosbeak/TW",GROSBEAK,Grosbeak,636.0 kcmil,20,636.0,2,0.91,7,0.1216,874,25.4
+"table 1, row Condor/TW",CONDOR,Condor,795.0 kcmil,20,795.0,2,0.99,7,0.1213,1021,28.2
+"table 1, row Drake/TW",DRAKE,Drake,795.0 kcmil,20,795.0,2,1.01,7,0.1360,1092,31.8
+"table 1, row Phoenix/TW",PHOENIX,Phoenix,954.0 kcmil,30,954.0,3,1.05,7,0.0837,1029,23.7
+"table 1, row Cardinal/TW",CARDINAL,Cardinal,954.0 kcmil,20,954.0,2,1.08,7,0.1329,1226,33.5
+"table 1, row Snowbird/TW",SNOWBIRD,Snowbird,1033.5 kcmil,30,1033.5,3,1.09,7,0.0871,1115,25.7
+"table 1, row Avocet/TW",AVOCET,Avocet,1113.0 kcmil,30,1113.0,3,1.13,7,0.0904,1201,27.5
+"table 1, row Bluejay/TW",BLUEJAY,Bluejay,1113.0 kcmil,33,1113.0,3,1.14,7,0.1049,1254,30.3
+"table 1, row Oxbird/TW",OXBIRD,Oxbird,1192.5 kcmil,30,1192.5,3,1.17,7,0.0936,1286,29.5
+"table 1, row Scissortail/TW",CATAWBA,Scissortail,1272.0 kcmil,30,1272.0,3,1.20,7,0.0967,1372,31.4
+"table 1, row Pheasant/TW",PHEASANT,Pheasant,1272.0 kcmil,39,1272.0,3,1.26,19,0.0921,1632,44.1
+"table 1, row Martin/TW",MARTIN,Martin,1351.5 kcmil,39,1351.5,3,1.30,19,0.0949,1734,46.8
+"table 1, row Falcon/TW",FALCON,Falcon,1590.0 kcmil,42,1590.0,3,1.41,19,0.1030,2040,55.1
+"table 1, row Bluebird/TW",BLUEBIRD,Bluebird,2156.0 kcmil,64,2156.0,4,1.61,19,0.0961,2515,61.1
+"table 2, row Monongahela/TW",MONONGAHELA,Monongahela,405.1 kcmil,14,405.1,2,0.68,1,0.1520,441,10.2
+"table 2, row Mohawk/TW",MOHAWK,Mohawk,571.7 kcmil,18,571.7,2,0.85,7,0.1030,735,20.6
+"table 2, row Calumet/TW",CALUMENT,Calumet,565.3 kcmil,20,565.3,2,0.86,7,0.1146,776,22.9
+"table 2, row Oswego/TW",OSWEGO,Oswego,664.8 kcmil,20,664.8,2,0.93,7,0.1244,913,26.6
+"table 2, row Maumee/TW",MAUMEE,Maumee,768.2 kcmil,20,768.2,2,0.98,7,0.1195,988,27.7
+"table 2, row Wabash/TW",WABASH,Wabash,762.8 kcmil,20,762.8,2,0.99,7,0.1331,1047,30.5
+"table 2, row Nechako/TW",NECHAKO,Nechako,768.9 kcmil,27,768.9,3,0.93,1,0.1520,785,16.4
+"table 2, row Fraser/TW",FRASER,Fraser,946.7 kcmil,35,946.7,3,1.08,7,0.1154,1142,29.6
+"table 2, row Suwannee/TW",SUWANEE,Suwannee,959.6 kcmil,22,959.6,2,1.11,7,0.1493,1318,37.0
+"table 2, row Cheyenne/TW",CHEYENNE,Cheyenne,1168.1 kcmil,30,1168.1,3,1.16,7,0.0926,1260,28.9
+"table 2, row Genesee/TW",GENESEE,Genesee,1158.0 kcmil,33,1158.0,3,1.17,7,0.1078,1308,31.6
+"table 2, row Catawba/TW",CATAWBA,Catawba,1272.0 kcmil,30,1272.0,3,1.20,7,0.0967,1372,31.4
+"table 2, row Yukon/TW",YUKON,Yukon,1233.6 kcmil,38,1233.6,3,1.25,19,0.0910,1586,42.9
+"table 2, row Truckee/TW",TRUCKEE,Truckee,1372.5 kcmil,30,1372.5,3,1.25,7,0.1004,1481,33.4
+"table 2, row Thames/TW",THAMES,Thames,1334.6 kcmil,39,1334.6,3,1.29,19,0.0944,1713,46.3
+"table 2, row Merrimack/TW",MERRIMACK,Merrimack,1433.6 kcmil,39,1433.6,3,1.34,19,0.0978,1840,49.7
+"table 2, row Potomac/TW",POTOMAC,Potomac,1557.4 kcmil,36,1557.4,3,1.35,7,0.1241,1755,41.9
+"table 2, row Rio Grande/TW",RIO_GRANDE,Rio Grande,1533.3 kcmil,39,1533.3,3,1.38,19,0.1012,1968,53.2
+"table 2, row Pecos/TW",PECOS,Pecos,1622.0 kcmil,39,1622.0,3,1.42,19,0.1064,2107,57.5
+"table 2, row Cumberland/TW",CUMBERLAND,Cumberland,1926.9 kcmil,42,1926.9,3,1.55,19,0.1133,2471,65.3
+"table 2, row Powder/TW",POWDER,Powder,2153.8 kcmil,64,2153.8,4,1.60,19,0.0961,2498,61.1
+"table 3, row 795.5 kcmil, 17/7",KCMIL_795_5_17_7,,795.5 kcmil,17,795.5,2,0.95,7,0.0866,886.0,21.2
+"table 3, row 1109.7 kcmil, 17/7",KCMIL_1109_7_17_7,,1109.7 kcmil,17,1109.7,2,1.10,7,0.0700,1132.0,23.6
+"table 3, row 1524.1 kcmil, 33/7",KCMIL_1524_1_33_7,,1524.1 kcmil,33,1524.1,3,1.30,7,0.0966,1617.0,35.8
+"table 3, row 1935.4 kcmil, 31/7",KCMIL_1935_4_31_7,,1935.4 kcmil,31,1935.4,3,1.45,7,0.0866,1958.0,41.0

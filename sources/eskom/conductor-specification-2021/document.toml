@@ -1,0 +1,12 @@
+# Utility specification; source-specific requirements must remain distinguishable from standards.
+
+title = "Conductor Specification"
+publisher = "Eskom"
+designation = "240-152844641, revision 2"
+year = 2021
+url = "https://www.etenders.gov.za/home/Download/?blobName=b7e46466-f5af-4ded-a534-06b34f89a1e1.pdf&downloadedFileName=Conductor+Specification+2021+ST_240-152844641+Rev+2+%28005%29.pdf"
+sha256 = "f7499fb059fb9e6f7cf4b77379de020a54251b233c1c2d5e3a800eb54f2e71fb"
+retrieved = 2026-10-26
+pending = [
+  "Utility conductor requirements and construction/mechanical qualifications.",
+]

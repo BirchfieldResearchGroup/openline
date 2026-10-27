@@ -1,0 +1,14 @@
+# Tables 4 and 5, class A: MA2 minimum ultimate tensile strength and stress
+# at 1% extension, identical to B498-08 class A in each native unit system.
+# The SI table is complete in the accompanying 2022-to-2023 redline sample;
+# the plain sample truncates it. This archive is not the full standard.
+
+title = "Standard Specification for Zinc-5% Aluminum-Mischmetal Alloy-Coated Steel Core Wire for Use in Overhead Electrical Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B802/B802M-23"
+year = 2023
+url = "https://standards.iteh.ai/catalog/standards/astm/53cf9a85-fb97-4335-a6e0-e29478123ca0/astm-b802-b802m-23"
+sha256 = "85a50e672cc55b3fd7317393deea0c10d539df3bc0f2d77464f61425b38af249"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]
+pending = ["Tables 4 and 5 also give class C wire strengths; no MC2 material is modeled."]

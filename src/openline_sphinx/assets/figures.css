@@ -1,0 +1,276 @@
+/* Figures: a conductor's construction and cross section, a structure's elevations. Every color
+   a figure takes is a token here, light and dark; a wire's is its material's. */
+.openline-figure {
+  --ol-figure-ground: #e3e9ed;
+  --ol-figure-border: #c3ced6;
+  --ol-figure-ink: #2f4452;
+  --ol-figure-rule: #607787;
+  --ol-figure-faint: #91a2af;
+  --ol-figure-accent: #0b7a68;
+  --ol-aluminum: #c2ccd3;
+  --ol-alloy: #b4c6c0;
+  --ol-steel: #56697a;
+  --ol-copper: #c47f55;
+  --ol-unknown: #a3afb8;
+  --ol-shadow: #0e1a22;
+  --ol-light: #ffffff;
+  position: relative;
+  margin: 1.5rem 0 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--ol-figure-ink);
+  scroll-margin-top: 28px;
+  background: var(--ol-figure-ground);
+  border: 1px solid var(--ol-figure-border);
+  border-radius: 4px;
+}
+
+[data-theme="dark"] .openline-figure {
+  --ol-figure-ground: #1b2731;
+  --ol-figure-border: #3d5364;
+  --ol-figure-ink: #d0dbe3;
+  --ol-figure-rule: #afc0cd;
+  --ol-figure-faint: #718a9d;
+  --ol-figure-accent: var(--color-brand-primary, #5cc8b0);
+  --ol-aluminum: #a9b5bd;
+  --ol-alloy: #9cb1aa;
+  --ol-steel: #6e8394;
+  --ol-copper: #b77650;
+  --ol-unknown: #7f8d97;
+  --ol-shadow: #05090c;
+  --ol-light: #e9f0f4;
+}
+
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) .openline-figure {
+    --ol-figure-ground: #1b2731;
+    --ol-figure-border: #3d5364;
+    --ol-figure-ink: #d0dbe3;
+    --ol-figure-rule: #afc0cd;
+    --ol-figure-faint: #718a9d;
+    --ol-figure-accent: var(--color-brand-primary, #5cc8b0);
+    --ol-aluminum: #a9b5bd;
+    --ol-alloy: #9cb1aa;
+    --ol-steel: #6e8394;
+    --ol-copper: #b77650;
+    --ol-unknown: #7f8d97;
+    --ol-shadow: #05090c;
+    --ol-light: #e9f0f4;
+  }
+}
+
+/* A wire's metal: the most particular of its material's classes styled here, the general
+   first, as openline.types.materials derives them. */
+.ol-Metal { --ol-metal: var(--ol-unknown); }
+.ol-Aluminum { --ol-metal: var(--ol-aluminum); }
+.ol-AluminumAlloy { --ol-metal: var(--ol-alloy); }
+.ol-Steel { --ol-metal: var(--ol-steel); }
+.ol-AluminumCladSteel { --ol-metal: var(--ol-aluminum); }
+.ol-Copper, .ol-CopperCladSteel { --ol-metal: var(--ol-copper); }
+:is(.ol-part, .ol-shade, .ol-round).ol-active {
+  --ol-wire: color-mix(in oklab, var(--ol-metal) 55%, var(--ol-figure-accent));
+}
+
+.openline-figure .ol-figure-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 18px 20px 0;
+}
+.openline-figure .ol-figure-heading h2 {
+  font: 600 1.05rem/1.3 Inter, var(--font-stack, sans-serif);
+  letter-spacing: -.02em;
+  margin: 0;
+  color: var(--ol-figure-ink);
+}
+.openline-figure .ol-diagram {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 34rem;
+  padding: 0.75rem 1rem 1rem;
+  box-sizing: border-box;
+  overflow: visible;
+  font-family: Inter, var(--font-stack, sans-serif);
+  font-variant-numeric: tabular-nums;
+}
+.openline-figure .ol-section { max-height: 26rem; }
+
+/* Labels and dimensions, the same size on screen at any width. */
+.openline-figure .ol-label, .openline-figure .ol-dimension text {
+  fill: var(--ol-figure-ink);
+  font-size: var(--ol-label-size, 14px);
+  text-anchor: middle;
+  paint-order: stroke;
+  stroke: var(--ol-figure-ground);
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+.openline-figure .ol-dimension path, .openline-figure .ol-rule {
+  fill: none;
+  stroke: var(--ol-figure-rule);
+  stroke-width: 0.8;
+  vector-effect: non-scaling-stroke;
+}
+.openline-figure[data-dimensions="false"] .ol-dimension { display: none; }
+
+/* Parts: groups of wires, each selecting its part where the figure is interactive; the first a
+   button. */
+.openline-figure .ol-diagram[role="group"] .ol-part { cursor: pointer; }
+.openline-figure .ol-part:focus-visible { outline: none; }
+
+/* A cross section's wires: a disc each, shaded in its metal, parted by the ground. */
+.ol-shade { --ol-tone: var(--ol-wire, var(--ol-metal)); }
+.ol-shade .ol-lit { stop-color: color-mix(in oklab, var(--ol-tone) 45%, var(--ol-light)); }
+.ol-shade .ol-tone { stop-color: var(--ol-tone); }
+.ol-shade .ol-deep { stop-color: color-mix(in oklab, var(--ol-tone) 60%, var(--ol-shadow)); }
+.openline-figure .ol-section circle, .openline-figure .ol-section .ol-part path {
+  stroke: var(--ol-figure-ground);
+  stroke-width: 0.9;
+  vector-effect: non-scaling-stroke;
+}
+.openline-figure .ol-section .ol-part path { fill-rule: evenodd; }
+.openline-figure .ol-section .ol-part.ol-active :is(circle, path),
+.openline-figure .ol-section .ol-part:focus-visible :is(circle, path) {
+  stroke: var(--ol-figure-accent);
+  stroke-width: 1.6;
+}
+
+/* A construction's wires: each an outline, a body within it and the light along it, drawn once
+   for a layer and copied to each pass; a trapezoidal one, a ribbon of the body between seams of
+   the outline's color, the light along one. No selector reaches into a copy, so the strokes read
+   their colors from variables: the outline's here, the body's and the light's (a layer's
+   gradients, --ol-round and --ol-shine) from the part's group. The gradients shade a layer as
+   a round conductor, on its wires alone; the light's is the body's, lightened. */
+.ol-cutback .ol-part {
+  --ol-edge: color-mix(in oklab, var(--ol-wire, var(--ol-metal)) 50%, var(--ol-shadow));
+}
+.ol-round { --ol-tone: var(--ol-wire, var(--ol-metal)); --ol-keep: 100%; }
+.ol-round.ol-shine { --ol-keep: 58%; }
+.ol-round .ol-rim {
+  stop-color: color-mix(in oklab,
+    color-mix(in oklab, var(--ol-tone) 45%, var(--ol-shadow)) var(--ol-keep), var(--ol-light));
+}
+.ol-round .ol-lit {
+  stop-color: color-mix(in oklab,
+    color-mix(in oklab, var(--ol-tone) 72%, var(--ol-light)) var(--ol-keep), var(--ol-light));
+}
+.ol-round .ol-tone {
+  stop-color: color-mix(in oklab, var(--ol-tone) var(--ol-keep), var(--ol-light));
+}
+.ol-round .ol-deep {
+  stop-color: color-mix(in oklab,
+    color-mix(in oklab, var(--ol-tone) 70%, var(--ol-shadow)) var(--ol-keep), var(--ol-light));
+}
+
+/* A structure's elevations. */
+.ol-elevation .ol-ink {
+  fill: none;
+  stroke: var(--ol-figure-ink);
+  stroke-width: 0.7;
+  vector-effect: non-scaling-stroke;
+}
+.ol-elevation .ol-hatch {
+  fill: none;
+  stroke: var(--ol-figure-faint);
+  stroke-width: 0.6;
+  vector-effect: non-scaling-stroke;
+}
+.ol-ground { pointer-events: none; }
+.ol-anchor .ol-dot {
+  fill: var(--ol-figure-ground);
+  stroke: var(--ol-figure-ink);
+  stroke-width: 1.1;
+  vector-effect: non-scaling-stroke;
+}
+.ol-anchor .ol-hit, .ol-anchor .ol-ring { display: none; }
+.ol-anchor[role="button"] { cursor: pointer; }
+.ol-anchor[role="button"] .ol-hit { display: block; fill: transparent; stroke: none; }
+.ol-anchor .ol-ring {
+  fill: none;
+  stroke: var(--ol-figure-accent);
+  stroke-width: 1.4;
+  vector-effect: non-scaling-stroke;
+}
+.ol-anchor.ol-active .ol-ring, .ol-anchor:focus-visible .ol-ring { display: block; }
+.ol-anchor.ol-active .ol-dot { fill: var(--ol-figure-accent); stroke: var(--ol-figure-accent); }
+.ol-anchor:focus-visible { outline: none; }
+
+.ol-dimensions-toggle {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--ol-figure-border);
+  border-radius: 0.2rem;
+  background: var(--ol-figure-ground);
+  color: var(--ol-figure-ink);
+  font: inherit;
+  font-size: 0.8125rem;
+  min-block-size: 2rem;
+  cursor: pointer;
+}
+.ol-dimensions-toggle[aria-pressed="true"] {
+  border-color: var(--ol-figure-accent);
+  color: var(--ol-figure-accent);
+}
+.openline-figure .ol-selection-status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* A specification row that selects its part or point in the figures. */
+button.ol-selection {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-block-size: 1.5rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--color-foreground-border);
+  text-underline-offset: 3px;
+}
+button.ol-selection[data-ol-wire]::before {
+  content: "";
+  box-sizing: border-box;
+  inline-size: 0.45rem;
+  block-size: 0.45rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+}
+button.ol-selection[data-ol-wire="shield"]::before { border-radius: 0; transform: rotate(45deg); }
+button.ol-selection.ol-active { color: var(--color-brand-primary); }
+button.ol-selection.ol-active::before { background: currentColor; }
+.openline-table tr.ol-active > :is(td, th) {
+  background: color-mix(in srgb, var(--color-brand-primary) 7%, var(--color-background-primary));
+}
+:is(button.ol-selection, .ol-dimensions-toggle):focus-visible {
+  outline: 2px solid var(--color-brand-primary);
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .openline-figure { scroll-margin-top: 74px; }
+  .openline-figure .ol-diagram { padding: 0.5rem; }
+}
+@media print {
+  .openline-figure { break-inside: avoid; print-color-adjust: exact; }
+  .ol-dimensions-toggle { display: none; }
+  .openline-figure[data-dimensions="false"] .ol-dimension { display: block; }
+  .ol-anchor .ol-ring { display: none; }
+  .ol-anchor.ol-active .ol-dot { fill: var(--ol-figure-ground); stroke: currentColor; }
+  :is(.ol-part, .ol-shade, .ol-round).ol-active { --ol-wire: var(--ol-metal); }
+  .openline-table tr.ol-active > :is(td, th) { background: transparent; }
+  button.ol-selection.ol-active { color: inherit; }
+}

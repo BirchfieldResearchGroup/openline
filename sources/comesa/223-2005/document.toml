@@ -1,0 +1,11 @@
+# Identical to IEC 60889:1987: 2, hard-drawn aluminium wire's values for calculation; table
+# I, its least tensile strength by diameter: aluminium A1 in openline.types.materials.
+
+title = "Hard-Drawn Aluminium Wire for Overhead Line Conductors"
+publisher = "COMESA"
+designation = "COMESA/DHS 223:2005"
+year = 2005
+url = "https://archive.org/download/comesa.223.ef.fd.2006/comesa.223.ef.fd.2006.pdf"
+sha256 = "d43cd0806229dab7b134b1fdcce7379658087bfddcb9573eb096b8512ff34c4e"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

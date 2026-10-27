@@ -1,0 +1,11 @@
+# p. 1: "conforming to ASTM specifications B399"; "Stranded 6201-T81 high strength aluminum
+# conductors".
+# Left out as misprinted: p. 1, the code word "Greely", which every other document prints
+# Greeley.
+# AC resistance at 75 °C: note **, "AC resistance at 60Hz".
+
+title = "AAAC - All Aluminum Alloy 6201 Conductor"
+publisher = "Priority Wire & Cable"
+url = "https://prioritywire.com/specs/AAAC%20-%20All%20Aluminum%20Alloy%206201%20Conductor.pdf"
+sha256 = "876c6a675c57a0da56eb2d982f10a5c6d5046736786d087793fc91618b1afb35"
+retrieved = 2026-10-22

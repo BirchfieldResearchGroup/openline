@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke-width="1.9">
+  <style>.wire{stroke:#0b7a68}.core{fill:#0b7a68}@media (prefers-color-scheme:dark){.wire{stroke:#5cc8b0}.core{fill:#5cc8b0}}</style>
+  <circle class="core" cx="16" cy="16" r="3.6"/>
+  <g class="wire">
+    <circle cx="16" cy="6.8" r="4.2"/>
+    <circle cx="23.97" cy="11.4" r="4.2"/>
+    <circle cx="23.97" cy="20.6" r="4.2"/>
+    <circle cx="16" cy="25.2" r="4.2"/>
+    <circle cx="8.03" cy="20.6" r="4.2"/>
+    <circle cx="8.03" cy="11.4" r="4.2"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+# Entered: the BS EN 50182 table, of AL3 (p. 19), which no other document at hand lists. Its code,
+# 19-AL3, is entered by its number, and its old code as the code word. Areas are the cross-sections
+# printed beside the size. AES codes are part numbers.
+# p. 8, physical properties: each metal's final modulus of elasticity and coefficient of linear
+# expansion, for openline.types.materials. p. 19: ACSR's, by stranding, the check of
+# openline.mechanical in tests/test_mechanical.py.
+# Not entered: its ASTM and IEC 61089 tables, which the standards and Midal, Prysmian and
+# Southwire list; its IEC 60228 copper, which openline does not list; the BS 215, BS 7884 and DIN
+# 48201 and 48204 tables, standards openline does not list.
+
+title = "Overhead Conductors: Technical Catalogue"
+publisher = "alfanar"
+url = "https://media.alfanar.com/catalogs/cables_wires/Overhead_Conductors.pdf"
+sha256 = "cf4d04851f978ea20f3818b0b95ce2f48962122a812118774f1d084ddaa83b9e"
+retrieved = 2026-10-22
+cited_by = ["openline.types.materials", "openline.mechanical"]

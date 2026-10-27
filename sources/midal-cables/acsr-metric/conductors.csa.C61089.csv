@@ -1,0 +1,71 @@
+locator,design,code_word,designation,outer.count,outer.diameter[mm],core.count,core.diameter[mm],reported.area[mm²],reported.diameter[mm],reported.mass[kg/km],reported.strength[kN],reported.outer_dc_resistance[Ω/km]
+"p. 7, row Turkey",TURKEY,Turkey,6 AWG,6,1.68,1,1.68,15.5,5.04,54,5.19,2.1569
+"p. 7, row Swan",SWAN,Swan,4 AWG,6,2.12,1,2.12,24.7,6.36,85,8.15,1.3545
+"p. 7, row Sparrow",SPARROW,Sparrow,2 AWG,6,2.67,1,2.67,39.2,8.01,136,12.4,0.854
+"p. 7, row Robin",ROBIN,Robin,1 AWG,6,3.00,1,3.00,49.5,9.00,171,15.5,0.6764
+"p. 7, row Raven",RAVEN,Raven,1/0 AWG,6,3.37,1,3.37,62.4,10.11,215,18.9,0.536
+"p. 7, row Pigeon",PIGEON,Pigeon,3/0 AWG,6,4.25,1,4.25,99.3,12.75,343,29.6,0.337
+"p. 7, row Penguin",PENGUIN,Penguin,4/0 AWG,6,4.77,1,4.77,125.1,14.31,433,37.3,0.2676
+"p. 7, row Owl",OWL,Owl,266.8 kcmil,6,5.36,7,1.79,153.0,16.09,508,41,0.2119
+"p. 7, row Waxwing",WAXWING,Waxwing,266.8 kcmil,18,3.09,1,3.09,142.5,15.45,430,31.2,0.2134
+"p. 7, row Partridge",PARTRIDGE,Partridge,266.8 kcmil,26,2.57,7,2.00,156.9,16.28,545,49.3,0.2141
+"p. 7, row Phoebe",PHOEBE,Phoebe,300 kcmil,18,3.28,1,3.28,160.6,16.40,483,35.2,0.1894
+"p. 7, row Ostrich",OSTRICH,Ostrich,300 kcmil,26,2.73,7,2.12,176.9,17.28,613,55.6,0.1897
+"p. 7, row Piper",PIPER,Piper,300 kcmil,30,2.54,7,2.54,187.5,17.78,697,66.3,0.1899
+"p. 7, row Merlin",MERLIN,Merlin,336.4 kcmil,18,3.47,1,3.47,179.7,17.35,543,39.3,0.1692
+"p. 7, row Linnet",LINNET,Linnet,336.4 kcmil,26,2.89,7,2.25,198.4,18.31,687,61.6,0.1693
+"p. 7, row Oriole",ORIOLE,Oriole,336.4 kcmil,30,2.69,7,2.69,210.3,18.83,783,76,0.1694
+"p. 7, row Chickadee",CHICKADEE,Chickadee,397.5 kcmil,18,3.77,1,3.77,212.1,18.85,641,45.4,0.1433
+"p. 8, row Ibis",IBIS,Ibis,397.5 kcmil,26,3.14,7,2.44,234.0,19.88,813,70.2,0.1434
+"p. 8, row Lark",LARK,Lark,397.5 kcmil,30,2.92,7,2.92,247.8,20.44,923,88.6,0.1437
+"p. 8, row Hawk",HAWK,Hawk,477 kcmil,26,3.44,7,2.67,280.8,21.77,975,84.2,0.1195
+"p. 8, row Hen",HEN,Hen,477 kcmil,30,3.20,7,3.20,297.6,22.40,1108,102.9,0.1197
+"p. 8, row Heron",HERON,Heron,500 kcmil,30,3.28,7,3.28,312.6,22.96,1164,108.16,0.11391
+"p. 8, row Sapsucker",SAPSUCKER,Sapsucker,556.5 kcmil,22,4.04,7,2.24,309.6,22.88,994,78.81,0.1027
+"p. 8, row Dove",DOVE,Dove,556.5 kcmil,26,3.72,7,2.89,328.5,23.55,1141,100.39,0.10218
+"p. 8, row Eagle",EAGLE,Eagle,556.5 kcmil,30,3.46,7,3.46,347.9,24.22,1295,120.35,0.10236
+"p. 8, row Teal",TEAL,Teal,605 kcmil,22,4.21,7,2.34,336.4,23.86,1081,84.35,0.09417
+"p. 8, row Duck",DUCK,Duck,605 kcmil,54,2.69,7,2.69,346.7,24.21,1161,100.54,0.09424
+"p. 8, row Grosbeak",GROSBEAK,Grosbeak,636 kcmil,26,3.97,7,3.09,374.3,25.15,1300,110.85,0.08972
+"p. 8, row Egert",EGRET,,636 kcmil,30,3.70,19,2.22,396.1,25.90,1470,140.88,0.08952
+"p. 8, row Goose",GOOSE,Goose,636 kcmil,54,2.76,7,2.76,365.0,24.84,1222,104.28,0.08952
+"p. 8, row Gull",GULL,Gull,666.6 kcmil,54,2.82,7,2.82,381.0,25.38,1276,108.86,0.08575
+"p. 8, row Starling",STARLING,Starling,715.5 kcmil,26,4.21,7,3.28,421.1,26.68,1464,124.78,0.07978
+"p. 8, row Redwing",REDWING,Redwing,715.5 kcmil,30,3.92,19,2.35,444.5,27.43,1649,153.69,0.07975
+"p. 9, row Crow",CROW,Crow,715.5 kcmil,54,2.92,7,2.92,408.5,26.28,1368,116.72,0.07998
+"p. 9, row Drake",DRAKE,Drake,795 kcmil,26,4.44,7,3.45,468.0,28.11,1625,138.4,0.07173
+"p. 9, row Condor",CONDOR,Condor,795 kcmil,54,3.08,7,3.08,454.5,27.72,1523,125.77,0.07189
+"p. 9, row Crane",CRANE,Crane,874.5 kcmil,54,3.23,7,3.23,499.9,29.07,1674,138.36,0.06537
+"p. 9, row Canary",CANARY,Canary,900 kcmil,54,3.28,7,3.28,515.4,29.52,1727,142.63,0.06339
+"p. 9, row Cardinal",CARDINAL,Cardinal,954 kcmil,54,3.38,7,3.38,547.3,30.42,1833,151.46,0.05969
+"p. 9, row Curlew",CURLEW,Curlew,1033.5 kcmil,54,3.51,7,3.51,590.2,31.59,1977,163.33,0.05535
+"p. 9, row Finch",FINCH,Finch,1113 kcmil,54,3.65,19,2.19,636.6,32.85,2127,179.79,0.05119
+"p. 9, row Grackle",GRACKLE,Grackle,1192.5 kcmil,54,3.77,19,2.27,679.7,33.97,2269,189.4,0.04798
+"p. 9, row Scissomil",SCISSORTAIL,,1272 kcmil,42,4.42,7,2.46,677.6,33.90,2040,144.3,0.04484
+"p. 9, row Pheasant",PHEASANT,Pheasant,1272 kcmil,54,3.90,19,2.34,727.0,35.10,2424,199.6,0.04484
+"p. 9, row Martin",MARTIN,Martin,1351.5 kcmil,54,4.02,19,2.41,772.0,36.17,2574,211.9,0.0422
+"p. 10, row Parrot",PARROT,Parrot,1510.5 kcmil,54,4.25,19,2.55,863.3,38.25,2879,237,0.03775
+"p. 10, row Falcon",FALCON,Falcon,1590 kcmil,54,4.36,19,2.62,908.6,39.26,3032,249.8,0.03587
+"p. 10, row Grouse",GROUSE,Grouse,80 kcmil,8,2.54,1,4.24,54.7,9.32,221.2,22.8,0.7078
+"p. 10, row Petrel",PETREL,Petrel,101.8 kcmil,12,2.34,7,2.34,81.7,11.70,376.9,43.9,0.5614
+"p. 10, row Minorca",MINORCA,Minorca,110.8 kcmil,12,2.44,7,2.44,88.8,12.20,411.3,47.7,0.5163
+"p. 10, row Leghorn",LEGHORN,Leghorn,134.6 kcmil,12,2.69,7,2.69,108.0,13.45,498.5,57.6,0.4248
+"p. 10, row Guinea",GUINEA,Guinea,159 kcmil,12,2.92,7,2.92,127.2,14.60,587.8,67.5,0.3605
+"p. 10, row Dotterel",DOTTEREL,Dotterel,176.6 kcmil,12,3.08,7,3.08,141.6,15.40,654.8,72.6,0.324
+"p. 10, row Dorking",DORKING,Dorking,190.8 kcmil,12,3.20,7,3.20,152.8,16.00,705.9,78.3,0.3002
+"p. 10, row Brahma",BRAHMA,Brahma,203.2 kcmil,16,2.86,19,2.48,194.6,18.12,1004.5,122.6,0.2818
+"p. 10, row Auk",AUK,Auk,203 kcmil,8,4.05,7,2.25,130.9,14.85,500,49.6,0.2784
+"p. 10, row Cochin",COCHIN,Cochin,211.3 kcmil,12,3.37,7,3.37,169.4,16.85,782.8,86.9,0.2704
+"p. 7, row Quail",QUAIL,Quail,2/0 AWG,6,3.78,1,3.78,78.6,11.34,273,23.5,0.4261
+"p. 8, row 477, 22/3.74",TOUCAN,,477 kcmil,22,3.74,7,2.08,265.6,21.20,853,67.3,0.1193
+"p. 8, row 636, 22/4.32",GOLDFINCH,,636 kcmil,22,4.32,7,2.40,354.2,24.48,1138,89.31,0.08944
+"p. 8, row 666.6, 42/3.20",CODE_338_42_7,,666.6 kcmil,42,3.20,7,1.78,355.2,24.54,1071,77.8,0.08554
+"p. 9, row 874.5, 42/3.67",CODE_443_42_7,,874.5 kcmil,42,3.67,7,2.04,467.2,28.14,1408,102.3,0.06503
+"p. 9, row 900, 42/3.72",CODE_456_42_7,,900 kcmil,42,3.72,7,2.07,480.1,28.53,1447,105.16,0.0633
+"p. 9, row 954, 42/3.83",PHOENIX,,954 kcmil,42,3.83,7,2.13,508.8,29.37,1533,109.02,0.05977
+"p. 9, row 1192.5, 42/4.28",OXBIRD,,1192.5 kcmil,42,4.28,7,2.38,635.7,32.82,1913,135.2,0.04778
+"p. 9, row 1351.5, 42/4.56",RINGDOVE,,1351.5 kcmil,42,4.56,7,2.53,721.1,34.95,2170,153.3,0.04213
+"p. 9, row 1431, 42/4.69",POPINJAY,,1431 kcmil,42,4.69,7,2.61,763.3,35.97,2297,162.4,0.03982
+"p. 10, row 1510.5, 42/4.82",CODE_765_42_7,,1510.5 kcmil,42,4.82,7,2.67,805.7,36.93,2423,171.1,0.0377
+"p. 10, row 1590, 48/4.62",HORNBILL,,1590 kcmil,48,4.62,7,3.60,875.8,38.52,2778,211.1,0.036
+"p. 10, row 1590, 72/3.77",CODE_806_72_7,,1590 kcmil,72,3.77,7,2.52,838.4,37.72,2495,172.4,0.03598

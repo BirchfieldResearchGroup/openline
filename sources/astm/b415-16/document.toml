@@ -1,0 +1,18 @@
+# Clause 6.1's resistivity of 20.3% conductivity wire, 51.01 ohm cmil/ft at 20 °C, and table 2's
+# density, temperature coefficient of resistance, modulus of elasticity and coefficient of linear
+# expansion, for openline.types.materials.AluminumCladSteel.
+# It covers wire for general use, as ASTM B416's strand is made of, not an ACSR core's (B502).
+# Table 4 gives the aluminum's least thickness, 10% of the wire's radius at 20.3%, not its own.
+
+title = "Standard Specification for Hard-Drawn Aluminum-Clad Steel Wire"
+publisher = "ASTM International"
+designation = "ASTM B415-16"
+year = 2016
+url = "https://doi.org/10.1520/B0415-16"
+sha256 = "3afb19832358cfe360222e5de9c940dd5f31069a7ffaad8a9286a948656a5944"
+retrieved = 2026-10-24
+cited_by = ["openline.types.materials"]
+pending = [
+  "tables 2 and 4, and 6.1: the 27%, 30% and 40% conductivity wires",
+  "table 1: tensile strength by diameter and conductivity, for rated strength",
+]

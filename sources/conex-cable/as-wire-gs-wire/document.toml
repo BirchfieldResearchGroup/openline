@@ -1,0 +1,11 @@
+# Table 5-1: "ACSR/AS (AW) conductor ASTM B-549"; p. 6: aluminum to ASTM B230. The galvanized
+# steel tables print no resistance, and no total area is printed.
+# Left out as misprinted: Bluejay's resistance; and, as nothing then names them, Chickadee,
+# whose aluminum wire is printed "1486", and Kingbird, Rook and Grosbeak, whose size is
+# printed "363".
+
+title = "AS Wire/GS Wire"
+publisher = "Conex Cable"
+url = "https://conexcable.com/wp-content/themes/conex/images/conex-catalog.pdf"
+sha256 = "198717a7f59e4d39ed7237060a85201de4fb2c8682a7990f84835b9463a7442c"
+retrieved = 2026-10-22

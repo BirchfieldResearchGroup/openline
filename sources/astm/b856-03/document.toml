@@ -1,0 +1,38 @@
+# Table 4's AW strengths, of B502 aluminum-clad cores, are entered as ASTM B856, AW, on table 1's
+# wires, without table 1's code words, which name the coated-steel conductors.
+# Tables 1 and 4: 63 round-wire ACSS constructions, nominal diameters and masses, and
+# strengths for GA/MA and HS/MS cores. Their shared columns are entered for GA2/MA2 and
+# GA3/MA3 respectively; these are reported conductor strengths, not wire-strength tables.
+# Code words omit the common /ACSS suffix, as in the existing ACSS listings.
+# Table 1 masses use high-strength class A zinc-coated steel. Its mm2 sizes are informational
+# conversions; wire dimensions remain in their native inches (1.2 and table 1, note C).
+#
+# Table 4 is matched to table 1 by stranding and row order: it prints 1 333 500 cmil for
+# Curlew (table 1: 1 033 500), and 1 192 000 for Grackle/Bunting (table 1: 1 192 500).
+# Table 1's Grackle mm2 conversion is 603.7, versus 604.2 for the same-size Bunting.
+# Martin/Dipper print 1 351 000 cmil in this edition. Their wire dimensions match Prysmian's
+# 1351.5 kcmil designs and give 1351.471/1351.480 kcmil. The CSV uses that shared designation;
+# its row references retain the printed size. No published mass or strength is changed.
+#
+# Table 2 supplies lay bounds and preferences, from the outside inward. Third/fourth aluminum
+# layers have no preference; openline explicitly assumes their range midpoints. Right-hand
+# outer lay and alternating layers: 7.2. Table 3's aluminum/steel rating factors are 0.96/1.00
+# for every listed construction. Its approximate mass/resistance increments (11.1) are not
+# imposed on the preferred lays. Constructions 42/7 and 48/7 occur only in table 3.
+# Clause 9.1 uses B609 minimum lot-average aluminum tensile strength and the applicable steel
+# wire standard's minimum ultimate tensile strength. Those wire tables are not in this PDF.
+# Clause 11.2 gives aluminum resistivity 0.0279 ohm mm2/m at 20 C; steel values are typical,
+# not guaranteed. Densities (10) confirm the existing material constants.
+#
+# The complete literal extraction, including all five tables, acceptance requirements, and
+# discrepancies, is retained locally in documents/astm/b856-03-extraction.json. Table 5's
+# packaging recommendations and the approximate increments are source data, not geometry.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum Conductors, Coated Steel Supported (ACSS)"
+publisher = "ASTM International"
+designation = "ASTM B856-03"
+year = 2003
+url = "https://store.astm.org/b0856-03.html"
+sha256 = "102df43b9904632d275f4a827a6dc9232f38fb8b979e3d43f47f3f72f3fdb73c"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm", "openline.types.materials", "openline.mechanical"]

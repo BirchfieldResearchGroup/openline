@@ -1,0 +1,41 @@
+# p. 1: "manufactured in accordance with the latest issue of ASTM B856"; "aluminum 1350-O
+# wires". Strengths are printed for MA2, MA3 and MA5 cores.
+# AC resistances at 60 Hz, as note 4 gives the frequency; note 3: "AC resistance for single-layer
+# and three-layer designs approximates the effects of core magnetization".
+# Note 3 bases resistance on 63% IACS aluminum and 8% IACS steel at 20 C. These differ from
+# B856-03, 11.2's calculation resistivities (0.0279 and 0.19157 ohm mm2/m). The reported
+# values retain this catalog's assumptions; they do not replace the standard's material data.
+
+title = "TransPowr ACSS Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20ACSS%20Bare%20Overhead%20Conductor%20(US).pdf"
+sha256 = "87513ead4a76d7ad9a4edb1c2d3c14525c6ff5c0fb7a712b9c488b5d517c774d"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 4's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 5's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+
+[conditions.reactance]
+"spacing[ft]" = 1

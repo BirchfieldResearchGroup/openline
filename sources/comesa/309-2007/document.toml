@@ -1,0 +1,12 @@
+# Identical to IEC 60104:1987, second edition: 2, alloy wire's values for calculation, types A
+# and B; table I, their least tensile strength by diameter: aluminium alloys A3 and A2 in
+# openline.types.materials.
+
+title = "Aluminium-Magnesium-Silicon Alloy Wire for Overhead Line Conductors"
+publisher = "COMESA"
+designation = "COMESA/FDHS 309:2007"
+year = 2007
+url = "https://archive.org/download/comesa.309.ef.fd.2007/comesa.309.ef.fd.2007.pdf"
+sha256 = "afdcd37f517ba068de4f41c85dcea44104bb22793d83fd52f96a0cd25096948e"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

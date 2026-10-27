@@ -1,0 +1,19 @@
+# ACSS/TW "manufactured in accordance with the ASTM specification B857" (p. 1), aluminum 1350-O.
+# pp. 2 and 4: each code word's aluminum wires, layers, steel wires, the conductor's diameter
+# and its aluminum and total areas, the aluminum area giving its trapezoidal wires' equivalent
+# diameter (IEC 62219, 3.5); rated strengths for /MA2, /MA3 and /MA5 cores. pp. 3 and 5: weights,
+# DC resistance at 20 C, AC resistances at 60 Hz and GMR. Note 3: 63% IACS for the aluminum and
+# 8% for the steel. Page 2 prints diameters to 0.01 in, page 4 to 0.001 in.
+# Not entered: the reactances, at no spacing stated.
+# Left out: the rows of Puffin, Condor, Ortolan, Finch, Bunting, Grackle, Bittern, Dipper, Bobolink,
+# Plover, Falcon, Chukar, St.Croix, Merrimack, Athabaska, code words the catalog holds with other
+# wires, the construction openline's calculations agree with best.
+
+title = "ACSS/TW: Aluminum Conductor Steel Supported, Trapezoidal Shaped"
+publisher = "CME Wire and Cable"
+url = "https://cmewire.com/wp-content/uploads/2025/12/ACSS-TW-Aluminum-Conductor-Steel-Supported-Bare-Overhead-Concentric-Lay-Stranded-Conductors-Trapezoidal-Wire.pdf"
+sha256 = "78a34be142a10b920ea492ee42a93f57fd38688cacd24614c4280f7dca2f8d77"
+retrieved = 2026-10-26
+
+[conditions]
+"frequency[Hz]" = 60

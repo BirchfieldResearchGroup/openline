@@ -1,0 +1,24 @@
+# Table 6's standard increments due to stranding, for mass and resistance, and rating factors,
+# by stranding: the strandings of openline.types.conductors.astm.B232. A construction table 6
+# does not list is agreed between manufacturer and purchaser (explanatory note 1), and openline
+# gives it no increment. Clause 12.2: the coated-steel core counts in resistance, as it does in
+# openline.electrical.
+# Tables 1 and 2: each conductor's wires, nominal diameter and mass; tables 3 and 4: its rated
+# strength by type of core, at the row of its size and stranding. Tables 1 and 3 give conductors
+# by size in cmils or AWG and code word, in inches, lb/1000 ft and kips; tables 2 and 4, others,
+# by size in mm2, in mm, kg/km and kN; each value in the one unit printed. A column of tables 3
+# and 4 rates GC2 cores, or two, GA2 and MA2, GA3 and MA3, GA4 and MA4, or GA5 and MA5 (1.2),
+# and is given for each.
+# Table 3 prints 1 510 000 and 1 351 000 cmil where table 1 prints 1 510 500 and 1 351 500, in
+# the same order and strandings; table 1 names them.
+# openline's B232 is class AA, bare overhead (4.1.1), the class whose table 5 rows give its lay;
+# the class is not entered (table 1 prints one row, 33 090 cmil, of class A only).
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum Conductors, Coated-Steel Reinforced (ACSR)"
+publisher = "ASTM International"
+designation = "ASTM B232/B232M-17"
+year = 2017
+url = "https://doi.org/10.1520/B0232_B0232M-17"
+sha256 = "94c849e76d8c4af8e09d1dbea27a2d43d41e1b717da2c8ebaf113e5d2cca3be5"
+retrieved = 2026-10-24
+cited_by = ["openline.types.conductors.astm", "openline.electrical"]

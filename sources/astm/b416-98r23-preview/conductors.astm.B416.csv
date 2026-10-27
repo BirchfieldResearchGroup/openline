@@ -1,0 +1,27 @@
+locator,design,code_word,designation,wires.count,wires.diameter[in],reported.diameter[in],reported.strength[lbf]
+"p. 2, table 1, row 37 No. 5 AWG",NO_5_37,,No. 5,37,0.1819,1.27,142800
+"p. 2, table 1, row 37 No. 6 AWG",NO_6_37,,No. 6,37,0.1620,1.13,120200
+"p. 2, table 1, row 37 No. 7 AWG",NO_7_37,,No. 7,37,0.1443,1.01,100700
+"p. 2, table 1, row 37 No. 8 AWG",NO_8_37,,No. 8,37,0.1285,0.899,84200
+"p. 2, table 1, row 37 No. 9 AWG",NO_9_37,,No. 9,37,0.1144,0.801,66770
+"p. 2, table 1, row 37 No. 10 AWG",NO_10_37,,No. 10,37,0.1019,0.713,52950
+"p. 2, table 1, row 19 No. 5 AWG",NO_5_19,,No. 5,19,0.1819,0.910,73350
+"p. 2, table 1, row 19 No. 6 AWG",NO_6_19,,No. 6,19,0.1620,0.810,61700
+"p. 2, table 1, row 19 No. 7 AWG",NO_7_19,,No. 7,19,0.1443,0.721,51730
+"p. 2, table 1, row 19 No. 8 AWG",NO_8_19,,No. 8,19,0.1285,0.642,43240
+"p. 2, table 1, row 19 No. 9 AWG",NO_9_19,,No. 9,19,0.1144,0.572,34290
+"p. 2, table 1, row 19 No. 10 AWG",NO_10_19,,No. 10,19,0.1019,0.509,27190
+"p. 2, table 1, row 7 No. 5 AWG",NO_5_7,,No. 5,7,0.1819,0.546,27030
+"p. 2, table 1, row 7 No. 6 AWG",NO_6_7,,No. 6,7,0.1620,0.486,22730
+"p. 2, table 1, row 7 No. 7 AWG",NO_7_7,,No. 7,7,0.1443,0.433,19060
+"p. 2, table 1, row 7 No. 8 AWG",NO_8_7,,No. 8,7,0.1285,0.385,15930
+"p. 2, table 1, row 7 No. 9 AWG",NO_9_7,,No. 9,7,0.1144,0.343,12630
+"p. 2, table 1, row 7 No. 10 AWG",NO_10_7,,No. 10,7,0.1019,0.306,10020
+"p. 2, table 1, row 7 No. 11 AWG",NO_11_7,,No. 11,7,0.0907,0.272,7945
+"p. 2, table 1, row 7 No. 12 AWG",NO_12_7,,No. 12,7,0.0808,0.242,6301
+"p. 2, table 1, row 3 No. 5 AWG",NO_5_3,,No. 5,3,0.1819,0.392,12230
+"p. 2, table 1, row 3 No. 6 AWG",NO_6_3,,No. 6,3,0.1620,0.349,10280
+"p. 2, table 1, row 3 No. 7 AWG",NO_7_3,,No. 7,3,0.1443,0.311,8621
+"p. 2, table 1, row 3 No. 8 AWG",NO_8_3,,No. 8,3,0.1285,0.277,7206
+"p. 2, table 1, row 3 No. 9 AWG",NO_9_3,,No. 9,3,0.1144,0.247,5715
+"p. 2, table 1, row 3 No. 10 AWG",NO_10_3,,No. 10,3,0.1019,0.220,4532

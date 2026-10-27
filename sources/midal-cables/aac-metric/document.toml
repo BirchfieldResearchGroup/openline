@@ -1,0 +1,12 @@
+# AAC by national table. Entered: "ASTM SIZES" (pp. 1-3), as ASTM B231, and "IEC Spec" (p. 12),
+# whose code numbers and wires are IEC 61089's A1. Rows are read by their positions.
+# Not entered: the Australian, British, French and DIN tables, standards openline does not list;
+# the Canadian tables, sized by AWG and kcmil where CAN/CSA C61089 designates by code number.
+# Left out as misprinted: IEC 400's DC resistance, 0.7210 ohm/km, for 0.0721; Oxlip's strength,
+# 19.99 kN, above Phlox's 13.46 where its seven wires give 17.
+
+title = "Conductor Data Sheet: All Aluminum Stranded Conductors (AAC)"
+publisher = "Midal Cables"
+url = "https://midalcable.s3.eu-central-2.wasabisys.com/storage/products/aac/aac-metric.PDF"
+sha256 = "9636ff429963796267c327021f9029e9acc6244ce241c041c33b819bed1fb75e"
+retrieved = 2026-10-27

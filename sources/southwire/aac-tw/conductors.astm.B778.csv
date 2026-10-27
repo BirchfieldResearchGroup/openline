@@ -1,0 +1,20 @@
+locator,design,code_word,designation,wires.count,wires.area[kcmil],wires.layers,wires.outside_diameter[in],reported.mass[lb/kft],reported.strength[lbf]
+"pp. 2-3, row Tulip/TW",TULIP,Tulip,336.4 kcmil,17,336.4,2,0.612,315.2,6220
+"pp. 2-3, row Canna/TW",CANNA,Canna,397.5 kcmil,17,397.5,2,0.661,372.4,7230
+"pp. 2-3, row Cosmos/TW",COSMOS,Cosmos,477 kcmil,17,477,2,0.72,446.9,8530
+"pp. 2-3, row Zinnia/TW",ZINNIA,Zinnia,500 kcmil,17,500,2,0.736,468.4,8940
+"pp. 2-3, row Mistletoe/TW",MISTLETOE,Mistletoe,556.5 kcmil,17,556.5,2,0.775,521.3,9950
+"pp. 2-3, row Meadowsweet/TW",MEADOWSWEET,Meadowsweet,600 kcmil,17,600,2,0.803,,10700
+"pp. 2-3, row Orchid/TW",ORCHID,Orchid,636 kcmil,17,636,2,0.825,595.8,11400
+"pp. 2-3, row Verbena/TW",VERBENA,Verbena,700 kcmil,17,700,2,0.864,655.7,12500
+"pp. 2-3, row Nasturtium/TW",NASTURTIUM,Nasturtium,750 kcmil,17,750,2,0.893,702.6,13400
+"pp. 2-3, row Arbutus/TW",ARBUTUS,Arbutus,795 kcmil,17,795,2,0.919,744.7,13900
+"pp. 2-3, row Lupine/TW",LUPINE,Lupine,2500 kcmil,71,2500,5,1.648,2369,42400
+"pp. 2-3, row Trillium/TW",TRILLIUM,Trillium,3000 kcmil,71,3000,5,1.799,2843,50900
+"p. 4, row Logan/TW",LOGAN,Logan,322.5 kcmil,17,322.5,2,0.6,302.1,5960
+"p. 4, row Wheeler/TW",WHEELER,Wheeler,449.4 kcmil,17,449.4,2,0.7,421,8030
+"p. 4, row Robson/TW",ROBSON,Robson,595.8 kcmil,17,595.8,2,0.8,558.2,10700
+"p. 4, row McKinley/TW",MCKINLEY,McKinley,761.5 kcmil,17,761.5,2,0.9,713.3,13400
+"p. 4, row Hood/TW",HOOD,Hood,1583.2 kcmil,34,1583.2,3,1.3,1489,27200
+"p. 4, row Shasta/TW",SHASTA,Shasta,2667.2 kcmil,71,2667.2,5,1.7,2528,45200
+"p. 4, row Adams/TW",ADAMS,Adams,3006.2 kcmil,71,3006.2,5,1.8,2848,51000

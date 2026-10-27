@@ -1,0 +1,12 @@
+# Tables 1 and 2: the least stress at 1% extension and ultimate tensile strength of
+# aluminum-clad steel core wire AW2 and AW3, by diameter, each row in inch-pound units with SI
+# alike, in openline.types.materials. This public preview is not the complete standard.
+
+title = "Standard Specification for Aluminum-Clad Steel Core Wire for Use in Overhead Electrical Aluminum Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B502/B502M-23"
+year = 2023
+url = "https://standards.iteh.ai/catalog/standards/astm/c37cbdaa-7e17-4806-a730-3f633ab5bd36/astm-b502-b502m-23"
+sha256 = "5eaa7ef9347074f22ec0ec03ccbfe2701074a9d21b848446cdd0305bc72e34c0"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

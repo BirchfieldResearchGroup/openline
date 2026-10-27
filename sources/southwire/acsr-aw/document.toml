@@ -1,0 +1,8 @@
+# SPEC 80102, revision 1.000.008: ACSR/AW to ASTM B549, its AW2 and AW3 strengths those of
+# ASTM B502 core wire. Its sizes print no unit: those without a decimal are AWG.
+
+title = "ACSR/AW: Aluminum Conductor, Aluminum-Clad Steel Reinforced"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/cablespec/download_spec/?spec=80102&country=US"
+sha256 = "8dd45c02608c23baf16586a15b07ac0f1447c9790c20d02b2025cfc10882f12e"
+retrieved = 2026-10-26

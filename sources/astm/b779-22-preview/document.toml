@@ -1,0 +1,21 @@
+# 3.1.2 to 3.1.8: its grades of core, aluminum-clad and coated steel, in
+# openline.types.conductors.astm. 7.1: the outside aluminum layer's lay ratio, 10 to 13, as
+# B857-14's; the preview stops in 7.2.
+# Tables 1 to 3: 75 conductors by size, aluminum wires and layers, steel wires and their
+# diameter, mass with class A zinc-coated steel, rated strength and outside diameter. Footnote
+# C rates the steel at its stress at 1% extension, class A coating, B498: GA2. Table 3 prints
+# no code words. Footnote F: Puffin/TW's steel, 0.1108 in, makes it type 11.
+# This public preview is not the complete standard.
+# Left out: the rows of Rook, Tern, Puffin, Rail, Ortolan, Curlew, Finch, Bunting, Grackle, Bittern,
+# Dipper, Bobolink, Plover, Lapwing, Chukar, Mystic, Kettle, Columbia, Hudson, Nelson, Mackenzie,
+# St. Croix, Miramichi, Platte, Schuylkill, Pee Dee, James, Athabaska, Santee, code words the
+# catalog holds with other wires, the construction openline's calculations agree with best.
+
+title = "Standard Specification for Shaped Wire Compact Concentric-Lay-Stranded Aluminum Conductors, Steel-Reinforced (ACSR/TW), Preview"
+publisher = "ASTM International"
+designation = "ASTM B779-22"
+year = 2022
+url = "https://standards.iteh.ai/catalog/standards/astm/10e6d5b9-3bc8-4a01-8a31-3e851b4a7743/astm-b779-22"
+sha256 = "4e7a7fcec3132058a0fffe3ec9b5f5f9f7d71ae22baf5052ef19eadc17930690"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

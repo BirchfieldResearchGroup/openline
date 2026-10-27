@@ -1,0 +1,46 @@
+# p. 1: "manufactured in accordance with the requirements of the latest issue of ASTM B857";
+# trapezoidal "aluminum 1350 O temper (annealed) wires", their diameters those of round wires of
+# equal area. Strengths are printed for MA2, MA3 and MA5 cores.
+# AC resistances at 60 Hz, as note 4 gives the frequency; note 3: "AC resistance for single-layer
+# and three-layer designs approximates the effects of core magnetization".
+# p. 1 draws each stranding's layers: 18/7, 20/7, 21/7 and 22/7 in two; 36/7, 36/19, 38/19 and
+# 39/19 in three; 64/19 in four. They are entered for the rows of those strandings, the others
+# left blank. The conductor's diameter is its aluminum's outside diameter.
+# Left out: the rows of Condor, Rail, Ortolan, Curlew, Finch, Bunting, Bittern, Dipper, Bobolink,
+# Plover, Lapwing, Chukar, Bluebird, Mystic, Kettle, Columbia, Hudson, Nelson, Mackenzie, Miramichi,
+# St. Croix, Platte, Schuylkill, Pee Dee, Athabaska, Powder, Santee, code words the catalog holds
+# with other wires, the construction openline's calculations agree with best.
+
+title = "TransPowr ACSS/TW Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20ACSS-TW%20Bare%20Overhead%20Conductor%20%28US%29.pdf"
+sha256 = "624ccfdcfc760b4919a8eee6dc763cb4368a7b58d9be2235caa687a9a5b60b39"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 4's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 5's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+
+[conditions.reactance]
+"spacing[ft]" = 1

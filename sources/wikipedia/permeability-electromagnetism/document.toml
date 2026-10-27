@@ -1,0 +1,11 @@
+# Revision 1378849109, table "Values for some common materials", in
+# openline.types.materials: the relative permeability of aluminum, 1.000022, and of copper,
+# 0.999994 (after R. A. Clarke, University of Surrey); of carbon steel, 100 at 0.002 T (after
+# HyperPhysics), steel's; and of iron 99.8% pure, 5000.
+
+title = "Permeability (electromagnetism)"
+publisher = "Wikipedia"
+url = "https://en.wikipedia.org/w/index.php?title=Permeability_(electromagnetism)&oldid=1378849109"
+sha256 = "9b96188e8931ab94349ad302e2a4af4a790e66fcc9c2d09b3c2450805416b550"
+retrieved = 2026-10-24
+cited_by = ["openline.types.materials"]

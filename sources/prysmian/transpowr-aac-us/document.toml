@@ -1,0 +1,37 @@
+# p. 1: "manufactured in accordance with the requirements of the latest issue of ASTM B231";
+# "The temper is full hard drawn (H19)."
+# AC resistances at 60 Hz, as note 2 gives the frequency.
+
+title = "TransPowr AAC Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20AAC%20Bare%20Overhead%20Conductor%20%28US%29.pdf"
+sha256 = "c318f08d99cc1ecf3010e775b76079fe783ca629ddda57fdc3be78fa0210de84"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 2's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 3's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+
+[conditions.reactance]
+"spacing[ft]" = 1

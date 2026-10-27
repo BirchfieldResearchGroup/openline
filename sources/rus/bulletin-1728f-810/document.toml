@@ -1,0 +1,41 @@
+# Bulletin 1728F-810, published 1999-04-09. p. 7: "The drawings provided in this
+# specification include wood pole structures". Heights are below the pole tops: the line sets
+# the poles. Points are in the drawing's plane: along is 0. Shield wires are held in clamps.
+# Families by the index, p. 169-170: "Tangent H-Frame", "Tangent with Suspension Insulators".
+# "TS-1, TS-2" and "TS-1X, TS-2X" are drawn alike: a structure each, by its name.
+# TH-1,1G, p. 83: item 1 is a 5-5/8" x 7-3/8" x 22'-0" crossarm (#41, TCD-20).
+# Pole centers are 10'-6" apart. Pole lengths, sections and foundations are selected by the
+# line (note 4): a pole is given by its top.
+
+title = "Electric Transmission Specifications and Drawings, 34.5 kV through 69 kV"
+publisher = "USDA Rural Utilities Service"
+designation = "RUS Bulletin 1728F-810"
+year = 1999
+url = "https://www.rd.usda.gov/sites/default/files/UEP_Bulletin_1728F-810.pdf"
+sha256 = "594bd64a0eab5fb05975a337de95eacaec282d8005e32ee2ac496db9bb77b06f"
+retrieved = 2026-10-22
+cited_by = ["openline.structures.frame", "openline.structures.pole"]
+pending = [
+  "p. 49, drawing TP-34,46,69",
+  "p. 52, drawing TP-34G,46G,69G",
+  "p. 55, drawing TP-1,1A,2,2A",
+  "p. 56, drawing TP-3,3A,4,4A",
+  "p. 57, drawing TP-5,5A,6,6A",
+  "p. 58, drawing TP-7,8",
+  "p. 59, drawing TPD-1,2",
+  "p. 60, drawing TPD-3,4",
+  "p. 61, drawing TPD-5,6",
+  "p. 62, drawing TPD-7,8",
+  "p. 63, drawing TPS-1",
+  "p. 67, drawing TS-1L,1LX",
+  "p. 68, drawing TS-9",
+  "p. 69, drawing TSD-1,1X,2,2X",
+  "p. 70, drawing TSS-1,2",
+  "p. 73, drawing TSS-1L",
+  "p. 74, drawing TSS-9",
+  "p. 75, drawing TSSD-1,1X,2,2X",
+  "p. 76, drawing TSZ-1",
+  "p. 77, drawing TSZ-2",
+  "p. 78, drawing TU-1,1A,1AA",
+  "p. 92, drawing TH-9,9G",
+]

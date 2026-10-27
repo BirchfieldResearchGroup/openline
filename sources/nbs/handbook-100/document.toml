@@ -1,0 +1,14 @@
+# Copper's resistivity, temperature coefficient (p. 9) and density (p. 10) at 20 °C, and that
+# "the change of resistivity per degree C is a constant", the same for every sample, after
+# Matthiessen (p. 14): the rise per kelvin of each metal, in openline.types.materials.
+# The shared 100% IACS reference also gives nominal 30% IACS copper-clad-steel resistivity
+# when divided by 0.30; the conductivity designation comes from Southwire's 30HS sheet.
+
+title = "Copper Wire Tables"
+publisher = "National Bureau of Standards"
+designation = "NBS Handbook 100"
+year = 1966
+url = "https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook100.pdf"
+sha256 = "3128aaa9fac5688c4e2c4ea9e1b0bb9e20aead7c71039772790859c7fa571af0"
+retrieved = 2026-10-22
+cited_by = ["openline.types.materials"]

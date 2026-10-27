@@ -1,0 +1,44 @@
+locator,design,code_word,designation,classes,wires.count,wires.diameter[in],reported.mass[lb/kft],reported.strength[klbf],reported.dc_resistance[Ω/kft]
+"p. 2, table 1, row 1 439 200 cmil",KCMIL_1439_2_61,,1439.2 kcmil,AA,61,0.1536,1342,46.8,0.01400
+"p. 2, table 1, row 1 348 800 cmil",KCMIL_1348_8_61,,1348.8 kcmil,AA,61,0.1487,1258,43.9,0.01494
+"p. 2, table 1, row 1 259 600 cmil",KCMIL_1259_6_61,,1259.6 kcmil,AA,61,0.1437,1175,41.0,0.01600
+"p. 2, table 1, row 1 165 100 cmil",KCMIL_1165_1_61,,1165.1 kcmil,AA,61,0.1382,1086,37.9,0.01730
+"p. 2, table 1, row 1 077 400 cmil",KCMIL_1077_4_61,,1077.4 kcmil,AA,61,0.1329,1005,35.0,0.01870
+"p. 2, table 1, row Greeley",GREELEY,Greeley,927.2 kcmil,AA,37,0.1583,864.6,30.5,0.02173
+"p. 2, table 1, row Flint",FLINT,Flint,740.8 kcmil,AA,37,0.1415,690.8,24.4,0.02720
+"p. 2, table 1, row Elgin",ELGIN,Elgin,652.4 kcmil,AA,19,0.1853,608.3,21.9,0.03089
+"p. 2, table 1, row Darien",DARIEN,Darien,559.5 kcmil,AA,19,0.1716,521.7,18.8,0.03602
+"p. 2, table 1, row Cairo",CAIRO,Cairo,465.4 kcmil,AA,19,0.1565,433.9,15.6,0.04330
+"p. 2, table 1, row Canton",CANTON,Canton,394.5 kcmil,AA A,19,0.1441,367.9,13.3,0.05107
+"p. 2, table 1, row Butte",BUTTE,Butte,312.8 kcmil,A,19,0.1283,291.6,10.5,0.06443
+"p. 2, table 1, row Alliance",ALLIANCE,Alliance,246.9 kcmil,AA,7,0.1878,230.2,8.56,0.08162
+"p. 2, table 1, row Amherst",AMHERST,Amherst,195.7 kcmil,AA A,7,0.1672,182.5,6.79,0.1030
+"p. 2, table 1, row Anaheim",ANAHEIM,Anaheim,155.4 kcmil,AA A,7,0.1490,144.9,5.39,0.1297
+"p. 2, table 1, row Azusa",AZUSA,Azusa,123.3 kcmil,AA A,7,0.1327,114.9,4.27,0.1635
+"p. 2, table 1, row Ames",AMES,Ames,77.47 kcmil,AA A,7,0.1052,72.24,2.80,0.2601
+"p. 2, table 1, row Alton",ALTON,Alton,48.69 kcmil,A,7,0.0834,45.40,1.76,0.4139
+"p. 2, table 1, row Akron",AKRON,Akron,30.58 kcmil,A,7,0.0661,28.52,1.11,0.6588
+"p. 3, table 2, row 1750000 cmil",KCMIL_1750_61,,1750 kcmil,AA,61,0.1694,1632,56.9,0.01151
+"p. 3, table 2, row 1500000 cmil",KCMIL_1500_61,,1500 kcmil,AA,61,0.1568,1399,48.8,0.01344
+"p. 3, table 2, row 1250000 cmil",KCMIL_1250_61,,1250 kcmil,AA,61,0.1431,1165,40.6,0.01613
+"p. 3, table 2, row 1000000 cmil",KCMIL_1000_37,,1000 kcmil,AA,37,0.1644,932.5,32.9,0.02015
+"p. 3, table 2, row 900000 cmil",KCMIL_900_37,,900 kcmil,AA,37,0.1560,839.7,29.6,0.02238
+"p. 3, table 2, row 800000 cmil",KCMIL_800_37,,800 kcmil,AA,37,0.1470,745.6,26.3,0.02520
+"p. 3, table 2, row 750000 cmil",KCMIL_750_37,,750 kcmil,AA,37,0.1424,699.6,24.7,0.02686
+"p. 3, table 2, row 700000 cmil",KCMIL_700_37,,700 kcmil,AA,37,0.1375,652.3,23.0,0.02881
+"p. 3, table 2, row 650000 cmil",KCMIL_650_37,,650 kcmil,AA,37,0.1325,605.7,21.4,0.03102
+"p. 3, table 2, row 600000 cmil",KCMIL_600_37,,600 kcmil,AA A,37,0.1273,559.1,20.6,0.03361
+"p. 3, table 2, row 550000 cmil",KCMIL_550_37,,550 kcmil,AA A,37,0.1219,512.7,18.9,0.03665
+"p. 3, table 2, row 500000 cmil",KCMIL_500_19,,500 kcmil,AA,19,0.1622,466.1,16.8,0.04031
+"p. 3, table 2, row 450000 cmil",KCMIL_450_19,,450 kcmil,AA,19,0.1539,419.6,15.1,0.04478
+"p. 3, table 2, row 400000 cmil",KCMIL_400_19,,400 kcmil,AA A,19,0.1451,373.0,13.4,0.05037
+"p. 3, table 2, row 350000 cmil",KCMIL_350_19,,350 kcmil,A,19,0.1357,326.3,11.8,0.05759
+"p. 3, table 2, row 300000 cmil",KCMIL_300_19,,300 kcmil,A,19,0.1257,280.0,10.5,0.06712
+"p. 3, table 2, row 250000 cmil",KCMIL_250_19,,250 kcmil,A,19,0.1147,233.1,8.76,0.08061
+"p. 3, table 2, row 211600 cmil",KCMIL_211_6_7,,211.6 kcmil,AA A,7,0.1739,197.4,7.34,0.09519
+"p. 3, table 2, row 167800 cmil",KCMIL_167_8_7,,167.8 kcmil,AA A,7,0.1548,156.4,5.82,0.12013
+"p. 3, table 2, row 133100 cmil",KCMIL_133_1_7,,133.1 kcmil,AA A,7,0.1379,124.1,4.62,0.15137
+"p. 3, table 2, row 105600 cmil",KCMIL_105_6_7,,105.6 kcmil,AA A,7,0.1228,98.43,3.82,0.19089
+"p. 3, table 2, row 66360 cmil",KCMIL_66_36_7,,66.36 kcmil,AA A,7,0.0974,61.92,2.40,0.30343
+"p. 3, table 2, row 41740 cmil",KCMIL_41_74_7,,41.74 kcmil,A,7,0.0772,38.90,1.51,0.48300
+"p. 3, table 2, row 26240 cmil",KCMIL_26_24_7,,26.24 kcmil,A,7,0.0612,24.49,0.949,0.76856

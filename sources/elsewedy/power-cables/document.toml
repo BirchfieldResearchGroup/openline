@@ -1,0 +1,10 @@
+# Includes HTLS material and construction data; retain product-specific temperature limits.
+
+title = "Power Cables"
+publisher = "Elsewedy Electric"
+url = "https://elsewedyelectricpro.azurewebsites.net/pdf/Catalouges/02424280/elsewedy-cables-power-cables-catalogue.pdf"
+sha256 = "d9527c7b6a489584799832ba3745e470165493503eea3dcf1516e6a183882dae"
+retrieved = 2026-10-26
+pending = [
+  "HTLS/composite conductor tables and cable properties with their rating conditions.",
+]

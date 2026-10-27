@@ -1,0 +1,17 @@
+# The catalog's text of the preview, as its API serves it; the sample PDF is no longer served.
+# 6.1: a 3-wire conductor's lay 14 to 20 times its outside diameter, 16 1/2 preferred; 6.2, a 7-
+# or 19-wire conductor's layers 10 to 16 times their diameter, 13 1/2 preferred; 6.3, the outer
+# layer left-hand. Table 1, footnote B: 7- and 19-wire conductors rated at 90% of their wires'
+# breaking loads, 3-wire at 95%. Grades 40 HS, 30 HS and 30 EHS (1.2). Copper-clad steel
+# conductors for electrical use; openline.types.conductors.astm.A460 lays and rates ASTM A460
+# strand by it, as Southwire's strengths follow. This public preview is not the complete
+# standard.
+
+title = "Standard Specification for Concentric-Lay-Stranded Copper-Clad Steel Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B228-04"
+year = 2004
+url = "https://standards.iteh.ai/catalog/standards/astm/56c22402-012b-41a0-b4df-a0c0423799ee/astm-b228-04"
+sha256 = "cec192cf554e1f8c0d2a8a2333ceb5e256eb5b2fbf3604588697048eb10166e3"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

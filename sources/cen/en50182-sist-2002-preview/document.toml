@@ -1,0 +1,17 @@
+# SIST adoption preview of EN 50182:2001; not the full standard. Table 2, the aluminium
+# layers' lay ratios, table 4, the increments due to stranding, 5.5.2, the outer layer
+# right-handed, and 5.9.1, rated at the sum of its wires' strengths: the strandings of
+# openline.types.conductors.bs.BS_EN50182_AL3. Table 1 and table 4's composite rows serve no
+# EN 50182 conductor openline lists.
+
+title = "Conductors for Overhead Lines: Round Wire Concentric Lay Stranded Conductors, Preview"
+publisher = "CEN / SIST"
+designation = "SIST EN 50182:2002, preview"
+year = 2002
+url = "https://cdn.standards.iteh.ai/samples/63/078df3b670664a77a4da2e6710216c25/SIST-EN-50182-2002.pdf"
+sha256 = "2b6bd940f03a1042c1c794d0b2dd091cb341baa29c03f419dc102dbf832cb7d6"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.bs"]
+pending = [
+  "annex D: the lay ratios table 4's increments are calculated with, not in this preview",
+]

@@ -1,0 +1,79 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openline"
+version = "2026.10.27"
+description = "Electrical and mechanical modeling of overhead transmission lines"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Luke Lowery", email = "lukel@tamu.edu" }]
+requires-python = ">=3.12"
+keywords = ["transmission lines", "conductors", "line parameters", "electromagnetic transients"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+propagation = ["numpy>=2", "scipy>=1.15"]
+
+[project.urls]
+Documentation = "https://openline.readthedocs.io"
+Repository = "https://github.com/BirchfieldResearchGroup/openline"
+Issues = "https://github.com/BirchfieldResearchGroup/openline/issues"
+
+[dependency-groups]
+docs = [  # what Read the Docs installs, including the examples' numerical and plotting tools
+    "furo>=2025.12.19", "myst-parser>=5", "sphinx>=9,<10", "sphinx-copybutton>=0.5.2",
+    "matplotlib>=3.9", "numpy>=2", "scipy>=1.15",
+]
+dev = [
+    { include-group = "docs" },
+    "mypy>=1.15", "pytest>=9", "ruff>=0.15", "types-docutils>=0.22",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/openline", "README.md", "LICENSE"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/openline"]
+dev-mode-dirs = ["src"]  # an editable install reaches openline_sphinx, the docs' own
+
+[tool.pytest]
+testpaths = ["tests"]
+addopts = ["--import-mode=importlib", "-ra"]
+strict = true
+filterwarnings = [
+    "default",           # another package's warnings are shown, never fatal
+    "error:::openline",  # ours fail the run, the Sphinx extension included
+]
+
+[tool.mypy]
+files = ["examples", "src", "tests"]
+strict = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "PT", "RUF", "SIM", "UP", "W"]
+allowed-confusables = ["µ", "–", "×"]  # SI's micro, a range's dash, a power of ten's times
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = [  # a quantity is a frozen record
+  "openline.types.units.amperes",
+  "openline.types.units.celsius",
+  "openline.types.units.hz",
+]

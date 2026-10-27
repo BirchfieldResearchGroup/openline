@@ -1,0 +1,18 @@
+# Local HTML archives the public catalog sample, not the full standard. Tables 1
+# and 2 supply construction and independent reported values for 43 designs; table
+# 1's five 61-wire designs print no code word. Use native inch-pound dimensions;
+# their metric columns are soft conversions (note 1). Clause 7 gives class AA preferred lay and its direction;
+# class A has no preferred lay. Clause 9 specifies B398 lot-average wire strength
+# and three-significant-figure rounding. Reported mass and DC resistance use 11.1's
+# approximate 2% stranding increment; the model calculates the preferred lay.
+# Table 5 is absent from this sample; the separate 2023 excerpt supplies its factors.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum-Alloy 6201-T81 Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B399/B399M-04 (2021)"
+year = 2021
+url = "https://standards.iteh.ai/catalog/standards/astm/8e8172de-138c-4f21-ad24-19be07a21b42/astm-b399-b399m-04-2021"
+sha256 = "571b95fda3e0dbeb27fe90e59ade734132ddc5ab9bc09bbd6d4d054871704945"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm", "openline.mechanical"]
+pending = ["Table 3, the native SI designs, outside this preview."]

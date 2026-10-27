@@ -1,0 +1,12 @@
+# Printed p. 74 (PDF p. 89): typical bulk aluminum modulus, 69 GPa, and 1350 expansion,
+# 23e-6/K across tempers. Lower finished-conductor moduli are separate observations.
+
+title = "Engineering Transmission Lines with ACCC Conductor"
+publisher = "CTC Global"
+url = "https://ctcglobal.com/wp-content/uploads/2023/05/Engineering_Transmission_Lines_with_ACCC_Conductor.pdf"
+sha256 = "99025388f25a6246d76895f02e72dd1f01077a6ee00efdcc8a3a95024f23614c"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]
+pending = [
+  "Composite-core properties by grade; stress-strain/creep curves and conductor observations.",
+]

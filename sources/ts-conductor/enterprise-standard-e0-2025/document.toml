@@ -1,0 +1,13 @@
+# Revision E-0, 2025-01-23. M1-M4 are source grade labels; runtime material types stay
+# manufacturer-agnostic. Glass-transition minimum is not a continuous operating limit.
+
+title = "Aluminum Encapsulated Carbon Core Conductor: Enterprise Standard"
+publisher = "TS Conductor"
+designation = "TS-QF-QA-0701-4, revision E-0"
+year = 2025
+url = "https://tsconductor.com/wp-content/uploads/2025/03/TS-QF-QA-0701-4-TS-Enterprise-Standard-rev.-E-0.pdf"
+sha256 = "c80f64922882f8133fd708d8eeab2274d7d1b9208f3020fa4d87f77526cedb26"
+retrieved = 2026-10-26
+pending = [
+  "Grade-specific core properties, aluminum encapsulation and lay requirements.",
+]

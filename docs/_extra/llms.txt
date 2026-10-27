@@ -1,0 +1,34 @@
+# OpenLine
+
+> Python library for overhead transmission lines: line impedance and admittance, conductor
+> ampacity, sag and tension, with a catalog of conductors and structures from standards and
+> manufacturers' documents.
+
+Install with `pip install openline`, for Python 3.12 to 3.14; `openline[propagation]` adds NumPy
+and SciPy for wave propagation. Calculations take a conductor's construction, its materials and
+its standard alone. The catalog is Python: each conductor and structure is a constant, such as
+`openline.conductors.astm.b232.DRAKE`, and the validation compares what openline calculates with
+what manufacturers and standards report.
+
+## Docs
+
+- [Start here](https://openline.readthedocs.io/en/latest/): installation and a first calculation
+- [Conductor properties](https://openline.readthedocs.io/en/latest/examples/conductors/index.html): looking up, comparing and choosing conductors; resistance, sag and tension
+- [Thermal ratings](https://openline.readthedocs.io/en/latest/examples/ratings/index.html): ampacity and conductor temperature, IEEE 738
+- [Line parameters](https://openline.readthedocs.io/en/latest/examples/lines/index.html): impedance and admittance of lines, bundles and towers
+- [Frequency response](https://openline.readthedocs.io/en/latest/examples/emt/index.html): earth return and propagation
+- [API: common](https://openline.readthedocs.io/en/latest/api/common/index.html): conductors, structures, materials, units, lines and the catalog lookup
+- [API: electrical](https://openline.readthedocs.io/en/latest/api/electrical/index.html): series impedance, shunt admittance and ratings
+- [API: mechanical](https://openline.readthedocs.io/en/latest/api/mechanical/index.html): mass, strength and sag
+
+## Catalog
+
+- [Conductors](https://openline.readthedocs.io/en/latest/conductors/index.html): a page per design, by family and standard
+- [Structures](https://openline.readthedocs.io/en/latest/structures/index.html): towers, poles and frames
+- [Conductors as Python](https://github.com/BirchfieldResearchGroup/openline/tree/main/src/openline/conductors): every conductor the catalog lists
+- [Structures as Python](https://github.com/BirchfieldResearchGroup/openline/tree/main/src/openline/structures): every structure the catalog lists
+
+## Optional
+
+- [Validation](https://openline.readthedocs.io/en/latest/development/validation.html): how near openline's calculations come to reported values
+- [References](https://openline.readthedocs.io/en/latest/development/references.html): the documents the catalog is drawn from

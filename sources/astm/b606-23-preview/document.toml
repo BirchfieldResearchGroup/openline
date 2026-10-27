@@ -1,0 +1,13 @@
+# Tables 2 and 3: GA3 minimum ultimate tensile strength and stress at 1%
+# extension in independent inch-pound and SI tables. The public sample truncates
+# table 3; its complete unchanged rows appear in the accompanying 2022-to-2023
+# redline sample. This archive is not the full standard.
+
+title = "Standard Specification for High-Strength Zinc-Coated (Galvanized) Steel Core Wire for Use in Overhead Electrical Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B606/B606M-23"
+year = 2023
+url = "https://standards.iteh.ai/catalog/standards/astm/a850e413-fa0e-4444-85aa-b69934683256/astm-b606-b606m-23"
+sha256 = "c635f4508253c2f4e7b8c6ed3a895102da475ef44161640e2e0f17a056eb2b40"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

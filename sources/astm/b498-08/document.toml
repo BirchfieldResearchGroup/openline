@@ -1,0 +1,14 @@
+# Clause 13.1's density of galvanized steel wire for calculation, and 13.2's typical resistivity,
+# 0.19157 ohm mm2/m, "not guaranteed", in openline.types.materials. It gives no temperature
+# coefficient: steel's resistivity rises as its iron's (CRC Handbook).
+# Tables 2 and 3 give minimum ultimate tensile strength and stress at 1% extension
+# for GA2 (class A) and GC2 (class C), retaining each native unit system.
+
+title = "Standard Specification for Zinc-Coated (Galvanized) Steel Core Wire for Use in Overhead Electrical Conductors"
+publisher = "ASTM International"
+designation = "ASTM B498/B498M-08"
+year = 2008
+url = "https://doi.org/10.1520/B0498_B0498M-08"
+sha256 = "d8ac9fa589fd178eaeacade9fdd57f85570989854b1e041cc574263c4b364b43"
+retrieved = 2026-10-24
+cited_by = ["openline.types.materials"]

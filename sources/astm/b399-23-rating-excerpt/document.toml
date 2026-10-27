@@ -1,0 +1,12 @@
+# Local text records the numerical table 5 data from the indexed preview, not the
+# full standard. Its hash identifies that factual transcription. The catalog
+# construction data and lay rules are separately cited to the 2021 preview.
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum-Alloy 6201-T81 and 6201-T83 Conductors: Rating-Factor Excerpt"
+publisher = "ASTM International"
+designation = "ASTM B399/B399M-23"
+year = 2023
+url = "https://cdn.standards.iteh.ai/samples/114907/b4d4975fd5fc49e183c34ad0b24e572b/ASTM-B399-B399M-23.pdf"
+sha256 = "af39a919e7eeb07bcacde84feace2c23df1fc6425239f01e6cf62407c2c7725b"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

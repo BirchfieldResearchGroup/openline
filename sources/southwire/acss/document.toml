@@ -1,0 +1,12 @@
+# SPEC 80110, revision 1.000.000: ACSS to ASTM B856. Footnote 4 rates "standard strength
+# core" on Class A Galfan wire to ASTM B802, MA2; footnote 5, "high strength core", to ASTM
+# B803, MA3. The HS285 strengths name no grade and are not entered.
+# It prints Dipper and Martin 1351, Nuthatch and Parrot 1510 and Roadrunner 2057 kcmil, the
+# 1351.5, 1510.5 and 2057.5 kcmil designs of the same names and wires: entered as those.
+# Its overall weight of Ruddy, 1012.1 lb/1000 ft, is a pound under its parts' sum, 1013.1.
+
+title = "ACSS: Aluminum Conductor, Steel Supported"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/cablespec/download_spec/?spec=80110&country=US"
+sha256 = "e3b2746d22df2d554552671ce1d018ff37cfff447811b354f34813610b046868"
+retrieved = 2026-10-26

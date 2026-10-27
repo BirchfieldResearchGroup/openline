@@ -1,0 +1,13 @@
+# Table 3: minimum tensile strength of 1350-O, 8.5 ksi or 60 MPa, in the
+# independent unit systems of 1.2. Tables 1 and 2 give the supported wire sizes.
+# Local HTML contains a public sample, not the complete standard.
+
+title = "Standard Specification for Aluminum 1350 Round Wire, Annealed and Intermediate Tempers, for Electrical Purposes, Preview"
+publisher = "ASTM International"
+designation = "ASTM B609/B609M-12 (2016)"
+year = 2016
+url = "https://standards.iteh.ai/catalog/standards/astm/56a238e0-3013-4d1f-808e-95ee77cbc1ea/astm-b609-b609m-12-2016"
+sha256 = "b0854e81d97f48724f37272885d2091bb3bf5af41967e7868cc643d1a0449e08"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]
+pending = ["Table 3 intermediate-tempers and their table 4 resistivities are available but not modeled."]

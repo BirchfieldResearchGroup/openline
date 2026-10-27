@@ -1,0 +1,15 @@
+# Table 1 (p. 13): the resistivity and density at 20 °C of aluminum EC-0 (1350-O), EC-H19
+# (1350-H19), 5005-H19 and 6201-T81, and EC-H19's temperature coefficient, whose product with its
+# resistivity is aluminum's rise per kelvin, in openline.types.materials.
+# Table 1, footnote 1 (printed p. 5, PDF p. 13): use the refined densities of 2697 kg/m3 for
+# 5005-H19 and 2691 kg/m3 for 6201-T81. The table's 2703 kg/m3 is the conventional density
+# adopted for electrical calculations; the footnote permits these grade-specific refinements.
+
+title = "Aluminum Wire Tables"
+publisher = "National Bureau of Standards"
+designation = "NBS Handbook 109"
+year = 1972
+url = "https://nvlpubs.nist.gov/nistpubs/Legacy/hb/nbshandbook109.pdf"
+sha256 = "7a4610fd439c89d752f46c63b28ae9258da8401f91d8873ce5e5d95e2edc02bd"
+retrieved = 2026-10-22
+cited_by = ["openline.types.materials"]

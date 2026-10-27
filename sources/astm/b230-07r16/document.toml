@@ -1,0 +1,12 @@
+# Table 3's resistivity of aluminum 1350-H19 wire, 61.2% IACS as a lot's average, clause
+# 10.1's density for calculation, and tables 1 and 2's least average tensile strength of a lot,
+# for rated strength, in openline.types.materials.
+
+title = "Standard Specification for Aluminum 1350-H19 Wire for Electrical Purposes"
+publisher = "ASTM International"
+designation = "ASTM B230/B230M-07 (Reapproved 2016)"
+year = 2016
+url = "https://doi.org/10.1520/B0230_B0230M-07R16"
+sha256 = "3b788aee5c421015d939d0329e77ce205b48079532be62b03bbff8ebe271e9e4"
+retrieved = 2026-10-24
+cited_by = ["openline.types.materials"]

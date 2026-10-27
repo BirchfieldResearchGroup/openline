@@ -1,0 +1,13 @@
+# 3.3.4 to 3.3.12: its grades of coated-steel core; 4.1.5, its hand: in
+# openline.types.conductors.astm. Its tables give each conductor's aluminum by size, wire count
+# and layers, not by wire diameter, which its construction takes. This public preview is not
+# the complete standard.
+
+title = "Standard Specification for Shaped Wire Compact Concentric-Lay-Stranded Aluminum Conductors, Coated-Steel Supported (ACSS/TW), Preview"
+publisher = "ASTM International"
+designation = "ASTM B857-22"
+year = 2022
+url = "https://standards.iteh.ai/catalog/standards/astm/a73d9174-bac1-4120-b4d1-35b40963972f/astm-b857-22"
+sha256 = "c45d4196e8bda80521de3abb8c633f752b19e6d798ad4e71f9b1fe8cf3a623ef"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

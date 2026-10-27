@@ -1,0 +1,19 @@
+# SPEC 80123, revision 1.000.002: AAC/TW to ASTM B778, aluminum 1350-H19 to ASTM B230. Each code
+# word's size, its "kcmil area" (B778, 3.1.2), which gives its wires' equivalent diameter; its
+# wires, layers and outside diameter; its weight and rated strength. p. 4's Baker/TW is B778's
+# Mazama/TW, 1346.8 kcmil of 31 wires.
+# Not entered: the DC resistances, at 25 C; the AC resistances, at no frequency stated; the
+# ampacities, whose conditions name no emissivity, latitude or time.
+# Left out as misprinted: p. 2, Cockscomb/TW, 17 wires in 3 layers, where ASTM B778-22, table 1,
+# gives 31 for its 900 kcmil, layers and diameter; Meadowsweet/TW's weight, 652.1 lb/1000 ft,
+# its digits out of order (B778: 562.4).
+# Left out: the rows of Magnolia, Hawkweed, Bluebell, Marigold, Hawthorn, Narcissus, Columbine,
+# Carnation, Coreopsis, Jessamine, Cowslip, Rainier, Helens, Baker, Whitney, Powell, Jefferson, code
+# words the catalog holds with other wires, the construction openline's calculations agree with
+# best.
+
+title = "AAC/TW: All Aluminum Conductor, Trapezoidal Shaped Aluminum Strands"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/cablespec/download_spec/?spec=80123&country=US"
+sha256 = "0b85b071abe6f3ac4491a8621ed18f71781325058690e21bc080bf234ec4dddf"
+retrieved = 2026-10-26

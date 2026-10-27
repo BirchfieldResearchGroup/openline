@@ -1,0 +1,45 @@
+# p. 1: "manufactured in accordance with the requirements of the latest issue of ASTM B549";
+# "aluminum 1350-H19 wires" around "aluminum-clad steel strands".
+# AC resistances at 60 Hz, as note 4 gives the frequency; note 3: "AC resistance for single-layer
+# and three-layer designs approximates the effects of core magnetization".
+
+title = "TransPowr ACSR/AW Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20ACSR-AW%20Bare%20Overhead%20Conductor%20%28US%29.pdf"
+sha256 = "7ad3ceb85701324a71c144cb08adaec262daab0e87453d52772bcee3becb34c1"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 4's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 5's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+# Sparate's ampacity is not of its resistances: 175 A, where Sparrow, thinner and as resistive,
+# prints 185 A.
+apart = ["p. 2-3, row Sparate/AW"]
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+# Swanate's and Robin's E3X ampacities are not of their resistances: 150 A and 235 A, where
+# their resistances give 152.51 A and 231.87 A, and their standard ampacities agree within 1.9 A.
+apart = ["p. 2-3, row Swanate/AW", "p. 2-3, row Robin/AW"]
+
+[conditions.reactance]
+"spacing[ft]" = 1

@@ -1,0 +1,26 @@
+# ACSR/TW, "Area Equal to Standard ACSR Sizes" (pp. 1-2) and "Diameter Equal" (p. 4): each code
+# word's aluminum area, which gives its trapezoidal wires' equivalent diameter (IEC 62219, 3.5),
+# their count, layers and the conductor's diameter; its steel wires; its total area, weight and
+# DC resistance at 20 C. Page 3 repeats page 2. Code words are placed by their rows' positions,
+# which plain text extraction shifts. "RioGrande/TW" and "PeeDee/TW" are entered as the ACSS/TW
+# sheet spells them, Rio Grande and Pee Dee. It prints Dipper/TW and Martin/TW 1351 kcmil, the
+# 1351.5 kcmil designs of the same names and wires, as its ACSS/TW sheet prints them: entered as
+# those.
+# Not entered: the rated strengths, which name no core grade; the AC resistances at 75 C, at no
+# frequency stated.
+# Left out as misprinted: Condor/TW's steel, 7 x 0.1203 in, where its areas give 0.1213 (the
+# ACSS/TW sheet's); Pheasant/TW's, 19 x 0.9210 in; Bluebird/TW's aluminum area, 1.0934 in2 for
+# 2156 kcmil; Thames/TW's, 1.348 in2 for 1334.6 kcmil; the code word "Grackel/TW". Santee/TW's
+# total area, 2.2268 in2, where its wires give 2.2318, is left blank, as are Oxbird/TW's 2
+# layers, where the ACSS/TW sheet and Southwire print 3 for the same wires.
+# The metric sheet (acsr-tw-metric.pdf in documents/, not pinned) lists the same designs.
+# Left out: the rows of Tern, Puffin, Rail, Ortolan, Curlew, Finch, Bunting, GRACKLE_38_19, Bittern,
+# Dipper, Bobolink, Lapwing, Chukar, St.Croix, Miramichi, Platte, Schuylkill, Pee Dee, Athabaska,
+# Santee, code words the catalog holds with other wires, the construction openline's calculations
+# agree with best.
+
+title = "Conductor Data Sheet: Aluminum Conductors Steel Reinforced-Trapezoidal (ACSR/TW)"
+publisher = "Midal Cables"
+url = "https://midalcable.s3.eu-central-2.wasabisys.com/storage/products/acsrtw/acsrtw-imperial.pdf"
+sha256 = "cfc51f5d4a04b9c89f928812b966786700ee65df0e0102e30c1591469e437d8e"
+retrieved = 2026-10-26

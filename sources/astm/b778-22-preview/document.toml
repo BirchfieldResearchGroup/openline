@@ -1,0 +1,28 @@
+# 6.1 to 6.3, each aluminum layer's lay ratios: the outside layer 10 to 14 times its outside
+# diameter, the layer beneath it 10 to 16, the inner layers 10 to 17; its redline against B778-19,
+# 6.5, the outside layer right-handed: the strandings of openline.types.conductors.astm.B778.
+# The clean 2022 text stops at 6.3.
+# Tables 1 and 2: each conductor's size, outside diameter, wires and layers, the central wire
+# not counted (note 1: "a central core of one round aluminum wire or a seven-strand compact
+# round core"), its mass and rated strength. 3.1.2: its size is its "kcmil area", which gives
+# its wires' equivalent diameter. No table gives the wires in each layer.
+# Left out as misprinted: table 2's code word "Rainer", B1006's Rainier, as Southwire prints it;
+# Adams/TW's mass, 2873.0 lb/1000 ft, 0.956 per kcmil where Shasta/TW and Trillium/TW, of 71
+# wires too, give 0.9465 (Southwire prints 2848).
+# This public preview is not the complete standard.
+# Left out: the rows of Cockscomb, Magnolia, Hawkweed, Bluebell, Marigold, Hawthorn, Narcissus,
+# Columbine, Carnation, Coreopsis, Jessamine, Cowslip, RAINIER_31, Helens, Mazama, Whitney, Powell,
+# Jefferson, code words the catalog holds with other wires, the construction openline's calculations
+# agree with best.
+# Left out: the rows of 854.2 kcmil, 1020.0 kcmil, 1234.2 kcmil, 1467.9 kcmil, 1682.7 kcmil, 1954.3
+# kcmil, 2245.4 kcmil, sizes the catalog holds with other wires, the construction openline's
+# calculations agree with best.
+
+title = "Standard Specification for Shaped Wire Compact Concentric-Lay-Stranded Aluminum Conductors (AAC/TW), Preview"
+publisher = "ASTM International"
+designation = "ASTM B778-22"
+year = 2022
+url = "https://standards.iteh.ai/catalog/standards/astm/9f4949ef-93a5-459b-8c69-abd9258fac58/astm-b778-22"
+sha256 = "e37c4ca5017b59d4534503137a472cc9536c8f77b190a25ea5e5a5c95df71d97"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

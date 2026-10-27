@@ -1,0 +1,13 @@
+# Single wires, and strands of annealed wire to ASTM B910 (p. 4), whose imperial table labels its
+# loads kgf and weights kg/km over values in lbf and lb/kft.
+
+title = "Copper-Clad Steel (CCS): Physical and Electrical Properties"
+publisher = "Copperweld"
+designation = "REFR-CW-0004-002-US-12.2023"
+year = 2023
+url = "https://assets-global.website-files.com/62e5548fdd3aac004113e94e/65b58992e9c8a572a76d4ffd_Copper-Clad%20Steel%20%28CCS%29-Physical-Electrical-REFR-CW-0004-002-US-12.2023.pdf"
+sha256 = "37fa15f6b7421b44678f70e680fbf09a3555f47c168c27693c2573f70f9abb1d"
+retrieved = 2026-10-26
+pending = [
+  "the annealed strands, which need a class for annealed copper-clad steel, ASTM B910",
+]

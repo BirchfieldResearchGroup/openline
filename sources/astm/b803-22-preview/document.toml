@@ -1,0 +1,12 @@
+# Tables 2 and 3: MA3 minimum ultimate tensile strength and stress at 1%
+# extension, identical to B606-23 GA3 in each native unit system.
+# Local HTML contains a public sample, not the complete standard.
+
+title = "Standard Specification for High-Strength Zinc-5% Aluminum-Mischmetal Alloy-Coated Steel Core Wire for Use in Overhead Electrical Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B803/B803M-22"
+year = 2022
+url = "https://standards.iteh.ai/catalog/standards/astm/97551bf2-9b22-442c-83c7-5b7b30c4e612/astm-b803-b803m-22"
+sha256 = "b9f496984e780eb888dcd7bf4f50bf05dfc9bc8823ee9af5d8b6c23ed39d2df5"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

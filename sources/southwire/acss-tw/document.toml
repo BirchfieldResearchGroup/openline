@@ -1,0 +1,23 @@
+# SPEC 80116, revision 1.000.001: ACSS/TW to ASTM B857, aluminum 1350-O to ASTM B609. Each code
+# word's aluminum wires, their area, which gives their equivalent diameter (IEC 62219, 3.5),
+# their layers and outside diameter; its steel wires and their diameter; its total area and
+# weight; its DC resistance at 20 C, of 63% IACS aluminum and 8% IACS steel (note 2).
+# Footnotes 4 and 5 rate the standard core on ASTM B802 wire, MA2, and the high-strength core
+# on ASTM B803, MA3. Footnote 6: "The actual configuration of a given size may vary between
+# manufacturers", in "the number of wires, number of layers and dimensions of individual
+# wires". The table wraps St. Croix/ACSS/TW and Pee Dee/ACSS/TW over two lines.
+# Not entered: the HS285 strengths, which name no grade; the AC resistances and ampacities,
+# at no frequency, latitude or time stated.
+# Left out as misprinted: Puffin/ACSS/TW and Mystic/ACSS/TW, whose steel wires, 7 x 0.1056 in and
+# 7 x 0.1244 in, their own areas and steel weights contradict (Southwire's ACSR/TW Mystic has
+# 7 x 0.1111); Powder/ACSS/TW's weight, its steel 396.1 lb/1000 ft where Bluebird/ACSS/TW's like
+# core prints 467.5; Santee/ACSS/TW's total area, 2.2268 in2, where its wires give 2.2313.
+# Left out: the rows of Oriole, Hen, Rook, Curlew, Bittern, Martin, Plover, Chukar, Genesee, Hudson,
+# Thames, Rio Grande, Pee Dee, James, code words the catalog holds with other wires, the
+# construction openline's calculations agree with best.
+
+title = "ACSS/TW: Aluminum Conductor, Steel Supported, Trapezoidal Shaped Aluminum Strands"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/cablespec/download_spec/?spec=80116&country=US"
+sha256 = "1ef66768e9e404246aa7fc40983dd14f58b3ca3c95f3543d8293ac89a5923364"
+retrieved = 2026-10-26

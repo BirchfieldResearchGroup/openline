@@ -1,0 +1,12 @@
+# The method of openline.electrical.ieee738, cited there by clause and equation, and table 7's
+# specific heats in openline.types.materials. Licensed through IEEE Xplore: the copy stays in
+# documents/, out of git; retrieved is the download date it is stamped with.
+
+title = "IEEE Standard for Calculating the Current-Temperature Relationship of Bare Overhead Conductors"
+publisher = "IEEE"
+designation = "IEEE Std 738-2023"
+year = 2023
+url = "https://ieeexplore.ieee.org/document/10382442"
+sha256 = "f5b601e149e32fc6e73c9ca488b9d275182af25d2003ba3cb089cbca202eb47b"
+retrieved = 2025-04-28
+cited_by = ["openline.electrical.ieee738", "openline.types.materials"]

@@ -1,0 +1,14 @@
+# The check of openline.electrical's line impedance and capacitance, in tests/test_lines.py.
+# p. 40, A.4.2,
+# table 4: the single-circuit 230 kV lines' conductors, 0 ft across, 100, 83.5 and 67 ft high at
+# the tower and 73, 56.5 and 40 ft at mid-span; Marigold, 1.216 in, 0.09222 ohm/mile DC at
+# 50 °C; 60 Hz; earth of 50 ohm m. Appendix C.1: ATP's line constants take the conductor as a
+# solid wire (T/D 0.50, skin effect 4). Appendix B.7, L3_Full_Line.pch: the phase resistances
+# and reactances, in ohm, and capacitances, in uF, of its 15-mile sections.
+
+title = "EMTP Reference Models for Transmission Line Relay Testing"
+publisher = "IEEE PES Power System Relaying and Control Committee"
+url = "https://www.pes-psrc.org/kb/report/074.pdf"
+sha256 = "9dbadf220557025b14c45b6b81dbce0d5971b1b187d090a3518e3db8f0b532d4"
+retrieved = 2026-10-22
+cited_by = ["openline.electrical.series", "openline.electrical.shunt"]

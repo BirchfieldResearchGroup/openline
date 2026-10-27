@@ -1,0 +1,17 @@
+locator,design,code_word,designation,outer.count,outer.diameter[mm],core.count,core.diameter[mm],reported.area[mm²],reported.diameter[mm],reported.mass[kg/km],reported.strength[kN],reported.outer_dc_resistance[Ω/km]
+"p. 7, row Wren",WREN,Wren,8 AWG,6,1.33,1,1.33,9.7,3.99,34,3.29,3.4416
+"p. 7, row Warbler",WARBLER,Warbler,7 AWG,6,1.50,1,1.50,12.4,4.50,43,4.19,2.7057
+"p. 7, row Thrush",THRUSH,Thrush,5 AWG,6,1.89,1,1.89,19.6,5.67,68,6.56,1.7043
+"p. 7, row Swallow",SWALLOW,Swallow,3 AWG,6,2.38,1,2.38,31.1,7.14,108,10,1.0747
+"p. 8, row Pelican",PELICAN,Pelican,477 kcmil,18,4.14,1,4.14,255.8,20.70,769,54.8,0.1189
+"p. 9, row Mallard",MALLARD,Mallard,795 kcmil,30,4.14,19,2.48,495.6,28.96,1838,171.46,0.0715
+"p. 10, row Plover",PLOVER,Plover,1431 kcmil,54,4.14,19,2.48,818.0,37.24,2729,224.6,0.03979
+"p. 10, row Bantam",BANTAM,Bantam,13.1 kcmil,3,1.68,4,1.68,15.5,5.04,87.8,12.3,4.3139
+"p. 10, row Magpie",MAGPIE,Magpie,20.87 kcmil,3,2.12,4,2.12,24.7,6.36,139.7,18.5,2.709
+"p. 10, row Shrike",SHRIKE,Shrike,33.2 kcmil,3,2.67,4,2.67,39.2,8.01,222.6,28.6,1.7079
+"p. 10, row Snipe",SNIPE,Snipe,52.825 kcmil,3,3.37,4,3.37,62.4,10.11,354.1,43.8,1.0721
+"p. 10, row Loon",LOON,Loon,66.5 kcmil,3,3.78,4,3.78,78.6,11.34,445.8,56.1,0.8521
+"p. 8, row 715.5, 42/3.31",KCMIL_715_5_42_7,,715.5 kcmil,42,3.31,7,1.84,380.0,25.38,1145,83.22,0.07995
+"p. 9, row 795, 42/3.50",KCMIL_795_42_7,,795 kcmil,42,3.50,7,1.94,424.8,26.82,1280,92.9,0.0715
+"p. 9, row 1033.5, 42/3.99",KCMIL_1033_5_42_7,,1033.5 kcmil,42,3.99,7,2.21,552.0,30.57,1662,118.07,0.05502
+"p. 9, row 1113, 42/4.14",KCMIL_1113_42_7,,1113 kcmil,42,4.14,7,2.30,594.5,31.74,1791,126.44,0.05114

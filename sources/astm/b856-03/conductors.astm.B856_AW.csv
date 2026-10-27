@@ -1,0 +1,64 @@
+locator,design,code_word,designation,outer.count,outer.diameter[in],core.count,core.diameter[in],reported.strength.AluminumCladSteel[klbf]
+"p. 3, table 1, row Thrasher/ACSS; p. 5, table 4, row 2 312 000, 76/19, column AW",THRASHER,,2312 kcmil,76,0.1744,19,0.0814,34.1
+"p. 3, table 1, row Kiwi/ACSS; p. 5, table 4, row 2 167 000, 72/7, column AW",KIWI,,2167 kcmil,72,0.1735,7,0.1157,28.2
+"p. 3, table 1, row Bluebird/ACSS; p. 5, table 4, row 2 156 000, 84/19, column AW",BLUEBIRD,,2156 kcmil,84,0.1602,19,0.0961,40.7
+"p. 3, table 1, row Chukar/ACSS; p. 5, table 4, row 1 780 000, 84/19, column AW",CHUKAR,,1780 kcmil,84,0.1456,19,0.0874,33.6
+"p. 3, table 1, row Falcon/ACSS; p. 5, table 4, row 1 590 000, 54/19, column AW",FALCON,,1590 kcmil,54,0.1716,19,0.1030,41.1
+"p. 3, table 1, row Lapwing/ACSS; p. 5, table 4, row 1 590 000, 45/7, column AW",LAPWING,,1590 kcmil,45,0.1880,7,0.1253,27.0
+"p. 3, table 1, row Parrot/ACSS; p. 5, table 4, row 1 510 500, 54/19, column AW",PARROT,,1510.5 kcmil,54,0.1672,19,0.1003,38.9
+"p. 3, table 1, row Nuthatch/ACSS; p. 5, table 4, row 1 510 500, 45/7, column AW",NUTHATCH,,1510.5 kcmil,45,0.1832,7,0.1221,25.7
+"p. 3, table 1, row Plover/ACSS; p. 5, table 4, row 1 431 000, 54/19, column AW",PLOVER,,1431 kcmil,54,0.1628,19,0.0977,36.9
+"p. 3, table 1, row Bobolink/ACSS; p. 5, table 4, row 1 431 000, 45/7, column AW",BOBOLINK,,1431 kcmil,45,0.1783,7,0.1189,24.3
+"p. 3, table 1, row Martin/ACSS; p. 5, table 4, row 1 351 000, 54/19; table 1 prints 1 351 000 cmil (1351.5 kcmil catalog identity), column AW",MARTIN,,1351.5 kcmil,54,0.1582,19,0.0949,34.9
+"p. 3, table 1, row Dipper/ACSS; p. 5, table 4, row 1 351 000, 45/7; table 1 prints 1 351 000 cmil (1351.5 kcmil catalog identity), column AW",DIPPER,,1351.5 kcmil,45,0.1733,7,0.1155,23.0
+"p. 3, table 1, row Pheasant/ACSS; p. 5, table 4, row 1 272 000, 54/19, column AW",PHEASANT,,1272 kcmil,54,0.1535,19,0.0921,32.8
+"p. 3, table 1, row Bittern/ACSS; p. 5, table 4, row 1 272 000, 45/7, column AW",BITTERN,,1272 kcmil,45,0.1681,7,0.1121,21.6
+"p. 3, table 1, row Grackle/ACSS; p. 5, table 4, row 1 192 000, 54/19, column AW",GRACKLE,,1192.5 kcmil,54,0.1486,19,0.0892,30.8
+"p. 3, table 1, row Bunting/ACSS; p. 5, table 4, row 1 192 000, 45/7, column AW",BUNTING,,1192.5 kcmil,45,0.1628,7,0.1085,20.8
+"p. 3, table 1, row Finch/ACSS; p. 5, table 4, row 1 113 000, 54/19, column AW",FINCH,,1113 kcmil,54,0.1436,19,0.0862,28.8
+"p. 3, table 1, row Bluejay/ACSS; p. 5, table 4, row 1 113 000, 45/7, column AW",BLUEJAY,,1113 kcmil,45,0.1573,7,0.1049,18.9
+"p. 3, table 1, row Curlew/ACSS; p. 5, table 4, row 1 333 500, 54/7, column AW",CURLEW,,1033.5 kcmil,54,0.1383,7,0.1383,26.1
+"p. 3, table 1, row Ortolan/ACSS; p. 5, table 4, row 1 033 500, 45/7, column AW",KCMIL_1033_5_45_7,,1033.5 kcmil,45,0.1515,7,0.1010,17.6
+"p. 3, table 1, row Cardinal/ACSS; p. 5, table 4, row 954 000, 54/7, column AW",CARDINAL,,954 kcmil,54,0.1329,7,0.1329,24.6
+"p. 3, table 1, row Rail/ACSS; p. 5, table 4, row 954 000, 45/7, column AW",RAIL,,954 kcmil,45,0.1456,7,0.0971,16.2
+"p. 3, table 1, row Canary/ACSS; p. 5, table 4, row 900 000, 54/7, column AW",CANARY,,900 kcmil,54,0.1291,7,0.1291,23.2
+"p. 3, table 1, row Ruddy/ACSS; p. 5, table 4, row 900 000, 45/7, column AW",RUDDY,,900 kcmil,45,0.1414,7,0.0943,15.3
+"p. 3, table 1, row Mallard/ACSS; p. 5, table 4, row 795 000, 30/19, column AW",MALLARD,,795 kcmil,30,0.1628,19,0.0977,32.9
+"p. 3, table 1, row Condor/ACSS; p. 5, table 4, row 795 000, 54/7, column AW",CONDOR,,795 kcmil,54,0.1213,7,0.1213,20.9
+"p. 3, table 1, row Tern/ACSS; p. 5, table 4, row 795 000, 45/7, column AW",TERN,,795 kcmil,45,0.1329,7,0.0886,13.5
+"p. 3, table 1, row Drake/ACSS; p. 5, table 4, row 795 000, 26/7, column AW",DRAKE,,795 kcmil,26,0.1749,7,0.1360,24.4
+"p. 3, table 1, row Cuckoo/ACSS; p. 5, table 4, row 795 000, 24/7, column AW",CUCKOO,,795 kcmil,24,0.1820,7,0.1213,20.9
+"p. 3, table 1, row Redwing/ACSS; p. 5, table 4, row 715 500, 30/19, column AW",REDWING,,715.5 kcmil,30,0.1544,19,0.0926,29.5
+"p. 3, table 1, row Starling/ACSS; p. 5, table 4, row 715 500, 26/7, column AW",STARLING,,715.5 kcmil,26,0.1659,7,0.1290,22.0
+"p. 3, table 1, row Stilt/ACSS; p. 5, table 4, row 715 500, 24/7, column AW",STILT,,715.5 kcmil,24,0.1727,7,0.1151,18.8
+"p. 3, table 1, row Gannet/ACSS; p. 5, table 4, row 666 600, 26/7, column AW",GANNET,,666.6 kcmil,26,0.1601,7,0.1245,20.9
+"p. 3, table 1, row Flamingo/ACSS; p. 5, table 4, row 666 600, 24/7, column AW",FLAMINGO,,666.6 kcmil,24,0.1667,7,0.1111,17.5
+"p. 3, table 1, row Egret/ACSS; p. 5, table 4, row 636 000, 30/19, column AW",EGRET,,636 kcmil,30,0.1456,19,0.0874,26.3
+"p. 3, table 1, row Scoter/ACSS; p. 5, table 4, row 636 000, 30/7, column AW",SCOTER,,636 kcmil,30,0.1456,7,0.1456,25.1
+"p. 3, table 1, row Grosbeak/ACSS; p. 5, table 4, row 636 000, 26/7, column AW",GROSBEAK,,636 kcmil,26,0.1564,7,0.1216,19.9
+"p. 3, table 1, row Rook/ACSS; p. 5, table 4, row 636 000, 24/7, column AW",ROOK,,636 kcmil,24,0.1628,7,0.1085,16.7
+"p. 3, table 1, row Teal/ACSS; p. 5, table 4, row 605 000, 30/19, column AW",TEAL,,605 kcmil,30,0.1420,19,0.0852,25.0
+"p. 3, table 1, row Wood Duck/ACSS; p. 5, table 4, row 605 000, 30/7, column AW",WOOD_DUCK,,605 kcmil,30,0.1420,7,0.1420,24.4
+"p. 3, table 1, row Squab/ACSS; p. 5, table 4, row 605 000, 26/7, column AW",SQUAB,,605 kcmil,26,0.1525,7,0.1186,19.0
+"p. 3, table 1, row Peacock/ACSS; p. 5, table 4, row 605 000, 24/7, column AW",PEACOCK,,605 kcmil,24,0.1588,7,0.1059,15.9
+"p. 3, table 1, row Eagle/ACSS; p. 5, table 4, row 556 500, 30/7, column AW",EAGLE,,556.5 kcmil,30,0.1362,7,0.1362,22.9
+"p. 3, table 1, row Dove/ACSS; p. 5, table 4, row 556 500, 26/7, column AW",DOVE,,556.5 kcmil,26,0.1463,7,0.1138,17.5
+"p. 3, table 1, row Parakeet/ACSS; p. 5, table 4, row 556 500, 24/7, column AW",PARAKEET,,556.5 kcmil,24,0.1523,7,0.1015,14.6
+"p. 3, table 1, row Hen/ACSS; p. 5, table 4, row 477 000, 30/7, column AW",HEN,,477 kcmil,30,0.1261,7,0.1261,20.1
+"p. 3, table 1, row Hawk/ACSS; p. 5, table 4, row 477 000, 26/7, column AW",HAWK,,477 kcmil,26,0.1354,7,0.1053,14.9
+"p. 3, table 1, row Flicker/ACSS; p. 5, table 4, row 477 000, 24/7, column AW",FLICKER,,477 kcmil,24,0.1410,7,0.0940,12.5
+"p. 3, table 1, row Lark/ACSS; p. 5, table 4, row 397 500, 30/7, column AW",LARK,,397.5 kcmil,30,0.1151,7,0.1151,16.7
+"p. 3, table 1, row Ibis/ACSS; p. 5, table 4, row 397 500, 26/7, column AW",IBIS,,397.5 kcmil,26,0.1236,7,0.0961,12.4
+"p. 3, table 1, row Brant/ACSS; p. 5, table 4, row 397 500, 24/7, column AW",BRANT,,397.5 kcmil,24,0.1287,7,0.0858,10.4
+"p. 3, table 1, row Oriole/ACSS; p. 5, table 4, row 336 400, 30/7, column AW",ORIOLE,,336.4 kcmil,30,0.1059,7,0.1059,14.2
+"p. 3, table 1, row Linnet/ACSS; p. 5, table 4, row 336 400, 26/7, column AW",LINNET,,336.4 kcmil,26,0.1137,7,0.0884,10.5
+"p. 3, table 1, row Ostrich/ACSS; p. 5, table 4, row 300 000, 26/7, column AW",OSTRICH,,300 kcmil,26,0.1074,7,0.0835,9.40
+"p. 3, table 1, row Partridge/ACSS; p. 5, table 4, row 266 800, 26/7, column AW",KCMIL_266_8_26_7,,266.8 kcmil,26,0.1013,7,0.0788,8.37
+"p. 3, table 1, row Cochin/ACSS; p. 5, table 4, row 211 300, 12/7, column AW",KCMIL_211_3_12_7,,211.3 kcmil,12,0.1327,7,0.1327,19.7
+"p. 3, table 1, row Brahma/ACSS; p. 5, table 4, row 203 200, 16/19, column AW",KCMIL_203_2_16_19,,203.2 kcmil,16,0.1127,19,0.0977,29.1
+"p. 3, table 1, row Dorking/ACSS; p. 5, table 4, row 190 800, 12/7, column AW",KCMIL_190_8_12_7,,190.8 kcmil,12,0.1261,7,0.1261,18.3
+"p. 3, table 1, row Dotterel/ACSS; p. 5, table 4, row 176 900, 12/7, column AW",KCMIL_176_9_12_7,,176.9 kcmil,12,0.1214,7,0.1214,16.9
+"p. 3, table 1, row Guinea/ACSS; p. 5, table 4, row 159 000, 12/7, column AW",KCMIL_159_12_7,,159 kcmil,12,0.1151,7,0.1151,15.2
+"p. 3, table 1, row Leghorn/ACSS; p. 5, table 4, row 134 600, 12/7, column AW",KCMIL_134_6_12_7,,134.6 kcmil,12,0.1059,7,0.1059,12.9
+"p. 3, table 1, row Minorca/ACSS; p. 5, table 4, row 110 800, 12/7, column AW",KCMIL_110_8_12_7,,110.8 kcmil,12,0.0961,7,0.0961,10.6
+"p. 3, table 1, row Petrel/ACSS; p. 5, table 4, row 101 800, 12/7, column AW",KCMIL_101_8_12_7,,101.8 kcmil,12,0.0921,7,0.0921,9.75

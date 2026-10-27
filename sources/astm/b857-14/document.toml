@@ -1,0 +1,23 @@
+# Seven page images of the complete standard, bound in page order into one PDF.
+# Section 7: the lay ratios, outside aluminum layer 10 to 13, 11 preferred, the one beneath 10 to
+# 16, 13 preferred, those within 10 to 17; the core's 6-, 12- and 18-wire layers 16 to 26, 14 to
+# 22 and 14 to 20; right hand outside, reversed layer to layer. Table 4: the aluminum rated at
+# 96%, the steel at 100%. Table 5's increments are approximate (11.1): for
+# openline.types.conductors.astm.B857, they do not fix the lay.
+# Tables 1 and 2: 71 designs, sized to an ACSR's area and diameter, by size, aluminum wires and
+# layers, steel wires and their diameter, mass with a galvanized core, outside diameter and
+# rated strength on each core: GA2/MA2 to GA5/MA5, entered for both coatings, as ASTM B857; AW2
+# and AW3, as ASTM B857, AW (3.3.2, 3.3.3). Table 2's 1080.0 kcmil row prints no code word.
+# Left out as misprinted: Partridge/ACSS/TW's mass, 349 lb/1000 ft, where its wires give 366, as
+# Southwire's ACSS/TW and B856's Partridge of the same wires print.
+# Left out: the rows of Partridge, Oriole, Hen, Bunting, Plover, Hudson, Athabaska, code words the
+# catalog holds with other wires, the construction openline's calculations agree with best.
+
+title = "Standard Specification for Shaped Wire Compact Concentric-Lay-Stranded Aluminum Conductors, Coated-Steel Supported (ACSS/TW)"
+publisher = "ASTM International"
+designation = "ASTM B857-14"
+year = 2014
+url = "https://store.astm.org/b0857-14.html"
+sha256 = "a1f99926ca3f992911869c2a8c7c376db044ba7803cedf275007e10702ebbbe7"
+retrieved = 2026-10-27
+cited_by = ["openline.types.conductors.astm"]

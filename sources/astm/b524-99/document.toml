@@ -1,0 +1,29 @@
+# Tables 1 and 7: conductors by size in cmils, their wires, nominal diameter, mass and rated
+# strength by stranding, in inch-pound units (table 7's kg/km and kN are soft conversions,
+# note 1); table 2, by metric size, in SI units. Each row gives its conductor's wires one
+# diameter, aluminum 1350 and alloy 6201 alike. Table 6's rating factors, a layer of both
+# metals counting as one of each (note A), 6.1's lay ratio for each layer, 13.5 preferred, and
+# 6.2's hand are the strandings of openline.types.conductors.astm.B524; 8.1's stress for each
+# metal is its stress. Table 8's increments by size approximate what the lay gives (10.1,
+# note 4), as openline.mechanical calculates it.
+# On hand: eleven page images of a web reproduction, joined in page order into one PDF.
+# Left out as misprinted: p. 2, table 1, 1 703 000 cmil, 61 wires, its diameter, printed
+# 1.8380 in (46.68 mm) where nine wires of 0.1671 in give 1.504; p. 4, table 2, 400 mm2,
+# 18/19, printed of 3.11 mm wires where its 25.97 mm diameter, and alfanar, give 3.71; the
+# rated strengths of p. 4, table 2, 900 mm2, 42/19, printed 773 kN where alfanar prints 173,
+# of p. 5, table 2, 100 mm2, 4/3, printed 17.2 kN, 80.0 mm2's, where alfanar prints 21.31,
+# and of p. 7, table 7, 2 000 000 cmil, 48/13, printed 4.6 kips (181 kN); the mass of p. 8,
+# table 7, 1 250 000 cmil, 30/7, printed 1770 lb/1000 ft where its parts give 1170 (1741
+# kg/km).
+# Entered as printed though their kN columns differ: p. 7, 1 300 000 cmil, 54/7, 25.5 kips
+# (112 kN); p. 8, 950 000 cmil, 33/4, 17.5 kips (79.7 kN); p. 9, 500 000 cmil, 24/13, 11.7
+# kips (52.9 kN).
+
+title = "Standard Specification for Concentric-Lay-Stranded Aluminum Conductors, Aluminum-Alloy Reinforced (ACAR, 1350/6201)"
+publisher = "ASTM International"
+designation = "ASTM B524/B524M-99"
+year = 1999
+url = "https://doi.org/10.1520/B0524_B0524M-99"
+sha256 = "d27f5648910f860a82ff60275ae4f09965e59049796b48b7f6053a99158b0f6f"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm", "openline.mechanical"]

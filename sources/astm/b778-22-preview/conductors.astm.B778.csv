@@ -1,0 +1,25 @@
+locator,design,code_word,designation,wires.count,wires.area[kcmil],wires.layers,wires.outside_diameter[in],reported.mass[lb/kft],reported.strength[klbf]
+"table 1, row Tulip/TW",TULIP,Tulip,336.4 kcmil,17,336.4,2,0.612,315.3,6.02
+"table 1, row Canna/TW",CANNA,Canna,397.5 kcmil,17,397.5,2,0.661,372.6,6.96
+"table 1, row Cosmos/TW",COSMOS,Cosmos,477.0 kcmil,17,477.0,2,0.720,447.1,8.36
+"table 1, row Zinnia/TW",ZINNIA,Zinnia,500.0 kcmil,17,500.0,2,0.736,468.7,8.76
+"table 1, row Mistletoe/TW",MISTLETOE,Mistletoe,556.5 kcmil,17,556.5,2,0.775,521.6,9.75
+"table 1, row Meadowsweet/TW",MEADOWSWEET,Meadowsweet,600.0 kcmil,17,600.0,2,0.803,562.4,10.52
+"table 1, row Orchid/TW",ORCHID,Orchid,636.0 kcmil,17,636.0,2,0.825,596.1,11.1
+"table 1, row Verbena/TW",VERBENA,Verbena,700.0 kcmil,17,700.0,2,0.864,656.1,12.3
+"table 1, row Nasturtium/TW",NASTURTIUM,Nasturtium,750.0 kcmil,17,750.0,2,0.893,702.1,13.1
+"table 1, row Arbutus/TW",ARBUTUS,Arbutus,795.0 kcmil,17,795.0,2,0.919,745.1,13.6
+"table 1, row Lupine/TW",LUPINE,Lupine,2500.0 kcmil,71,2500.0,5,1.648,2366.2,41.9
+"table 1, row Trillium/TW",TRILLIUM,Trillium,3000.0 kcmil,71,3000.0,5,1.799,2839.5,50.3
+"table 2, row Logan/TW",LOGAN,Logan,322.5 kcmil,17,322.5,2,0.60,302.3,5.88
+"table 2, row 384.5",KCMIL_384_5_17,,384.5 kcmil,17,384.5,2,0.65,360.4,6.74
+"table 2, row Wheeler/TW",WHEELER,Wheeler,449.4 kcmil,17,449.4,2,0.70,421.2,7.88
+"table 2, row 521.7",KCMIL_521_7_17,,521.7 kcmil,17,521.7,2,0.75,489.0,9.14
+"table 2, row Robson/TW",ROBSON,Robson,595.8 kcmil,17,595.8,2,0.80,558.4,10.44
+"table 2, row 678.2",KCMIL_678_2_17,,678.2 kcmil,17,678.2,2,0.85,635.7,11.88
+"table 2, row McKinley/TW",MCKINLEY,McKinley,761.5 kcmil,17,761.5,2,0.90,713.7,13.07
+"table 2, row Hood/TW",HOOD,Hood,1583.2 kcmil,34,1583.2,3,1.30,1483.9,26.59
+"table 2, row 2514.8",KCMIL_2514_8_71,,2514.8 kcmil,71,2514.8,5,1.65,2379.5,42.17
+"table 2, row Shasta/TW",SHASTA,Shasta,2667.2 kcmil,71,2667.2,5,1.70,2524.5,44.74
+"table 2, row 2844.5",KCMIL_2844_5_71,,2844.5 kcmil,71,2844.5,5,1.75,2692.2,47.70
+"table 2, row Adams/TW",ADAMS,Adams,3006.2 kcmil,71,3006.2,5,1.80,,50.43

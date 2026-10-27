@@ -1,0 +1,479 @@
+/* OpenLine: Furo's layout and behavior, the catalog's type and quiet rules. */
+@font-face {
+  font-family: Inter;
+  src: url("fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-stack--headings, sans-serif);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: clamp(1.85rem, 3vw, 2.25rem);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+h2 { letter-spacing: -0.015em; }
+
+.content .toctree-wrapper > p.caption {
+  font-family: var(--font-stack--headings, sans-serif);
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  text-transform: none;
+  margin-block: 1.75rem 0.5rem;
+}
+
+.sidebar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.sidebar-brand .sidebar-logo {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: 0;
+}
+
+.sidebar-brand-text {
+  font-family: var(--font-stack--headings, sans-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+article a { text-underline-offset: 0.18em; }
+
+::selection {
+  background: color-mix(in srgb, var(--color-brand-primary, #0b7a68) 26%, transparent);
+}
+
+html { scrollbar-color: var(--color-foreground-border) transparent; }
+
+table.docutils.openline-table {
+  margin-inline: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: none;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+}
+
+table.docutils.openline-table :is(th, td) {
+  padding: 0.45rem 0.5rem;
+  border: 0;
+  border-block-end: 1px solid var(--color-background-border, #e9ecef);
+  text-align: start;
+  vertical-align: top;
+  background: transparent;
+}
+
+table.docutils.openline-table thead th {
+  background: var(--color-background-primary, white);
+  border-block-end-color: var(--color-foreground-border, #c4cad1);
+  font-weight: 600;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+
+table.docutils.openline-table :is(th, td) p { margin: 0; line-height: 1.45; }
+table.docutils.openline-table .number { text-align: end; white-space: nowrap; }
+table.docutils.openline-table tbody th.stub { font-weight: 400; }
+
+/* A wide table scrolls under its first column, which keeps each row's name in view; the
+   wrapper's padding would show the cells scrolled past beside it. */
+[role="main"] .table-wrapper.container.openline-table { padding-inline: 0; }
+
+table.docutils.openline-table th.stub {
+  position: sticky;
+  inset-inline-start: 0;
+  z-index: 1;
+  background: var(--color-background-primary, white);
+}
+
+table.docutils.openline-table > caption {
+  caption-side: top;
+  padding: 0 0.5rem 0.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: start;
+}
+
+.openline-table a.footnote-reference {
+  font-size: 0.75rem;
+  vertical-align: baseline;
+}
+
+.content aside.footnote > p { max-inline-size: 70ch; }
+
+.openline-note {
+  font-size: 0.875rem;
+  color: var(--color-foreground-secondary, #4a525c);
+}
+
+.openline-table .unit {
+  display: block;
+  color: var(--color-foreground-secondary, #4a525c);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+/* The validation's: a percentile past its bound, and the listings counted beneath it. */
+.openline-table .over { color: var(--color-problematic, #b42318); font-weight: 600; }
+
+.openline-table .count {
+  display: block;
+  color: var(--color-foreground-secondary, #4a525c);
+  font-size: 0.75rem;
+}
+
+.openline-table abbr[title] { text-decoration: none; }
+
+/* Columns in groups: each group's heading over its columns, ruled apart from the next, and the
+   first column of each set off from the column before. */
+table.docutils.openline-table thead tr.groups > th {
+  border-block-end: 0;
+  padding-block-end: 0.2rem;
+}
+
+table.docutils.openline-table thead th.group {
+  position: relative;
+  padding-inline-start: 1.25rem;
+  color: var(--color-foreground-secondary, #4a525c);
+}
+
+table.docutils.openline-table thead th.group::after {
+  content: "";
+  position: absolute;
+  inset-inline: 1.25rem 0.5rem;
+  inset-block-end: 0;
+  border-block-end: 1px solid var(--color-foreground-border, #c4cad1);
+}
+
+table.docutils.openline-table .opens { padding-inline-start: 1.25rem; }
+
+/* Such a table is dense: its titles wrap over their values, in smaller type. */
+table.docutils.openline-table:has(> thead > tr.groups) { font-size: 0.8125rem; }
+
+table.docutils.openline-table:has(> thead > tr.groups) :is(th, td) { padding-inline: 0.3rem; }
+
+table.docutils.openline-table:has(> thead > tr.groups) thead th {
+  white-space: normal;
+  text-wrap: balance;
+}
+
+table.docutils.openline-table:has(> thead > tr.groups) .opens,
+table.docutils.openline-table:has(> thead > tr.groups) thead th.group {
+  padding-inline-start: 0.75rem;
+}
+
+table.docutils.openline-table:has(> thead > tr.groups) thead th.group::after {
+  inset-inline: 0.75rem 0.3rem;
+}
+
+/* Where the content keeps a margin beside it, a dense table takes it rather than scroll. */
+@media (min-width: 67em) {
+  [role="main"] .table-wrapper.openline-table:has(> table > thead > tr.groups) {
+    inline-size: calc(100% + 3em);
+    max-inline-size: none;
+  }
+}
+
+/* Rows of a tree: each indented under the row it derives from, each family ruled apart. */
+table.docutils.openline-table tr.depth-2 > th.stub { padding-inline-start: 1.1rem; }
+table.docutils.openline-table tr.depth-3 > th.stub { padding-inline-start: 1.8rem; }
+table.docutils.openline-table tr.depth-4 > th.stub { padding-inline-start: 2.5rem; }
+table.docutils.openline-table tbody tr.family > * { padding-block-start: 0.85rem; }
+
+table.docutils.openline-table tbody tr:has(+ tr.family) > * {
+  border-block-end-color: var(--color-foreground-border, #c4cad1);
+}
+
+/* A row's name beneath its identifier; values a row inherits, and values it has none of. */
+.openline-table .also {
+  display: block;
+  color: var(--color-foreground-secondary, #4a525c);
+  font-size: 0.8125rem;
+}
+
+.openline-table :is(abbr.inherited, .none) { color: var(--color-foreground-muted, #6b737d); }
+
+/* A heading across a table: an SI unit, then each quantity measured in it. */
+table.docutils.openline-table tbody tr.group > * {
+  padding-block: 1.25rem 0.5rem;
+  border-block-end-color: var(--color-foreground-border, #c4cad1);
+}
+
+.openline-table tr.group .symbol {
+  display: block;
+  margin-block-end: 0.15rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.openline-table tr.group .line {
+  display: block;
+  color: var(--color-foreground-secondary, #4a525c);
+}
+
+/* A heading across a table that scrolls stays within the screen; an identifier, on its line. */
+.openline-table tr.group p { max-inline-size: calc(100vw - 2.5rem); }
+
+.openline-table th.stub code.literal { white-space: nowrap; }
+
+@media (max-width: 36rem) {
+  table.docutils.openline-table tr.depth-2 > th.stub { padding-inline-start: 1rem; }
+  table.docutils.openline-table tr.depth-3 > th.stub { padding-inline-start: 1.5rem; }
+  table.docutils.openline-table tr.depth-4 > th.stub { padding-inline-start: 2rem; }
+}
+
+.openline-spec .openline-facts {
+  display: grid;
+  grid-template-columns: minmax(10rem, 1fr) minmax(0, 1.5fr);
+  max-inline-size: 46rem;
+  margin-block: 1.5rem 2rem;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.content .openline-spec dl.openline-facts > :is(dt, dd) {
+  margin: 0;
+  padding-block: 0.55rem;
+  border-block-start: 1px solid var(--color-background-border, #e9ecef);
+}
+
+.content .openline-spec dl.openline-facts > dt {
+  padding-inline-end: 1.5rem;
+  color: var(--color-foreground-secondary, #4a525c);
+  font-weight: 400;
+}
+
+.openline-facts dd p { margin: 0; overflow-wrap: anywhere; }
+
+@media (max-width: 36rem) {
+  .openline-spec .openline-facts {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@media print {
+  .openline-table tr { break-inside: avoid; }
+}
+
+/* Examples: a script, then what it prints, as one block. */
+div.openline-example { margin-block-end: 0; }
+div.openline-example .highlight { border-end-start-radius: 0; border-end-end-radius: 0; }
+div.openline-output { margin-block-start: 0; }
+
+div.openline-output .highlight {
+  border: 1px solid var(--color-code-background);
+  border-block-start: 0;
+  border-start-start-radius: 0;
+  border-start-end-radius: 0;
+  background: var(--color-background-primary);
+}
+
+div.openline-output pre {
+  background: transparent;
+  color: var(--color-foreground-secondary);
+}
+
+/* Examples: vector figures retain the shared scientific plotting style. */
+figure.openline-plot { margin: 1rem 0 0; }
+figure.openline-plot svg { display: block; max-inline-size: 100%; block-size: auto; }
+
+@media screen and (max-width: 48em) {
+  figure.openline-plot { overflow-x: auto; }
+  figure.openline-plot svg { min-inline-size: 42rem; }
+}
+
+/* Start here: introduction, conductor figure, quickstart, and further reading. */
+#openline > h1 {
+  margin-block-end: 1rem;
+  font-size: 2.5rem;
+}
+
+.lede {
+  max-inline-size: 65ch;
+  margin-block-end: 0.75rem;
+  font-size: 1.25rem;
+  color: var(--color-foreground-primary);
+}
+
+.lede p { margin: 0; line-height: 1.5; }
+
+.lede + p {
+  max-inline-size: 70ch;
+  margin-block: 0 1.5rem;
+  color: var(--color-foreground-secondary);
+}
+
+figure.home-banner {
+  inline-size: 100%;
+  margin: 1.5rem 0 2.5rem;
+}
+
+figure.home-banner img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 60 / 19;
+  object-fit: cover;
+  border-radius: 0.375rem;
+}
+
+figure.home-banner figcaption {
+  margin-block-start: 0.625rem;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  text-align: start;
+  color: var(--color-foreground-secondary);
+}
+
+figure.home-banner figcaption p { margin: 0; }
+
+#openline :is(#quickstart, #examples) > h2 {
+  margin-block: 2.5rem 1rem;
+  font-size: 1.75rem;
+}
+
+.quickstart > p:first-child {
+  margin-block: -0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--color-foreground-secondary);
+}
+
+.quickstart div[class*="highlight-"] { margin-block: 0.75rem; }
+.quickstart pre { padding: 1rem; line-height: 1.65; }
+
+/* Wrap at Python whitespace so the first example remains readable on phones. */
+.quickstart .highlight pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+
+.calculation-note {
+  max-inline-size: 70ch;
+  margin-block: 1rem 2.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-foreground-secondary);
+}
+
+.examples dl {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.65fr);
+  margin-block: 1rem 2.5rem;
+}
+
+.examples dl > :is(dt, dd) {
+  margin: 0;
+  padding-block: 0.875rem;
+  border-block-start: 1px solid var(--color-background-border);
+}
+
+.examples dl > dt { padding-inline-end: 1.5rem; font-weight: 600; }
+.examples dl > dd { color: var(--color-foreground-secondary); }
+.examples dd p { margin: 0; }
+
+#openline #author {
+  margin-block-start: 3rem;
+  padding-block-start: 1.5rem;
+  border-block-start: 1px solid var(--color-background-border);
+  font-size: 0.875rem;
+  color: var(--color-foreground-secondary);
+}
+
+#openline #author > h2 {
+  margin-block: 0 0.75rem;
+  font-size: 1.125rem;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.25rem;
+  margin-block-start: 1rem;
+}
+
+.project-links a { display: inline-flex; align-items: center; min-block-size: 2.75rem; }
+
+#openline a:focus-visible {
+  outline: 2px solid var(--color-brand-primary);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (max-width: 40em) {
+  #openline > h1 { font-size: 2rem; }
+  .lede { font-size: 1.125rem; }
+  figure.home-banner { margin-block: 1.25rem 2rem; }
+  figure.home-banner img { aspect-ratio: 2 / 1; object-position: 65% center; }
+  #openline :is(#quickstart, #examples) > h2 { margin-block-start: 2rem; }
+  .examples dl { display: block; }
+  .examples dl > dt { padding-block-end: 0; }
+  .examples dl > dd { padding-block-start: 0.25rem; border-block-start: 0; }
+}
+
+@media print {
+  figure.home-banner { break-inside: avoid; }
+}
+
+/* References: numbered [1], [2], ... as IEEE numbers them, each hanging from its number. */
+ol.openline-references {
+  list-style: none;
+  counter-reset: reference;
+  padding-inline-start: 2.75rem;
+}
+
+ol.openline-references > li {
+  counter-increment: reference;
+  position: relative;
+  margin-block-end: 0.55rem;
+  line-height: 1.5;
+}
+
+ol.openline-references > li::before {
+  content: "[" counter(reference) "]";
+  position: absolute;
+  inset-inline-start: -2.75rem;
+  inline-size: 2.25rem;
+  text-align: end;
+  color: var(--color-foreground-secondary, #5a5c63);
+  font-variant-numeric: tabular-nums;
+}
+
+ol.openline-references > li > p { margin: 0; }
+
+/* What tells a design from others of its title, beneath it: size, stranding and standard. */
+.openline-subtitle p {
+  margin: -0.5rem 0 1.25rem;
+  color: var(--color-foreground-secondary);
+  font-size: 1.05rem;
+}
+
+/* Search results: each page's title, then two lines of its text, muted; an API entry in code
+   type. */
+ul.search li > a { font-weight: 600; }
+ul.search li p.context {
+  margin: .3rem 0 0;
+  color: var(--color-foreground-secondary);
+  font-size: var(--font-size--small);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+ul.search li.kind-object > a { font-family: var(--font-stack--monospace); }

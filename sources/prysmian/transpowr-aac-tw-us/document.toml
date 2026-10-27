@@ -1,0 +1,44 @@
+# p. 1: "manufactured in accordance with the requirements of the latest issue of ASTM B778";
+# "aluminum 1350-H19 wires", trapezoidal. Wire diameters are those of round wires of equal area.
+# AC resistances at 60 Hz, as note 2 gives the frequency.
+# The conductor's diameter is its wires' outside diameter. p. 1 draws 16, 31 and 51 wires, which
+# no row has.
+# Left out: the rows of Tulip, Canna, Cosmos, Zinnia, Mistletoe, Meadowsweet, Orchid, Verbena,
+# Nasturtium, Logan, Wheeler, Robson, McKinley, code words the catalog holds with other wires, the
+# construction openline's calculations agree with best.
+# Left out: the rows of 384.5 kcmil, 521.7 kcmil, 678.2 kcmil, sizes the catalog holds with other
+# wires, the construction openline's calculations agree with best.
+
+title = "TransPowr AAC/TW Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20AAC-TW%20Bare%20Overhead%20Conductor%20%28US%29.pdf"
+sha256 = "e87a377594ba8bf7c3caf5dfcda3be89b6970fc618234c5049d8fa8f1546d607"
+retrieved = 2026-10-22
+
+# The reported results, as calculated at note 2's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 3's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 25
+"wind[ft/s]" = 2
+"angle[°]" = 90
+"latitude[°]" = 30
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 96.0
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+
+[conditions.reactance]
+"spacing[ft]" = 1

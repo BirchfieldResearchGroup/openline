@@ -1,0 +1,12 @@
+# Tables 2-5: MA4 and MA5 minimum ultimate tensile strength and stress at
+# 1% extension, identical to B957-23 GA4/GA5 in each native unit system.
+# Local HTML contains a public sample, not the complete standard.
+
+title = "Standard Specification for Extra-High-Strength and Ultra-High-Strength Class A Zinc-5% Aluminum-Mischmetal Alloy-Coated Steel Core Wire for Use in Overhead Electrical Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B958/B958M-23"
+year = 2023
+url = "https://standards.iteh.ai/catalog/standards/astm/da1275ac-5246-4130-913b-54703ec74022/astm-b958-b958m-23"
+sha256 = "712b96e10cec45a2952331fa750a0b3dae2cebf398f2365b7723e41466e3c9b6"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

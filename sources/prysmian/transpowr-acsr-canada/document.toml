@@ -1,0 +1,31 @@
+# p. 1: "manufactured in accordance with the requirements of the latest applicable issue of
+# CAN/CSA C61089", which "refers to ACSR as Type A1/S1A conductors"; "similar in design (strand
+# component size and configuration) to the ACSR conductors designed to ASTM B232
+# specifications. Differences lie in the methods used to calculate the rated strength and dc
+# resistance values." Note 1: code words denote a regular-strength class A galvanized core, S1A.
+# Its CSA designations, "403-A1/S1A-26/7", give the code number. Rows printed "-none-" have no
+# code word; p. 4 names one row "Beaumont (Avocet)", entered as Beaumont.
+# Note 3: resistances at 61.0% IACS, "the conductivity of the steel is not to be factored in":
+# the DC resistance is the aluminum's alone. Not entered: the AC resistances and the
+# ampacities, which rest on that resistance and no openline calculation gives.
+# Mica and Carillon (pp. 8-9) print Flamingo's and Snowbird's wires, entered as those designs;
+# their code numbers, 338 and 523, left out: the same wires are 337 and 524 on pp. 4-5.
+# Left out as misprinted: Chukar's diameter, 46.4 mm, where its 84 wires of 3.70 mm in four
+# layers around its 11.1 mm core make 40.7 mm, and its DC resistance, 0.04584 ohm/km, 30% above
+# its wires' (its AC resistances and ampacity follow the misprint); Sparrow's mass, whose steel,
+# 46.97 kg/km, is 8% above its one 2.67 mm wire's. p. 4 designates a 42/7 row 363-A1/S1A-42/19.
+# Text extraction shifts p. 8's strengths down a row; table-mode extraction and the rendered page
+# give Grouse 22.8 kN and Brahma 123 kN.
+
+title = "TransPowr ACSR Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20ACSR%20Bare%20Overhead%20Conductor%20%28Canada%29.pdf"
+sha256 = "ca260ed75417b6a4ed5394866553906934acedf9c4b6527f09b769946f46c50b"
+retrieved = 2026-10-26
+
+# Note 4's frequency, and note 5's spacing for the reactances, "a 1 ft radius".
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.reactance]
+"spacing[ft]" = 1

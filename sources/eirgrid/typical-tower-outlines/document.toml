@@ -1,0 +1,13 @@
+# p. 1, MT-008-001 to 004: the front and side outlines are entered as drawn,
+# calibrated by the 19000 mm transverse arm span and rounded to 10 mm.
+# Bracing is represented by repeated panel patterns. The two elevations describe
+# separate planes, not a complete 3D member model. Drawn height is not a variant schedule.
+# Attachment assignments and the printed variant ranges remain pending.
+# p. 1: dimensions are approximate; bracing varies by manufacturer.
+title = "North South 400 kV Interconnection Development: typical tower outlines"
+publisher = "ESB International / EirGrid"
+url = "https://www.pleanala.ie/publicaccess/PCI/PCI1/PCI0001/03%20-%20EirGrid%20North%20South%20Interconnector%20Project%20Application%20File%20June%202015/AppPartOne/Volume%201B/Drawings%20%28A1%29/MT-008-001%20to%20MT-008-004%20Typical%20Tower%20Outlines%20%281%20of%202%29.pdf"
+sha256 = "c1a89fabc725819de675c534800234b30c193e1e25377b2d876c215fd1582b12"
+retrieved = 2026-10-24
+cited_by = ["openline.structures.tower"]
+pending = ["p. 1, MT-008-001 to MT-008-004: published ranges and attachment mapping"]

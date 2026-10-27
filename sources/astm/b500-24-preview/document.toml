@@ -1,0 +1,13 @@
+# 7.1 and 7.2: a stranded steel core's 6-wire layer, 16 to 26 times its diameter, and its
+# 12-wire layer, 14 to 22, as openline.types.conductors.astm lays ASTM B232's cores. 7.3 and
+# 7.4, the 18- and 24-wire layers; 10.1, a core's rating factors: no conductor openline has
+# takes them. This public preview is not the complete standard.
+
+title = "Standard Specification for Metallic Coated or Aluminum Clad Stranded Steel Core for Use in Overhead Electrical Conductors, Preview"
+publisher = "ASTM International"
+designation = "ASTM B500/B500M-24"
+year = 2024
+url = "https://standards.iteh.ai/catalog/standards/astm/49dbe5a8-fb20-4c30-a3b9-c12d4bb9fe7c/astm-b500-b500m-24"
+sha256 = "71e9d8fff65d526b24e477e0d2dc942da17b857e507f0eecf8a90f2fcdd9f43c"
+retrieved = 2026-10-26
+cited_by = ["openline.types.conductors.astm"]

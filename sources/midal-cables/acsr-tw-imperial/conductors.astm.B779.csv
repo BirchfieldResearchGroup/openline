@@ -1,0 +1,27 @@
+locator,design,code_word,designation,outer.count,outer.area[in²],outer.layers,outer.outside_diameter[in],core.count,core.diameter[in],reported.area[in²],reported.mass[lb/kft],reported.dc_resistance[Ω/kft]
+"p. 1, row Merlin/TW",MERLIN,Merlin,336.4 kcmil,14,0.2642,2,0.63,1,0.1367,0.2788,365,0.051
+"p. 1, row Flicker/TW",FLICKER,Flicker,477 kcmil,18,0.3747,2,0.776,7,0.0940,0.4233,612.8,0.0357
+"p. 1, row Hawk/TW",HAWK,Hawk,477 kcmil,18,0.3746,2,0.789,7,0.1053,0.4356,655,0.0356
+"p. 1, row Parakeet/TW",PARAKEET,Parakeet,556.5 kcmil,18,0.4371,2,0.835,7,0.1015,0.4937,714.9,0.0306
+"p. 1, row Dove/TW",DOVE,Dove,556.5 kcmil,20,0.4371,2,0.852,7,0.1138,0.5083,764.5,0.0305
+"p. 1, row Swift/TW",KINGBIRD,Swift,636 kcmil,27,0.4995,3,0.85,1,0.1329,0.5133,646,0.0272
+"p. 1, row Rook/TW",ROOK,Rook,636 kcmil,19,0.4995,2,0.89,7,0.1085,0.5643,816,0.0268
+"p. 1, row Grosbeak/TW",GROSBEAK,Grosbeak,636 kcmil,20,0.4995,2,0.908,7,0.1216,0.5808,873.5,0.0267
+"p. 1, row Drake/TW",DRAKE,Drake,795 kcmil,20,0.6244,2,1.01,7,0.1360,0.7261,1092,0.0213
+"p. 1, row Phoenix/TW",PHOENIX,Phoenix,954 kcmil,30,0.7493,3,1.044,7,0.0837,0.7876,1032,0.0181
+"p. 1, row Cardinal/TW",CARDINAL,Cardinal,954 kcmil,20,0.7493,2,1.084,7,0.1329,0.8464,1226,0.0178
+"p. 1, row Snowbird/TW",SNOWBIRD,Snowbird,1033.5 kcmil,30,0.8117,3,1.089,7,0.0871,0.8534,1115,0.0167
+"p. 1, row Avocet/TW",AVOCET,Avocet,1113 kcmil,30,0.8742,3,1.129,7,0.0904,0.9191,1201,0.0155
+"p. 1, row Bluejay/TW",BLUEJAY,Bluejay,1113 kcmil,33,0.8742,3,1.143,7,0.1049,0.9347,1257,0.0155
+"p. 2, row Oxbird/TW",OXBIRD,Oxbird,1192.5 kcmil,30,0.9366,,1.167,7,0.0936,0.9848,1286,0.0144
+"p. 2, row Scissortail/TW",CATAWBA,Scissortail,1272 kcmil,30,0.9991,3,1.203,7,0.0967,1.0505,1372,0.0135
+"p. 2, row Martin/TW",MARTIN,Martin,1351.5 kcmil,39,1.0615,3,1.3,19,0.0949,1.1959,1734,0.0127
+"p. 2, row Plover/TW",PLOVER,Plover,1431 kcmil,37,1.1239,3,1.337,19,0.0977,1.2664,1836,0.012
+"p. 2, row Falcon/TW",FALCON,Falcon,1590 kcmil,42,1.2488,3,1.408,19,0.1030,1.4071,2040,0.0108
+"p. 4, row Merrimack/TW",MERRIMACK,Merrimack,1433.6 kcmil,39,1.125,3,1.34,19,0.0978,1.2677,1840,0.0119
+"p. 4, row Potomac/TW",POTOMAC,Potomac,1557.4 kcmil,36,1.2232,3,1.345,7,0.1241,1.3079,1755,0.0111
+"p. 4, row RioGrande/TW",RIO_GRANDE,Rio Grande,1533.3 kcmil,39,1.2043,3,1.382,19,0.1012,1.3571,1968,0.0112
+"p. 4, row Pecos/TW",PECOS,Pecos,1622 kcmil,39,1.2739,3,1.424,19,0.1064,1.4429,2107,0.0106
+"p. 4, row James/TW",JAMES,James,1730.6 kcmil,34,1.359,3,1.47,19,0.1075,1.5314,2221,0.0099
+"p. 4, row Cumberland/TW",CUMBERLAND,Cumberland,1926.9 kcmil,42,1.5134,3,1.545,19,0.1133,1.7049,2471,0.0089
+"p. 4, row Powder/TW",POWDER,Powder,2153.8 kcmil,64,1.6912,4,1.602,19,0.0961,1.829,2498,0.008

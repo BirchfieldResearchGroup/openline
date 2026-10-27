@@ -1,0 +1,32 @@
+# Planfeststellungsunterlage 6.1, of 2024-10-11. p. 1: line LH-08-B172 is 380 kV.
+# Every mast is a lattice tower, its heights those of its lowest crossarm.
+# Heights are of the lowest crossarm ("Trav"), as each mast lists them. Every point is in the
+# drawing's plane: along is 0. Shield wires are held at their peaks, in clamps.
+# p. 20 and 21: masts of lines LH-08-O1 and O2, of no stated voltage.
+# p. 3-21: each part is its outline's bars, joined at the points they share.
+# Each outline stands at the lowest listed datum height. The other published heights remain
+# alternatives; their unspecified extensions are not obtained by stretching these members.
+# outline-calibration.toml retains the reviewed PDF-point controls, outside the catalog schema.
+# Across calibration is local to each crossarm and peak; body breadth uses the nearest phase
+# reach on the lowest crossarm. Main chords stay straight between the source's corners.
+# Heights use the printed crossarm intervals, shield heights and selected ground level.
+# Source endpoint roundoff within 0.26 PDF points is joined. Existing endpoints on a member
+# split it at the connection; crossing strokes alone never create a joint. Ground lines,
+# centerlines, dimension witnesses and conductor symbols are left out of the bars.
+# Each truss is of steel; the drawings give no sections. No hidden face is inferred.
+# Steel construction is confirmed in the companion Erläuterungsbericht, section 6.2.1.2, p. 57:
+# https://regierung.niederbayern.bayern.de/mam/service/planfeststellungsverfahren/aktuell/20241202_sittling_altheim/u_01_01__1.1_erl%C3%A4uterungsbericht.pdf
+# A V-string's wire position is at the apex of its V. The 4.60 m and 4.50 m
+# witnesses reach the bundle extent, not the insulating body; they calibrate the source region.
+# p. 14-15: the lower suspension connections are 2.15 m below the lowest crossarm.
+# The strings' insulators are not drawn. Coordinates are transcribed to 0.01 m, not a tolerance.
+
+title = "Juraleitung, Abschnitt C Altheim–Sittling: Mastprinzipzeichnungen"
+publisher = "TenneT TSO"
+url = "https://regierung.niederbayern.bayern.de/mam/service/planfeststellungsverfahren/aktuell/20241202_sittling_altheim/u_06_01__6.1_mastprinzipzeichnungen.pdf"
+sha256 = "5bbb74b09567a9e9179f420f130e1447dd7dc831ca99891aa077582ee57dc9ea"
+retrieved = 2026-10-23
+cited_by = ["openline.structures.tower"]
+pending = [
+  "p. 22: reconcile the rotated Trav III and body connections in three dimensions before importing Mast 33",
+]

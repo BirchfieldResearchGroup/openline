@@ -1,0 +1,86 @@
+locator,design,code_word,designation,outer.count,outer.diameter[in],core.count,core.diameter[in],reported.strength.AluminumCladSteelAW2[klbf],reported.mass[lb/kft]
+"p. 2, table 1, row Thrasher/AW",THRASHER,Thrasher,2312 kcmil,76,0.1744,19,0.0814,55.3,2472
+"p. 2, table 1, row Kiwi/AW",KIWI,Kiwi,2167 kcmil,72,0.1735,7,0.1157,49.1,2262
+"p. 2, table 1, row Bluebird/AW",BLUEBIRD,Bluebird,2156 kcmil,84,0.1602,19,0.0961,59.0,2437
+"p. 2, table 1, row Chukar/AW",CHUKAR,Chukar,1780 kcmil,84,0.1456,19,0.0874,49.4,2013
+"p. 2, table 1, row Falcon/AW",FALCON,Falcon,1590 kcmil,54,0.1716,19,0.1030,53.0,1960
+"p. 2, table 1, row Lapwing/AW",LAPWING,Lapwing,1590 kcmil,45,0.1880,7,0.1253,41.8,1746
+"p. 2, table 1, row Parrot/AW",PARROT,Parrot,1510.5 kcmil,54,0.1672,19,0.1003,50.3,1860
+"p. 2, table 1, row Nuthatch/AW",NUTHATCH,Nuthatch,1510.5 kcmil,45,0.1832,7,0.1221,39.7,1658
+"p. 2, table 1, row Plover/AW",PLOVER,Plover,1431 kcmil,54,0.1628,19,0.0977,47.7,1764
+"p. 2, table 1, row Bobolink/AW",BOBOLINK,Bobolink,1431 kcmil,45,0.1783,7,0.1189,37.6,1570
+"p. 2, table 1, row Martin/AW",MARTIN,Martin,1351.5 kcmil,54,0.1582,19,0.0949,45.1,1665
+"p. 2, table 1, row Dipper/AW",DIPPER,Dipper,1351.5 kcmil,45,0.1733,7,0.1155,35.5,1483
+"p. 2, table 1, row Pheasant/AW",PHEASANT,Pheasant,1272 kcmil,54,0.1535,19,0.0921,42.4,1568
+"p. 2, table 1, row Bittern/AW",BITTERN,Bittern,1272 kcmil,45,0.1681,7,0.1121,33.4,1396
+"p. 2, table 1, row Skylark/AW",SKYLARK,Skylark,1272 kcmil,36,0.1880,1,0.1880,25.7,1272
+"p. 2, table 1, row Grackle/AW",GRACKLE,Grackle,1192.5 kcmil,54,0.1486,19,0.0892,40.2,1470
+"p. 2, table 1, row Bunting/AW",BUNTING,Bunting,1192.5 kcmil,45,0.1628,7,0.1085,31.3,1309
+"p. 2, table 1, row Finch/AW",FINCH,Finch,1113 kcmil,54,0.1436,19,0.0862,37.5,1373
+"p. 2, table 1, row Bluejay/AW",BLUEJAY,Bluejay,1113 kcmil,45,0.1573,7,0.1049,29.3,1222
+"p. 2, table 1, row Curlew/AW",CURLEW,Curlew,1033.5 kcmil,54,0.1383,7,0.1383,35.6,1274
+"p. 2, table 1, row Ortolan/AW",ORTOLAN,Ortolan,1033.5 kcmil,45,0.1515,7,0.1010,27.1,1134
+"p. 2, table 1, row Tanager/AW",TANAGER,Tanager,1033.5 kcmil,36,0.1694,1,0.1694,21.1,1033
+"p. 2, table 1, row Cardinal/AW",CARDINAL,Cardinal,954 kcmil,54,0.1329,7,0.1329,32.9,1177
+"p. 2, table 1, row Rail/AW",RAIL,Rail,954 kcmil,45,0.1456,7,0.0971,25.4,1047
+"p. 2, table 1, row Catbrid/AW",CATBIRD,,954 kcmil,36,0.1628,1,0.1628,19.5,954
+"p. 2, table 1, row Canary/AW",CANARY,Canary,900 kcmil,54,0.1291,7,0.1291,31.0,1111
+"p. 2, table 1, row Ruddy/AW",RUDDY,Ruddy,900 kcmil,45,0.1414,7,0.0943,24.0,988
+"p. 2, table 1, row Mallary/AW",MALLARD,,795 kcmil,30,0.1628,19,0.0977,37.1,1160
+"p. 2, table 1, row Condor/AW",CONDOR,Condor,795 kcmil,54,0.1213,7,0.1213,27.8,980
+"p. 2, table 1, row Tern/AW",TERN,Tern,795 kcmil,45,0.1329,7,0.0886,21.5,872
+"p. 2, table 1, row Drake/AW",DRAKE,Drake,795 kcmil,26,0.1749,7,0.1360,30.5,1041
+"p. 2, table 1, row Cuckoo/AW",CUCKOO,Cuckoo,795 kcmil,24,0.1820,7,0.1213,27.5,981
+"p. 2, table 1, row Coot/AW",COOT,Coot,795 kcmil,36,0.1486,1,0.1486,16.6,795
+"p. 2, table 1, row Redwing/AW",REDWING,Redwing,715.5 kcmil,30,0.1544,19,0.0926,33.4,1043
+"p. 2, table 1, row Starling/AW",STARLING,Starling,715.5 kcmil,26,0.1659,7,0.1290,27.5,936
+"p. 2, table 1, row Stilt/AW",STILT,Stilt,715.5 kcmil,24,0.1727,7,0.1151,24.8,883
+"p. 2, table 1, row Gannet/AW",GANNET,Gannet,666.6 kcmil,26,0.1601,7,0.1245,26.0,872
+"p. 2, table 1, row Flamingo/AW",FLAMINGO,Flamingo,666.6 kcmil,24,0.1667,7,0.1111,23.1,823
+"p. 2, table 1, row Egret/AW",EGRET,Egret,636 kcmil,30,0.1456,19,0.0874,29.9,928
+"p. 2, table 1, row Sooter/AW",SCOTER,,636 kcmil,30,0.1456,7,0.1456,29.3,935
+"p. 2, table 1, row Grosbeak/AW",GROSBEAK,Grosbeak,636 kcmil,26,0.1564,7,0.1216,24.8,832
+"p. 2, table 1, row Rook/AW",ROOK,Rook,636 kcmil,24,0.1628,7,0.1085,22.0,785
+"p. 3, table 1, row Swift/AW",SWIFT,Swift,636 kcmil,36,0.1329,1,0.1329,13.6,636
+"p. 3, table 1, row Kingbird/AW",KINGBIRD,Kingbird,636 kcmil,18,0.1880,1,0.1880,15.0,676
+"p. 3, table 1, row Teal/AW",TEAL,Teal,605 kcmil,30,0.1420,19,0.0852,28.5,883
+"p. 3, table 1, row Wood Duck/AW",WOOD_DUCK,Wood Duck,605 kcmil,30,0.1420,7,0.1420,28.4,889
+"p. 3, table 1, row Squab/AW",SQUAB,Squab,605 kcmil,26,0.1525,7,0.1186,23.6,791
+"p. 3, table 1, row Peacock/AW",PEACOCK,Peacock,605 kcmil,24,0.1588,7,0.1059,21.0,747
+"p. 3, table 1, row Eagle/AW",EAGLE,Eagle,556.5 kcmil,30,0.1362,7,0.1362,26.8,818
+"p. 3, table 1, row Dove/AW",DOVE,Dove,556.5 kcmil,26,0.1463,7,0.1138,21.9,728
+"p. 3, table 1, row Parakeet/AW",PARAKEET,Parakeet,556.5 kcmil,24,0.1523,7,0.1015,19.3,687
+"p. 3, table 1, row Ospray/AW",OSPREY,,556.5 kcmil,18,0.1758,1,0.1758,13.2,591
+"p. 3, table 1, row Hen/AW",HEN,Hen,477 kcmil,30,0.1261,7,0.1261,23.4,701
+"p. 3, table 1, row Hawk/AW",HAWK,Hawk,477 kcmil,26,0.1354,7,0.1053,18.9,624
+"p. 3, table 1, row Flicker/AW",FLICKER,Flicker,477 kcmil,24,0.1410,7,0.0940,16.7,589
+"p. 3, table 1, row Pelican/AW",PELICAN,Pelican,477 kcmil,18,0.1628,1,0.1628,11.5,507
+"p. 3, table 1, row Lark/AW",LARK,Lark,397.5 kcmil,30,0.1151,7,0.1151,19.6,584
+"p. 3, table 1, row Ibis/AW",IBIS,Ibis,397.5 kcmil,26,0.1236,7,0.0961,15.8,520
+"p. 3, table 1, row Brant/AW",BRANT,Brant,397.5 kcmil,24,0.1287,7,0.0858,14.1,491
+"p. 3, table 1, row Chickadee/AW",CHICKADEE,Chickadee,397.5 kcmil,18,0.1486,1,0.1486,9.8,422
+"p. 3, table 1, row Oriole/AW",ORIOLE,Oriole,336.4 kcmil,30,0.1059,7,0.1059,16.7,495
+"p. 3, table 1, row Linnet/AW",LINNET,Linnet,336.4 kcmil,26,0.1137,7,0.0884,13.5,440
+"p. 3, table 1, row Merlin/AW",MERLIN,Merlin,336.4 kcmil,18,0.1367,1,0.1367,8.5,357
+"p. 3, table 1, row Ostrich/AW",OSTRICH,Ostrich,300 kcmil,26,0.1074,7,0.0835,12.1,392
+"p. 3, table 1, row Partridge/AW",PARTRIDGE,Partridge,266.8 kcmil,26,0.1013,7,0.0788,10.8,349
+"p. 3, table 1, row Waxwing/AW",WAXWING,Waxwing,266.8 kcmil,18,0.1217,1,0.1217,6.8,283
+"p. 3, table 1, row #4/0 Penguin/AW",PENGUIN,Penguin,4/0 AWG,6,0.1878,1,0.1878,7.7,277
+"p. 3, table 1, row Cochin/AW",COCHIN,Cochin,211.3 kcmil,12,0.1327,7,0.1327,19.8,477
+"p. 3, table 1, row Brahma/AW",BRAHMA,Brahma,203.2 kcmil,16,0.1127,19,0.0977,27.1,601
+"p. 3, table 1, row Dorking/AW",DORKING,Dorking,190.8 kcmil,12,0.1261,7,0.1261,18.3,431
+"p. 3, table 1, row Dotterel/AW",DOTTEREL,Dotterel,176.9 kcmil,12,0.1214,7,0.1214,16.9,399
+"p. 3, table 1, row #3/0 Pigeon/AW",PIGEON,Pigeon,3/0 AWG,6,0.1672,1,0.1672,6.3,219
+"p. 3, table 1, row Guinea/AW",GUINEA,Guinea,159 kcmil,12,0.1151,7,0.1151,15.3,359
+"p. 3, table 1, row Leghorn/AW",LEGHORN,Leghorn,134.6 kcmil,12,0.1059,7,0.1059,13.0,304
+"p. 3, table 1, row #2/0 Quail/AW",QUAIL,Quail,2/0 AWG,6,0.1489,1,0.1489,5.1,174
+"p. 3, table 1, row Minorca/AW",MINORCA,Minorca,110.8 kcmil,12,0.0961,7,0.0961,10.8,250
+"p. 3, table 1, row #1/0 Raven/AW",RAVEN,Raven,1/0 AWG,6,0.1327,1,0.1327,4.3,138
+"p. 3, table 1, row Petrel/AW",PETREL,Petrel,101.8 kcmil,12,0.0921,7,0.0921,9.9,230
+"p. 4, table 1, row #1 Robin/AW",ROBIN,Robin,1 AWG,6,0.1181,1,0.1181,3.5,109
+"p. 4, table 1, row Grouse/AW",GROUSE,Grouse,80 kcmil,8,0.1000,1,0.1670,4.9,138
+"p. 4, table 1, row #2 Sparate/AW",SPARATE,Sparate,2 AWG,7,0.0974,1,0.1299,3.5,100
+"p. 4, table 1, row #2 Sparrow/AW",SPARROW,Sparrow,2 AWG,6,0.1052,1,0.1052,2.8,87
+"p. 4, table 1, row #3 Swallow/AW",SWALLOW,Swallow,3 AWG,6,0.0937,1,0.0937,2.2,69
+"p. 4, table 1, row #4 Swanate/AW",SWANATE,Swanate,4 AWG,7,0.0772,1,0.1029,2.3,62.7
+"p. 4, table 1, row #4 Swan/AW",SWAN,Swan,4 AWG,6,0.0834,1,0.0834,1.8,54.5

@@ -1,0 +1,12 @@
+# p. 12-42, Electrical Resistivity of Pure Metals: iron's resistivity at 293 K, and its rise
+# between 273 K and 300 K, in openline.types.materials: the rise of carbon steel's resistivity,
+# which is its iron's (NBS Handbook 100, p. 14, after Matthiessen).
+
+title = "CRC Handbook of Chemistry and Physics"
+publisher = "CRC Press"
+designation = "97th ed."
+year = 2016
+url = "https://search.worldcat.org/oclc/1012162798"
+sha256 = "60a59278683215474bc827ae67876ce8ac7e51702acac3f4f52fc7a0f920597f"
+retrieved = 2026-10-24
+cited_by = ["openline.types.materials"]

@@ -1,0 +1,21 @@
+# Five tables, of ASTM, British, CSA-CAN, DIN and French sizes: the sizes of ASTM B232, BS 215-2,
+# CSA C49, DIN 48204 and NF C34-120. Rows printed "----" have no code word. Only aluminium and
+# steel are printed, no grade. The areas and weights are the totals printed. The resistances
+# leave out the steel core's share: the aluminium's alone.
+# The CSA-CAN table's conductors that CAN/CSA C61089 lists, by the same wires, are entered
+# against those (conductors.csa.C61089.csv), each conductor filed under one standard; the rest
+# against CSA C49.
+# The ASTM table (pp. 1-4) is entered without its strengths, which name no core grade; its code
+# words, printed in capitals, as the other tables write them, WOODDUCK as Wood Duck.
+# Not entered: the French table, whose
+# strengths are printed "kN" over values in daN (1625 for 37.7 mm²); the British and DIN tables
+# (p. 5-6, 11-12), standards openline does not list.
+# Left out as misprinted: the code words Egert and Scissomil (p. 8-9), CHUKER and ORLAN (pp. 3-4);
+# CHICKADEE, printed 397.7 MCM for 397.5 MCM's wires; MIORCA, its stranding printed "I 2/2.44";
+# PHEASANT's total weight, 2137 kg/km, where its aluminum and steel make 2437.
+
+title = "Conductor Data Sheet: Aluminum Conductors Steel Reinforced (ACSR)"
+publisher = "Midal Cables"
+url = "https://midalcable.s3.eu-central-2.wasabisys.com/storage/products/acsr/acsr-metric.PDF"
+sha256 = "13504efbb88f57cca4bfd8a6d88aac5720b5cf0bf01ce01ff94f02807ef417d9"
+retrieved = 2026-10-22

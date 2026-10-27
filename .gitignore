@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+dist/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+documents/
+docs/_build/
+docs/conductors/
+docs/examples/
+docs/structures/

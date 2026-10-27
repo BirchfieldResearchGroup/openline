@@ -1,0 +1,19 @@
+# Pages 4 and 7: solid wire E = 24 Mpsi; strand E = 23 Mpsi; expansion 7.2e-6/degF;
+# resistance coefficient 2.1e-3/degF, for 30% and 40% conductivity alike. Page 7 resolves the
+# exponent misprint on page 4.
+# p. 4, "Copperweld Stranded and Solid Bare Conductors": each 19-, 7- and 3-wire strand's least
+# breaking load in high strength 40% and 30% and extra high strength 30% conductivity, its weight,
+# one for all three, and its DC resistance at 68 F (20 C) at 40% and 30%: an A460 conductor of
+# each grade. Its footnote rates 7- and 19-wire strands at 90% of their wires' loads and 3-wire
+# at 95%, as ASTM B228 does.
+# Not entered: the solid wires, and the Copperweld-copper conductors, which openline has no
+# class for; the metric tables, which repeat these.
+
+title = "Copperweld Copper-Clad Steel Conductors: Material Data"
+publisher = "Copperweld"
+designation = "ED1800, revision 08/14"
+year = 2014
+url = "https://img1.wsimg.com/blobby/go/3b4c01a4-1521-4239-aeb6-f0c1de411f46/downloads/Copperweld_Copper_Conductor.pdf?ver=1720650843017"
+sha256 = "a0d7a39569b0e6b0de137b574310f60317729ec762b78c90b992a8ced32e6ecc"
+retrieved = 2026-10-26
+cited_by = ["openline.types.materials"]

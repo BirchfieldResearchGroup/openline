@@ -1,0 +1,11 @@
+# Includes seven aluminum-steel NF C34-120 records. Retain missing resistance/strength/lay
+# as absent observations; nominal area is not a substitute for measured geometry.
+
+title = "Conducteurs pour lignes aeriennes"
+publisher = "ENICAB"
+url = "https://www.enicab.dz/cables/Conducteur.pdf"
+sha256 = "31ef3b420ed3cfbe43ef48d4f2b30b25a2510466915ec70998ee268ae914dea4"
+retrieved = 2026-10-26
+pending = [
+  "NF C34-120 aluminum-steel observations; reconcile alloy-row construction inconsistencies.",
+]

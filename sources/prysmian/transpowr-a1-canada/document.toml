@@ -1,0 +1,40 @@
+# p. 1: "A1 or ASC conductors are manufactured in accordance with the requirements of the latest
+# applicable issue of CAN/CSA C61089"; "similar in design (strand component size and
+# configuration) to the ASTM B231 specifications. Differences lie in the methods used to
+# calculate the rated strength and dc resistance values." Its CSA designations, "152-A1-19",
+# give the code number. Strengths are those of CAN/CSA C61089, whose wires openline lacks.
+# Note 1: resistances at 61.0% IACS. AC resistances at 60 Hz, as note 2 gives the frequency.
+
+title = "TransPowr A1 (ASC) Bare Overhead Conductor"
+publisher = "Prysmian"
+url = "https://na.prysmian.com/sites/na.prysmian.com/files/media/documents/TransPowr%C2%AE%20A1%20%28ASC%29%20Bare%20Overhead%20Conductor%20%28Canada%29.pdf"
+sha256 = "98ddf3865cc9dfb1e275126dc5fb3a3dca93594c6523894fa28a9a077c3738bf"
+retrieved = 2026-10-26
+
+# The reported results, as calculated at note 2's conditions, for each surface its ampacities
+# are printed for, "standard" and "E3X"; and the reactances at note 3's spacing, "a 1 ft
+# radius". "Noon on July 1" prints no year: any but a leap year's.
+[conditions]
+"frequency[Hz]" = 60
+
+[conditions.ampacity]
+"air[°C]" = 32
+"wind[ft/s]" = 1.98
+"angle[°]" = 90
+"latitude[°]" = 42
+"azimuth[°]" = 90
+"elevation[ft]" = 0
+atmosphere = "clear"
+when = 2018-07-01T12:00:00
+"sun[W/ft²]" = 95.0
+
+[conditions.ampacity.surfaces.standard]
+emissivity = 0.5
+absorptivity = 0.5
+
+[conditions.ampacity.surfaces.E3X]
+emissivity = 0.9
+absorptivity = 0.2
+
+[conditions.reactance]
+"spacing[ft]" = 1

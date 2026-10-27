@@ -1,0 +1,85 @@
+locator,design,code_word,designation,classes,wires.count,wires.diameter[in],wires.diameter[mm],reported.mass[lb/kft],reported.mass[kg/km],reported.strength[klbf],reported.strength[kN]
+"p. 3, table 1, row Bluebonnet",BLUEBONNET,Bluebonnet,3500 kcmil,A,127,0.1660,,3345,,58.7,
+"p. 3, table 1, row Trillium",TRILLIUM,Trillium,3000 kcmil,A,127,0.1537,,2840,,50.3,
+"p. 3, table 1, row Bitterroot",BITTEROOT,Bitterroot,2750 kcmil,A,91,0.1738,,2602,,46.1,
+"p. 3, table 1, row Lupine",LUPINE,Lupine,2500 kcmil,A,91,0.1657,,2365,,41.9,
+"p. 3, table 1, row Sagebrush",SAGEBRUSH,Sagebrush,2250 kcmil,A,91,0.1572,,2128,,37.7,
+"p. 3, table 1, row Cowslip",COWSLIP,Cowslip,2000 kcmil,A,91,0.1482,,1873,,34.2,
+"p. 3, table 1, row Jessamine",JESSAMINE,Jessamine,1750 kcmil,AA,61,0.1694,,1641,,29.7,
+"p. 3, table 1, row Coreopsis",COREOPSIS,Coreopsis,1590 kcmil,AA,61,0.1614,,1489,,27.0,
+"p. 3, table 1, row Gladiolus",GLADIOLUS,Gladiolus,1510.5 kcmil,AA A,61,0.1574,,1417,,25.6,
+"p. 3, table 1, row Carnation",CARNATION,Carnation,1431 kcmil,AA A,61,0.1532,,1342,,24.3,
+"p. 3, table 1, row Narcissus",NARCISSUS,Narcissus,1272 kcmil,AA A,61,0.1444,,1192,,22.0,
+"p. 3, table 1, row Hawthorn",HAWTHORN,Hawthorn,1192.5 kcmil,AA A,61,0.1398,,1117,,21.1,
+"p. 3, table 1, row Marigold",MARIGOLD,Marigold,1113 kcmil,AA A,61,0.1351,,1044,,19.7,
+"p. 3, table 1, row Bluebell",BLUEBELL,Bluebell,1033.5 kcmil,AA,37,0.1671,,968.4,,17.7,
+"p. 3, table 1, row Larkspur",LARKSPUR,Larkspur,1033.5 kcmil,A,61,0.1302,,969.2,,18.3,
+"p. 3, table 1, row Hawkweed",HAWKWEED,Hawkweed,1000 kcmil,AA,37,0.1644,,937.3,,17.2,
+"p. 3, table 1, row Camellia",CAMELLIA,Camellia,1000 kcmil,A,61,0.1280,,936.8,,17.7,
+"p. 3, table 1, row Magnolia",MAGNOLIA,Magnolia,954 kcmil,AA,37,0.1606,,894.5,,16.4,
+"p. 3, table 1, row Goldenrod",GOLDENROD,Goldenrod,954 kcmil,A,61,0.1251,,894.8,,16.9,
+"p. 3, table 1, row Cockscomb",COCKSCOMB,Cockscomb,900 kcmil,AA,37,0.1560,,844.0,,16.4,
+"p. 3, table 1, row Snapdragon",SNAPDRAGON,Snapdragon,900 kcmil,A,61,0.1215,,844.0,,15.9,
+"p. 3, table 1, row Lilac",LILAC,Lilac,795 kcmil,A,61,0.1142,,745.7,,14.3,
+"p. 3, table 1, row Petunia",PETUNIA,Petunia,750 kcmil,AA,37,0.1424,,703.2,,13.1,
+"p. 3, table 1, row Cattail",CATTAIL,Cattail,750 kcmil,A,61,0.1109,,703.2,,13.5,
+"p. 3, table 1, row Violet",VIOLET,Violet,715.5 kcmil,AA,37,0.1391,,671,,12.8,
+"p. 3, table 1, row Nasturtium",NASTURTIUM,Nasturtium,715.5 kcmil,A,61,0.1083,,671,,13.1,
+"p. 3, table 1, row Verbena",VERBENA,Verbena,700 kcmil,AA,37,0.1375,,655.7,,12.5,
+"p. 3, table 1, row Flag",FLAG,Flag,700 kcmil,A,61,0.1071,,655.8,,12.9,
+"p. 4, table 1, row Heuchera",HEUCHERA,Heuchera,650 kcmil,AA,37,0.1326,,609.8,,11.6,
+"p. 4, table 1, row Orchid",ORCHID,Orchid,636 kcmil,AA A,37,0.1311,,596.0,,11.4,
+"p. 4, table 1, row Meadowsweet",MEADOWSWEET,Meadowsweet,600 kcmil,AA A,37,0.1273,,562.0,,10.7,
+"p. 4, table 1, row Dahlia",DAHLIA,Dahlia,556.5 kcmil,AA,19,0.1711,,521.4,,9.75,
+"p. 4, table 1, row Mistletoe",MISTLETOE,Mistletoe,556.5 kcmil,A,37,0.1226,,521.3,,9.94,
+"p. 4, table 1, row Zinnia",ZINNIA,Zinnia,500 kcmil,AA,19,0.1622,,468.5,,8.76,
+"p. 4, table 1, row Hyacinth",HYACINTH,Hyacinth,500 kcmil,A,37,0.1162,,468.3,,9.11,
+"p. 4, table 1, row Cosmos",COSMOS,Cosmos,477 kcmil,AA,19,0.1584,,446.8,,8.36,
+"p. 4, table 1, row Syringa",SYRINGA,Syringa,477 kcmil,A,37,0.1135,,446.8,,8.69,
+"p. 4, table 1, row Goldentuft",GOLDENTUFT,Goldentuft,450 kcmil,AA,19,0.1539,,421.8,,7.89,
+"p. 4, table 1, row Canna",CANNA,Canna,397.5 kcmil,AA A,19,0.1447,,372.9,,7.11,
+"p. 4, table 1, row Daffodil",DAFFODIL,Daffodil,350 kcmil,A,19,0.1357,,327.9,,6.39,
+"p. 4, table 1, row Tulip",TULIP,Tulip,336.4 kcmil,A,19,0.1331,,315.5,,6.15,
+"p. 4, table 1, row Peony",PEONY,Peony,300 kcmil,A,19,0.1257,,281.4,,5.48,
+"p. 4, table 1, row Daisy",DAISY,Daisy,266.8 kcmil,AA,7,0.1953,,250.2,,4.83,
+"p. 4, table 1, row Laurel",LAUREL,Laurel,266.8 kcmil,A,19,0.1185,,250.1,,4.97,
+"p. 4, table 1, row Sneezewort",SNEEZEWORT,Sneezewort,250 kcmil,AA,7,0.1890,,234.4,,4.52,
+"p. 4, table 1, row Valerian",VALERIAN,Valerian,250 kcmil,A,19,0.1147,,234.3,,4.66,
+"p. 4, table 1, row Oxlip",OXLIP,Oxlip,4/0 AWG,AA A,7,0.1739,,198.4,,3.83,
+"p. 4, table 1, row Phlox",PHLOX,Phlox,3/0 AWG,AA A,7,0.1548,,157.2,,3.04,
+"p. 4, table 1, row Aster",ASTER,Aster,2/0 AWG,AA A,7,0.1379,,124.8,,2.51,
+"p. 4, table 1, row Poppy",POPPY,Poppy,1/0 AWG,AA A,7,0.1228,,98.9,,1.99,
+"p. 4, table 1, row Pansy",PANSY,Pansy,1 AWG,AA A,7,0.1093,,78.4,,1.64,
+"p. 4, table 1, row Iris",IRIS,Iris,2 AWG,AA A,7,0.0974,,62.2,,1.35,
+"p. 4, table 1, row Rose",ROSE,Rose,4 AWG,A,7,0.0772,,39.1,,0.881,
+"p. 5, table 1, row Peachbell",PEACHBELL,Peachbell,6 AWG,A,7,0.0612,,24.6,,0.563,
+"p. 6, table 2, row 2000 A",MM2_2000_127,,2000 mm²,A,127,,4.48,,5632,,294
+"p. 6, table 2, row 1600 A",MM2_1600_127,,1600 mm²,A,127,,4.01,,4512,,236
+"p. 6, table 2, row 1250 A",MM2_1250_91,,1250 mm²,A,91,,4.18,,3479,,183
+"p. 6, table 2, row 1120 A",MM2_1120_91,,1120 mm²,A,91,,3.96,,3123,,165
+"p. 6, table 2, row 1000 A",MM2_1000_91,,1000 mm²,A,91,,3.74,,2785,,151
+"p. 6, table 2, row 900 AA",MM2_900_61,,900 mm²,AA,61,,4.33,,2478,,133
+"p. 6, table 2, row 800 AA, A",MM2_800_61,,800 mm²,AA A,61,,4.09,,2211,,119
+"p. 6, table 2, row 710 AA, A",MM2_710_61,,710 mm²,AA A,61,,3.85,,1959,,105
+"p. 6, table 2, row 630 AA, A",MM2_630_61,,630 mm²,AA A,61,,3.63,,1742,,96.6
+"p. 6, table 2, row 560 AA, A",MM2_560_61,,560 mm²,AA A,61,,3.42,,1546,,85.7
+"p. 6, table 2, row 500 AA",MM2_500_37,,500 mm²,AA,37,,4.15,,1381,,75.1
+"p. 6, table 2, row 500 A",MM2_500_61,,500 mm²,A,61,,3.23,,1379,,76.5
+"p. 6, table 2, row 450 AA",MM2_450_37,,450 mm²,AA,37,,3.94,,1245,,67.7
+"p. 6, table 2, row 450 A",MM2_450_61,,450 mm²,A,61,,3.06,,1238,,68.6
+"p. 6, table 2, row 400 AA",MM2_400_37,,400 mm²,AA,37,,3.71,,1104,,61.9
+"p. 6, table 2, row 400 A",MM2_400_61,,400 mm²,A,61,,2.89,,1104,,63.0
+"p. 6, table 2, row 355 AA",MM2_355_37,,355 mm²,AA,37,,3.50,,982,,55.1
+"p. 6, table 2, row 355 A",FLAG,,355 mm²,A,61,,2.72,,978,,57.4
+"p. 6, table 2, row 315 AA, A",MM2_315_37,,315 mm²,AA A,37,,3.29,,868,,48.7
+"p. 6, table 2, row 280 AA",MM2_280_19,,280 mm²,AA,19,,4.33,,772,,42.9
+"p. 6, table 2, row 280 A",MM2_280_37,,280 mm²,A,37,,3.10,,771,,43.2
+"p. 6, table 2, row 250 AA",MM2_250_19,,250 mm²,AA,19,,4.09,,689,,38.3
+"p. 6, table 2, row 250 A",MM2_250_37,,250 mm²,A,37,,2.93,,688,,39.7
+"p. 6, table 2, row 224 AA",MM2_224_19,,224 mm²,AA,19,,3.87,,617,,34.3
+"p. 6, table 2, row 200 AA, A",MM2_200_19,,200 mm²,AA A,19,,3.66,,552,,31.6
+"p. 6, table 2, row 180 A",MM2_180_19,,180 mm²,A,19,,3.47,,496,,28.4
+"p. 6, table 2, row 160 A",MM2_160_19,,160 mm²,A,19,,3.27,,440,,25.2
+"p. 6, table 2, row 140 AA",MM2_140_7,,140 mm²,AA,7,,5.05,,387.0,,22.2
+"p. 6, table 2, row 140 A",MM2_140_19,,140 mm²,A,19,,3.06,,386,,22.1
+"p. 6, table 2, row 125 AA",MM2_125_7,,125 mm²,AA,7,,4.77,,345,,19.8

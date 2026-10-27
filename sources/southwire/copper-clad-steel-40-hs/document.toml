@@ -1,0 +1,10 @@
+# p. 1: "Stranded Copper-Clad Steel per ASTM A460", of 40% conductivity, high strength. "19#4"
+# names 19 wires of AWG No. 4. Stock numbers are part numbers.
+# Left out: 4/0, 2/0 and 1/0, which print no wire size, and stock 73610340, size "2", whose
+# 51 700 cmil in 7 wires is no AWG size.
+
+title = "40% High Strength Copper Clad Steel"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/cablespec/download_spec/?spec=48317&country=US"
+sha256 = "537882f14ee38071b9f6d2656fe2a80b169d7c6262cac23b6a1625c953ba3240"
+retrieved = 2026-10-26

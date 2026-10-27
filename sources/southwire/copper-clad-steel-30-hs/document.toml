@@ -1,0 +1,13 @@
+# p. 1: "Stranded Copper-Clad Steel per ASTM A460", of 30% conductivity, high strength. "19#4"
+# names 19 wires of AWG No. 4. Stock numbers are part numbers.
+# Left out: 4/0, 2/0 and 1/0, which print no wire size.
+# The 30% IACS designation gives CopperCladSteel30HS its nominal resistivity at 20 °C:
+# the NBS Handbook 100 annealed-copper reference divided by 0.30, not a measured value.
+# Resistivity slope, density, specific heat, modulus, and expansion remain unsourced.
+
+title = "30% High Strength Copper Clad Steel"
+publisher = "Southwire"
+url = "https://cabletechsupport.southwire.com/en/cablespec/download_spec/?spec=48315&country=US"
+sha256 = "b91480e8491a49a6fee66fa67b2d6b8aaeceaebd303aa57c84ae571668cfeaa5"
+retrieved = 2026-10-22
+cited_by = ["openline.types.materials"]
